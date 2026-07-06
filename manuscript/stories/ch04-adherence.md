@@ -1,0 +1,89 @@
+## 4. Adherence
+
+Owen counts the amoxicillin by fives, ticking them off the tray with the flat of the spatula, and caps the vial at thirty. Ten days of it for a strep that will quit in three whether the kid finishes the bottle or not. He squares the label to the counter and drops the vial in will-call under the mother's last name, and the bin under B is already three deep. A third of what he dispenses is still standing on these shelves at ninety days. At ninety he reverses the claim, shelves the tablets back into stock, and the plan that paid learns nothing about the patient it was so sure it was treating, who never came through the door.
+
+Stauffer's has held down this strip since before Owen bought in, east off Wilmington Pike between a nail place and a State Farm gone dark in the spring. China Cottage anchors the far end and still runs a line to the sidewalk on Fridays. There has been no Stauffer behind the counter in nineteen years. Owen kept the name on the sign, because a body hands itself over easier to a name that isn't the one on the license, and because a new sign costs what a new sign costs.
+
+He opens at nine and closes at seven, alone the first hour and the last, which are the slow hours for the register and never the slow hours for the pharmacy. The strip took a beating the spring the tornadoes came through the county after dark and stripped the roof off the laundromat two doors down. Stauffer's lost its sign and a cooler of insulin and three days to a rented generator, and it came back, the way a pharmacy comes back, because a neighborhood will let the nail place stay dark and the tax office stay dark but not the counter where the thing is kept that holds a clot off or a sugar down. They come for that in the weather that keeps everyone else home.
+
+The first script of the day is almost always a refill for somebody who ran out over the weekend and stretched the last three tablets across four days to reach Monday, which is its own arithmetic, the arithmetic of a body doing math on itself. He fills it and counsels it if they will stand for counseling, and half of them wave the offer off — they know how to take a water pill, they have taken it eleven years — and half of them plant themselves at the counter and want to be told again, want the ritual of a man in a white coat saying the morning, the food, the not-with-the-calcium, as if the saying were part of the dose. For some of them it is. Owen has watched a refill history straighten out after nothing changed but that a person stood at this counter and heard the words said to them like the words carried weight.
+
+Pam builds the bubble cards at the back bench, thumbing tablets into the blisters, twenty-eight days to a card, seven across and four down, sealing the plastic over each day with the little iron. She counts warfarin by threes and only warfarin, because past three on a blood thinner she does not trust her own eyes, and she wears reading glasses on a beaded chain her granddaughter strung, orange and white, Bengals colors, and she pushes them up into her hair when she seals and pulls them down when she counts. The cards go to the group home on Marshall and to a dozen old people who would otherwise stand in their kitchens at seven at night holding a fistful of loose pills and no clean memory of Tuesday. The card keeps the memory for them. Punch the foil, the day is done. It is the most honest thing the store sells — proof, in popped blister, of a dose gone where it was told to go.
+
+Brianna runs the register and the phone, cinnamon gum, a fresh stick every hour on the hour, the wrappers a little silver drift by her elbow, and she is the one who tells Owen the Pareon is short before he gets to it himself. "Down to two of the twos," she says. "You ordering, or you got it."
+
+"I got it," Owen says.
+
+···
+
+He waits until the gate is down and Pam's Buick is out of the lot and the only light left is the cooler and the low ones over the bench. Restock is a closing job. Pareon is a closing drug, kept in the fast-mover bay because it moves, more of it every quarter, two milligrams to hold a pair where a pair has come apart. He brings the stock bottle forward, breaks the seal, counts two into the working vial to bring the shelf to par, and turns the lot numbers to face out, soonest expiration at the front, the way you leave a thing for the next hand that reaches in.
+
+The bay is alphabetical and does not care what it holds. Pareon sits between a blood thinner and a thyroid pill, three white bottles in a row, and nothing on the shelf marks the middle one as the different one, the one they cover only after a marriage has come to the plan in writing and named the thing that broke it. The label is the same label. The count is the same count. Two milligrams, thirty to a bottle, turn the lot to the front.
+
+He can stop there. Most nights he stops there.
+
+Tonight he pulls Delia's profile.
+
+He filled her Pareon himself, both of theirs, at this counter, the whole course of it. The prior auth. The appeal when the plan kicked it back the first time. The diagnosis code that has to ride on the claim before the plan will pay, and the letter under it that he read once and then would not read again. Two milligrams nightly. Ninety-day supply after the first quarter. Refills good through the following year, a year that has come and gone. Her last fill posted the ninth of March, the year before last. He has that date the way he has his own birthday. He counts the Marches between then and now and gets the count he got the last time he counted it, and the time before that.
+
+Ninety days runs a March fill into the second week of June. If she took it to the bottom she was covered into June and then she was not, and Owen knows to the day what the not looks like from inside the molecule. A half-life a little under a day. Four nights off it and the trough drops under the line the thing needs to stand on. A week and there is nothing left in her a lab could find. He has drawn that curve for a thousand patients on a hundred other drugs, the clean decay, each day half of what the day before held, and it is the same curve every time, and it only ever bends the one way.
+
+He opens OARRS, the state's board looking back at him from the screen, and types her name and her birthday into the field a pharmacist is permitted to query for a patient in his care. She is his patient. Was. The record says so. No Pareon anywhere in Ohio since the ninth of March the year before last. Not a Kroger out in Beavercreek, not a mail house in Columbus, not the CVS by her sister's in Huber Heights. She did not carry the fill down the road to keep it off his counter. She stopped. The system agrees with the shelf. He signs out, and the query lands in a log now with his name on it, a thing no one will ask him about and that he could not explain if they did.
+
+Her last bottle is in his drawer under the register tray, behind the naloxone kits and the expired returns he has not yet boxed for reverse distribution. She set it out on the bathroom sill last spring with the expired sunscreens, for tossing; he carried it here instead. He did not dispense it to himself and he did not throw it out. He shakes it. He counts it into the tray by fives, sweeps it back, counts again. Nineteen. A ninety-day bottle comes with ninety. So she took seventy-one of them and then, some night, set the bottle down and left the other nineteen in it, and the shelf cannot see that night, because there is no fill to post for a dose not taken, no lot to turn, no claim to reverse. The refill record makes her faithful into June. The nineteen tablets in the tray say she was done by the third week of May. Three weeks live in the gap between when she stopped buying it and when she stopped swallowing it, and Owen has counted those three weeks into the tray more times than is good for a man to count anything.
+
+He caps her vial and sets it back behind the naloxone. He logs the naloxone — two kits out today under the standing order, the county still putting more people in the ground than it should, though nothing like the year the coroner rented the refrigerated trailer and parked it out back of the morgue.
+
+He does the count before the tape, because the count is the one that has to come out even. Schedule two, the safe inside the safe — the oxycodone, the methylphenidate, the little that is left of what this county went through by the pallet a decade back. He counts the perpetual inventory to the tablet, bottle by bottle, against the running number in the book, and the number in the book and the number in his hand are the same number, the way they are the same number every night, because a count that will not reconcile is a call to the board and a very bad week, and Owen has never had the week. Ninety came off the shelf, ninety went out on scripts, the two agree, sign the line. It is a clean feeling, a count that closes. He has the one count in his life that will not close, and it is nineteen tablets in a vial in his drawer, and there is no book anywhere that reconciles it.
+
+He runs the tape. He drops the deposit in the safe and spins the dial. He leaves the cooler light on for the insulin, the one light the store keeps burning all night, for the one thing in it that dies if the current quits. He arms the panel and waits for the beep and pulls the gate down behind him and hears it catch.
+
+···
+
+Delia is up when he gets in, at the kitchen table with the county paper folded to the jumble, working it in ink because she has never once needed the eraser and likes for him to know it. She does the jumble and skips the crossword, always has, says the crossword wants you to already know the answer and the jumble only wants you to look at what's in front of you the right way. There is a plate for him in the microwave, she tells him, not looking up, the China Cottage he left at lunch. The plate is a kind of tending, and he counts it, on the side of the ledger that is still being kept.
+
+He eats standing at the counter. Out the window over the sink the shepherd's hook stands empty against the dark, the tube feeder dry on it since a date he does not do out loud. She kept it full for the finches eleven years, a scoop of thistle every few days, and then she did not, and now the pole is just a pole, and Owen fills it on Sundays so the yard will not say the thing the empty yard has to say. Her car sits in the drive with the little sticker in the corner of the windshield, the mileage on it four thousand behind where the car is now. He has the oil for it out in the garage, the filter still in its box. He has not put them in. There is a limit to how much of a marriage one person can keep changing before the other has to look up and see it being changed, and he has not found that limit yet, and he is not out looking for it tonight.
+
+"Long one?" she says.
+
+"Restock. Pareon came up short."
+
+She fills in a word, four letters, the pen not breaking stride, and the pen going on is the whole of the answer. "You want the rest of that eggroll or's it mine."
+
+It is hers. He slides the carton across. This is the marriage now — the carton going across the table, the plate warmed, the pen moving, two milligrams a night on his side of the line and nothing at all on hers, and no word laid down over any of it.
+
+She tells him her sister called — the sister's youngest made varsity, and the reunion is the Saturday after next, and is he working. He is working. He is always working the Saturday after next, and she knows it before she asks, and asks anyway.
+
+They watch the ten o'clock weather for the length of the weather and no longer, a wall of green coming up the radar out of Richmond that will be rain on the roof by two. She goes up first. He stands a minute at the sink with the water running over the plate, the way she used to stand at this same sink with the water running and her back to the room, and then he shuts it off and goes up after her.
+
+···
+
+The plans grade him on it now, the taking. Every quarter a report comes down with the store's numbers on the measures that pay — proportion of days covered, PDC, the share of his diabetics and his pressure people and his statin people who hold above eighty percent of their days in a year with drug on hand. Above eighty they count as adherent. Below, they count against him, and the check the store runs thin on rides on a curve built out of other people's swallowing.
+
+So on the slow afternoons he works the list. He calls the ones sliding under, the gaps opening in their refill histories like dropped stitches, a week here, then two, then a month, the line on the graph stepping down and down. Mr. Petranek put in thirty-one years on the line at the Moraine plant before GM shut it and watched the Chinese glass outfit fire the place back up without him, and he is at seventy-one percent on his atorvastatin and has no wish to be higher. "I feel fine, Owen," he says, every month, and brings a jar of the sauerkraut he still puts up in a crock in his basement, the lid ringed with a rubber band and a square of wax paper, and he takes his statin when the mood is on him, which is not eighty percent of nights, and Owen marks him and moves on down the list. Past a certain point you cannot cover a man's days for him. Adherence is a thing a body settles in a kitchen at night with no one watching, and all the store can do is keep the bottle where the reaching hand will find it and turn the lot number to the front.
+
+He works the list until the light goes flat in the front windows. Some of them he reaches, and some of them the number is disconnected, and some of them a daughter answers and says her father passed in the fall, and Owen thanks her and marks the profile deceased, which drops the man off the denominator, which nudges the store's number up a tenth of a point. This is a true thing about the measure that he does not let himself hold for longer than it takes to click the box. The dead come out perfectly adherent. They are the only ones who never miss.
+
+The graders never ask why. The report is blind to it. A day covered and a day missed are all the arithmetic wants, and the arithmetic is honest as far as it goes, and it goes exactly as far as the foil and no farther. Whether a man took his statin because he means to see his grandkids grown or because the bottle happened to be by the coffee maker — the measure cannot tell those apart and does not try. It counts the day. Owen counts the day. He has come to think counting the day is the most a person is owed.
+
+···
+
+The woman with the new Pareon script comes in on a Thursday near close, and Owen has it read for what it is before she is halfway to the counter — a first fill, prior auth already cleared, which means somebody upstream spent a month of phone calls getting it covered, which means the documenting is behind her now, filed, whatever it was. She has a contractor's badge on a lanyard clipped to her waistband, one of the Wright-Patt outfits, and she turns her rings while he brings up the profile, the band and the stone, around and around the finger.
+
+"First time on this one," Owen says, and does not make it a question, because a first fill of this is never a question.
+
+"For both of us," she says, and then, because people will tell the pharmacy counter what they would not tell the pew, "it's a two-milligram. They said two. Is that a lot."
+
+"It's the dose," Owen says. "There's only the one."
+
+He counts thirty into the vial by fives, caps it, turns the label to face her. Then he gives her the words, the standard words, the ones that come out level whether it is a blood pressure pill or this. Take it at night. The same time every night — pick an hour you are always home for and hold to it. Give it two weeks before you go looking for anything; it climbs to where it works slow, and it works from there. Don't quit it because it starts working — that is the one everybody gets wrong, they feel it take hold and decide they are past needing it. If you miss a night, take it when you think of it, unless you are near the next night, and then let the missed one go and take the next — never double up to make back the gap. She nods at each one, the rings going around.
+
+"Does it —" She stops. Starts again, smaller. "Does it work."
+
+"It works if you take it," Owen says. "Every night, the same. Miss enough of them and there's nothing in you for it to work on. That part was never up to the pill."
+
+She looks at the vial in her hand as if the number of tablets in it were a distance she has to walk. She signs where Brianna points and she goes, out through the doors that pull themselves open for her, the badge swinging on the lanyard, and then the lot is just the lot and China Cottage has gone dark at the end of the strip and the will-call bins are full of everyone who has not yet come.
+
+He brings the gate down. He restocks the Pareon to par, two into the working vial, lot numbers to the front, the same two facings he squares every night. His own vial is in the drawer where he keeps it, behind the naloxone, beside the nineteen tablets that are not his to count and that he counts. He shakes one into his palm. Two milligrams, a tablet no different from the thirty he just counted out for a stranger, no different from the ninety he counted for Delia when there was still a fill to post on her side of the ledger. He fills a paper cup at the tap.
+
+He takes it.
