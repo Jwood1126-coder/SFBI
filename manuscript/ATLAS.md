@@ -1,0 +1,162 @@
+# THE ATLAS — every premise beyond THE GRAIN, organized for the long haul
+### Companion to BIBLE.md, v1. The bible governs one book; the atlas governs the other eighty-four.
+
+---
+
+## §A. How this document works
+
+BIBLE.md is the constitution of THE GRAIN. This atlas does three things the bible doesn't:
+
+1. **Maps all 100 premises** to a home: a GRAIN chapter, a named future project, or the reserve (§B).
+2. **Carries editorial direction** for everything unused — full briefs for the priority tier (§D), direction cards for the middle tier (§E–§G), dispositions for the reserve.
+3. **Encodes the Brief Protocol (§H):** a prompt that turns any premise plus a direction card into a full BIBLE-§5-grade brief. This is how the whole seed bank stays alive without the original editor.
+
+**To commission any story from this atlas:** use the bible's Commission Prompt (§4a), pointing it at the brief here (or at a generated brief in `manuscript/briefs/`). The bible's §2 voice law and reality law apply to every near-present project below. Project FAR (§G) uses the far-voice delta defined there.
+
+**A rule about promotion:** premises move up, never sideways silently. If you pull *The Feast* into THE GRAIN, strike it from THE UNANSWERABLE's contents here and date the change. One home per premise at any given time.
+
+---
+
+## §B. The shelf — all 100 premises, dispositioned
+
+**In THE GRAIN (16):** 53, 56, 62, 63, 67, 72, 75, 76, 78, 82, 84, 87, 88, 92, 97, 99.
+
+**GRAIN expansion candidates (4, §C):** 58 The Bar · 68 Kept · 95 Sister No One · 98 The Feast.
+
+**Book Two — THE UNANSWERABLE (9, §D):** 69 Somebody · 70 Quiet, Please · 71 Provenance · 73 The Construction · 74 The Candidate · 93 The Stranger Effect · 94 Eschaton, Revised · 96 The Shelf · 100 Badal.
+
+**Book Three — WHAT THE BODY KEEPS (11, §E):** 51 The Hour · 52 Both · 54 Left · 55 Sotto Voce · 57 Duration · 59 Interior · 60 Mother Tongue · 61 Custody · 64 Amnion · 65 Proband · 66 Next of Kin.
+
+**Book Four — ACREAGE (10, §F):** 77 Downrange · 79 The Last Dark · 80 Evidential · 81 Nightbloom · 83 Viability · 85 Standing · 86 Comfort Measures · 89 Manual Review · 90 Corroboration · 91 Good Offices.
+
+**Project FAR — novels from Volume I (50, §G):**
+- *Tier A, develop first (10):* 01 Ballast · 02 The Custodian · 04 Overburden · 08 Analog · 11 Bathypelagic · 14 The Last Lighthouse · 16 Bait · 21 The Verge · 26 The Unlearning · 31 Not a Place of Honor.
+- *Tier B, strong reserve (30):* 03, 05, 06, 07, 09, 10, 12, 13, 15, 17, 18, 20, 22, 24, 28, 29, 30, 32, 33, 35, 36, 38, 39, 42, 43, 44, 46, 47, 48, 50.
+- *Tier C, deep reserve (10):* 19, 23, 25, 27, 34, 37, 40, 41, 45, 49. (Nothing here is dead; these either overlap a stronger sibling or need a conceptual repair noted in the dossier before development.)
+
+---
+
+## §C. GRAIN expansion — four full briefs
+
+These slot into the existing book (bible §6 names the parts). Same law, same canon, same world.
+
+**58 — THE BAR** (→ Part I) · 3rd limited, Marisol Vega, past tense. Form: sections are crossings, each headed by bar conditions in pilot's shorthand (ebb against swell, visibility, bar closed to draft under X). ~4,000 words. Imagery: bar pilotage as actually practiced — Columbia River approaches, the pilot boat transfer, ranges and leads, the Coast Guard bar report. Canon echo: none. Ending directive: mid-crossing, a controlled shift into present tense as entrainment takes her, and the story ends inside the state — the wheel, the bar, no commentary; the tense shift is the ending. Forbidden: neuroscience exposition; an ultimatum scene with the husband; the word "flow" after its first clinical use. Levers: (a) the apprentice's POV for the final crossing; (b) an entrained near-miss documented in an incident report she cannot remember to contest; (c) the union vote rendered as meeting minutes, chorus-style.
+
+**68 — KEPT** (→ Part II) · 3rd limited, Nell, past tense. Form: sections headed by specimen accession numbers from her lab bench, hers unlabeled among them. ~4,000 words. Imagery: cytotechnology as practiced — slide prep, QC protocols, chain of custody; microchimerism rendered accurately (fetal cells persisting in maternal tissue is real science — build on it honestly). Canon echo: consciousness index, one line, a colleague's spouse. Ending directive: the unedited report handed across the anniversary table; end on the paper itself, folded once, and Ephraim's hands unfolding it — cut before his face. Forbidden: the word "secret"; any framing of the 19-year-old's pregnancy as debate material; Jonah told anything. Levers: (a) a coda in Jonah's POV — carrying cells he'll never test for; (b) ambiguity lever: the third line could be a vanished twin, and the story lets both readings stand; (c) the national-ritual strand expanded — grief groups meeting their residents — as two interludes.
+
+**95 — SISTER NO ONE** (→ Part V or VI) · 3rd limited, Teodora, past tense. Form: alternating scan sessions and offices of the monastic day; white space between sections does the silence. ~4,500 words. Imagery: EEG/fMRI practice rendered honestly (default mode network, the real methodological fights); Carthusian horarium accurate to the tradition. Canon echo: none — the cloister is out of the world's weather on purpose. Ending directive: after the final scan, Teodora alone in the control room, trying the posture — spine, hands, breath — for ninety seconds by the wall clock; end on her stopping and logging the session. Forbidden: the words "enlightenment" and "ego death"; the lesion question resolved; the abbess as obstacle (she is smarter than the study). Levers: (a) one section in Aelred's POV written without first-person pronouns — a formal experiment, keep only if it disappears into itself; (b) the publication fight — the order asks for anonymity the data cannot give; (c) Teodora's own scan, read by a colleague, final page.
+
+**98 — THE FEAST** (→ Part VI) · 3rd limited, Father Miguel, past tense. Form: the liturgical calendar structures it — Ordinary Time through the vigil; instrument-team sections intrude in field-report register. ~4,500 words. Imagery: parish administration as practiced (diocesan inquiries, pilgrim logistics, portable toilets and first aid as sacramental problems); earthquake lights / piezoelectric luminescence handled with real science's own uncertainty. Canon echo: a pilgrim mentions the Adeyemi Signature — "God's other lamp" — one line, unanswered. Ending directive: the homily given in one paragraph, naming rock and reverence both true; then the lights arrive; end on the sick lined along the road, lit the color of a struck match — no reaction shot. Forbidden: the mechanism explained past one sentence; miracle confirmed or debunked; the brother's T-shirts mocked (the comedy is loving). Levers: (a) the graduate student's POV as counter-melody; (b) the year the lights don't come — write the vigil of absence instead; (c) the founding registry scene expanded into its own document section.
+
+---
+
+## §D. Book Two — THE UNANSWERABLE (nine full briefs)
+
+**The book:** proof without contact; measurement against meaning. Nine stories about facts that cannot be answered, argued with, or made useful — and the practices people build to live beside them. Arc in three parts: **I. THE FACT** (Somebody · Quiet, Please · Provenance) — the proofs arrive. **II. THE WATCH** (The Construction · The Candidate · The Shelf) — the long attention. **III. THE PRACTICE** (The Stranger Effect · Badal · Eschaton, Revised) — what devotion does when the answer never comes. Opens with the sky's first fact; closes with two people at a kitchen table surviving the last one.
+
+**Voice:** GRAIN law in full (§2 + reality law), with one delta: **the tilt** — each story is allowed one moment, one paragraph at most, where the register lifts and the sky gets its due. One. Mark it in revision; if a draft has two, cut the lesser.
+
+**Canon:** same world as THE GRAIN. This book is where the Adeyemi Signature, the Cygnus vigils, and their consequences live at load-bearing scale.
+
+---
+
+**69 — SOMEBODY** · 3rd limited, Wren Adeyemi, past tense. Hinge form: three sections before the announcement, three after. ~5,000 words. Imagery: radio astronomy as practiced — the National Radio Quiet Zone, RFI discipline, integration time, the unglamorous plumbing of spectroscopy; the detection is atmospheric chemistry via transit spectroscopy, rendered right. Ending directive: her last night before leaving for the tenured job she takes anyway — she re-points the dish at the source, logs the pointing, locks the gate; no sky rhapsody (the tilt belongs earlier, to her son). Forbidden: aliens speculated about in dialogue; the son's calm ever explained; champagne. Levers: (a) the husband's POV — living with someone who got the thing she wanted in the wrong shape; (b) a twenty-years-later coda: the Signature as wallpaper, taught in schools, and Wren retired; (c) heavy lever — a second signature at another star in the final act; changes the book, pull only with intent.
+
+**70 — QUIET, PLEASE** · 3rd limited, Salome Renard, past tense. Formal device: the message's text is withheld — everyone paraphrases, argues, translates around it — and is printed only once, as the story's final line. ~4,500 words. Imagery: Nançay radio observatory, French institutional life, verification protocol (the real IAA post-detection ladder). Ending directive: the sentence itself, verbatim, alone as the last line, after we already know everything it destroyed and settled. Forbidden: any origin theory confirmed; military or presidential scenes (institutions arrive as memos); the word "warning." Levers: (a) epistolary rebuild — her letters to the dead METI pioneer whose broadcasts drew the reply; (b) the private residual: her own reduction shows one more word than the published text, and she never reports it — pull carefully, it darkens the book; (c) interludes of how six ordinary households turn their transmitters off.
+
+**71 — PROVENANCE** · 3rd limited, Amara Diallo, past tense. Braid: commission hearings / the old field seasons with Teo, fifteen years prior. ~5,000 words. Imagery: planetary protection as practiced — Class IV cleanrooms, bioburden assays, swab archives; the forensics (isotope ratios, mutation clocks) held to real lab standards. Ending directive: she signs the indeterminate finding, then retires her personal field kit through the full sterilization protocol, alone, by the book — the procedure as elegy; end on the autoclave cycle light. Forbidden: the romance rekindled; the answer leaked or hinted; Mars on the page (Earth rooms only). Levers: (a) one chapter of Teo's dissent in his voice; (b) a third hypothesis lands late — meteoritic exchange, contamination in deep time, everyone's ancestor — muddying both camps; (c) the young postdoc who inherits the question, torch-pass coda.
+
+**73 — THE CONSTRUCTION** · 3rd limited, Estela Ferrante, past tense, with logbook entries interleaved in her plain hand. Sections by opposition years, decades compressed. ~5,000 words. Imagery: amateur variable-star practice done right — AAVSO-style reporting, photometry from a backyard rig, the etiquette between amateurs and professionals. Ending directive: the granddaughter opens logbook one; final line is a fresh observation entry in a new hand, dated, formatted exactly like Estela's. Forbidden: the builders characterized in any way; completion; any human mission proposed. Levers: (a) chorus interludes — dusk crowds worldwide, three paragraphs each, twice; (b) the structure stops mid-build for eleven years and the story must hold the doubt; (c) a congregation founds itself on the builders' patience — one service scene, reported cold.
+
+**74 — THE CANDIDATE** · 3rd limited, June Kagawa, past tense. Form: the nine nights of re-analysis as nine sections, each shorter than the last. ~4,500 words. Imagery: RFI forensics, orbital ephemeris archaeology, tape-era data formats; institute politics at fundraising scale. Ending directive: publication day handled in half a page; then next year's vigil, smaller, June in the crowd not on the stage; end on the replay through loudspeakers — the tone itself described in engineering terms, nothing more. Forbidden: the mentor in flashback more than once; vindication in either direction; the residual explained. Levers: (a) the postdoc who stakes her career on replication becomes the counter-protagonist; (b) a leak forces June to testify before she's sure; (c) one reprocessing makes the residual grow — once, never repeated, buried in an appendix.
+
+**96 — THE SHELF** · 3rd limited, Helen Ellison, past tense. Form: clinical case-report structure turned narrative — Background, Methods, the hit arriving mid-story not at the end, then the long Discussion of living with n=1. ~4,500 words. Imagery: cardiac units as workplaces — codes, shift rhythms, the physical shelf and ladder logistics of the card protocol (the real AWARE-study lineage, done better). Ending directive: the published sentence reporting the hit, quoted verbatim as the final line, in its full deadpan journal register. Forbidden: the afterlife adjudicated; Gerald sentimentalized or made wise; the megachurch on the page (letters and voicemails only). Levers: (a) Gerald's POV sections — a contented atheist dreading meaning; (b) a second hit during replication that fails audit (a moved card? a leak?) and cannot be counted or forgotten; (c) the co-author fight over the footnote as the spine.
+
+**93 — THE STRANGER EFFECT** · 3rd limited, Miriam Kessler, past tense. Form: the sections of a clinical paper — Abstract, Methods, Results, Limitations, Discussion — each heading played straight, each section more lived-in than the last. ~4,500 words. Imagery: biostatistics as practiced — pre-registration, blinding architecture, the specific loneliness of being your own harshest reviewer. Ending directive: Miriam performing the protocol once, as a subject-side intercessor — a stranger's name on a card, the assigned words, the timer; end on the card going back in the envelope; no interiority in the final paragraph. Forbidden: mechanism speculation of any kind; her conversion or confirmed unbelief; the word "miracle" outside quoted mail. Levers: (a) a believing co-author given real intelligence and screen time; (b) the at-scale replication fails and the story must hold both results honestly; (c) the letters from strangers as interludes — pull if the book needs more of the world's voice.
+
+**100 — BADAL** · 3rd limited, Hafsa Noor, past tense. Form: sections follow the rites in order — the clothing, the circuits, the standing, the stoning, the return — each rendered with logistical precision. ~5,000 words. Imagery: Hajj operations at real scale — crowd engineering, heat physiology, the Saudi permit apparatus extended one honest step; proxy pilgrimage (badal hajj) built accurately on the real jurisprudence. Ending directive: filing the completion certificate in her father's name at the agency office — form fields, stamp, receipt; her one prayer for herself is never rendered in words, only located in time; end on the receipt in her bag. Forbidden: theology adjudicated; a heat-death scene; her faith or doubt stated. Levers: (a) the family's watch-stream comments as sparse interludes; (b) the father outlives his year and the certificate sits in a drawer — recast as a story about the unspent; (c) a rival proxy's fraud, currently offstage, brought to one scene at the agency.
+
+**94 — ESCHATON, REVISED** · The closer. 3rd limited, Lena Faber, past tense. Form: three conversations across one night in Aaron's kitchen in Rotterdam — nearly a chamber play; thin connective scenes of the eight months of checking. ~4,500 words. Imagery: observational cosmology as practiced (systematics-hunting, the boredom of rigor) against the kitchen's counter-imagery — bread, dishes, a dripping tap Aaron fixes at 3 a.m. Ending directive: morning; Aaron makes eggs; the answer to her question is the breakfast, made correctly and set down in front of her; end on the plate. Forbidden: physics exposition past one honest paragraph; consolation stated in words; God argued about (Aaron left the seminary — the argument is over). Levers: (a) rebuild in Aaron's POV — the professional survivor of lost forevers watching a new patient; (b) the comic strand: the world's non-reaction (markets flat, one meme cycle) reported deadpan; (c) their mother's funeral, the hinge both are avoiding, given its one flashback.
+
+---
+
+## §E. Book Three — WHAT THE BODY KEEPS (direction cards)
+
+**The book:** eleven stories of minds and marriages under new instruments — the interior made legible, and the bill for it. Same law, same world as THE GRAIN. Runs hotter and closer than the other books: more skin, more kitchens. Assemble when at least seven are drafted; open with *Interior*, close with *Duration*.
+
+Card format — **angle** (the non-obvious way in) / **form** / **end on** / **lever**. Expand any card to a full brief via the Brief Protocol (§H).
+
+- **51 The Hour** — angle: procedure-as-workplace, not miracle; the story is her caseload the week before her own appointment. Form: casework sections, her booking as the through-thread. End on: the consent form, two signatures, cut. Lever: the session itself, one page, rendered only as shared images without pronouns.
+- **52 Both** — angle: court transcription is her trade — she records the hearing about her own husband. Form: transcript fragments braided with home scenes. End on: the left hand writing her name. Lever: the hemisphere loses the petition and the marriage keeps all three of them anyway.
+- **54 Left** — angle: the therapy footage is labeled as sessions; the story inventories what the right side of a marriage does unwitnessed. Form: session numbers as headers. End on: the two women rearranging the bedroom, bed moved from the wall. Lever: the confession, spoken at last, off-page — audio described, words withheld.
+- **55 Sotto Voce** — angle: broadcast craft — he mixes his own inner feed like a board operator, riding levels. Form: continuous, one long fall season. End on: Yara's hand on the speaker switch, choice unshown. Lever: the sentence was rehearsal for a show he'd planned about wanting to stop — ambiguity as mercy.
+- **57 Duration** — angle: bakery time — proof, ferment, oven windows — as the counter-clock to dilation. Form: her sessions dated by his production schedule. End on: him misjudging a proof the morning after, dough over the bowl's lip. Lever: he takes one session alone after her death, the protocol's grief exception.
+- **59 Interior** — angle: hardware-store inventory as the language of a furnished mind — she pictures the store first, the aisles arriving one by one. Form: week-numbered protocol sections. End on: her picturing the store empty, then stocking it, shelf by shelf. Lever: Petter asks her to describe him and the story ends inside the pause.
+- **60 Mother Tongue** — angle: the audit — she treats the model's claims like unreconciled accounts, and the story is her fieldwork verifying one. Form: query transcripts (text only, per canon) between investigation scenes. End on: a claim confirmed true by a stranger's attic box, and the model unthanked. Lever: one claim proves false — the affair — and the daughter must decide whether inference lied or her mother did.
+- **61 Custody** — angle: mediation practice — her office, her forms, her professional patter about mercy, applied to the Kaurs while her own faded decade sits in the file cabinet. Form: mediation sessions numbered like the interviews of Ch. 16 (deliberate rhyme). End on: the Kaurs' signed schedule of remembering, notarized. Lever: her ex requests a restoration consult, last page.
+- **64 Amnion** — angle: midwifery skills transposed — she begins attending decantings the way she attended births, uninvited, then hired. Form: client sections; her son's tank-milestones as headers. End on: her hands' first catch at a decanting, the weight arriving. Lever: a pod failure on another family's child, and what her hands know that the pavilion's don't.
+- **65 Proband** — angle: orchard succession planning is the plot engine — grafting schedules, water rights, who signs — with the gene line as its shadow ledger. Form: one harvest year. End on: Birdie's hands taught the graft cut, the tape wound. Lever: Amos's kids get tested — one letter arrives, unopened at the end.
+- **66 Next of Kin** — angle: the statute is new and nobody — hospital desks, insurers, the church ladies — has scripts yet; comedy of paperwork against the biopsy's arithmetic. Form: docket-numbered sections. End on: the dissolution packet, still unsigned, used as a coaster under Bess's tea. Lever: Theo's emergency form, listing three names, read aloud by a school secretary.
+
+---
+
+## §F. Book Four — ACREAGE (direction cards)
+
+**The book:** ten stories of institutions and ground — towns, courts, grids, tongues — absorbing one honest blow each. The public-scale sibling of THE GRAIN. Colder opens, warmer ends; close the book with *The Last Dark*.
+
+- **77 Downrange** — angle: the launch cadence is the town's clock and the story never leaves the water; the port exists as sound and paperwork. Form: one shrimp season by boom windows. End on: Vange idling outside the exclusion line, range red, engine cost per minute counted. Lever: Alix's clean-room POV for one section — the same thunder from inside.
+- **79 The Last Dark** — angle: the reservation book is the protagonist's ledger of the world — names three years out for a sky she's calculated won't last two. Form: one moonless week per section, four guests' arrivals. End on: her penciling the next name anyway, pencil specified. Lever: the constellation launch scrubs — a reprieve she must decide whether to enter in the book.
+- **80 Evidential** — angle: the grammar is the drama — scenes hinge on evidential marks the way thrillers hinge on alibis; Sana's field notes must use them and can't. Form: recording sessions dated by thaw. End on: the model's first unprompted sentence after Reveka's death, its missing hearsay mark named by Sana aloud. Lever: a heritage-ministry official wants the model demoed at a festival — the taxidermy question made public.
+- **81 Nightbloom** — angle: monitoring data as love triangle — her spreadsheets against his grandfather's reef, the glow's stress signal arriving in columns before it arrives in the story. Form: two dive seasons. End on: Gil's skiff anchored over dark healthy coral, lights off, Claire aboard. Lever: the town council votes to schedule "peak viewing" around stress forecasts — the economy of suffering made explicit.
+- **83 Viability** — angle: germination-test protocol structures it — trays, counts, days-to-emergence — while the sisters' fight runs on estate paperwork. Form: one grow-out season, tray-count headers. End on: envelopes relabeled in Iris's hand, new dates. Lever: one variety fails entirely and its family name goes with it — the funeral nobody holds.
+- **85 Standing** — angle: guardianship is paperwork ventriloquism — every filing an act of translation from gauge data to legal want; the river never personified once. Form: filings and field visits alternating. End on: the wet-spring breach, water where the survey said, her sister's fence line under it. Lever: the sister files to become co-guardian — love as legal ambush.
+- **86 Comfort Measures** — angle: hospice craft transposed whole — she runs a county like a patient: intake, palliation, the family meeting; the horror is her competence. Form: program-phase sections (Assessment, Transition, Legacy). End on: the last graduation's music, named song, doors open. Lever: one service the county fights to keep proves to be the one her playbook says to cut first.
+- **89 Manual Review** — angle: the deposition frames it; the queue lives in flashback at ninety seconds a case, rendered at real speed on the page. Form: deposition transcript braided with queue time. End on: her answer to the only question, verbatim, then the court reporter's keystrokes. Lever: the boy from her church — one added scene at the pharmacy counter, before she knew.
+- **90 Corroboration** — angle: teaching fourth grade in Rotterdam is the present tense; The Hague is the intrusion — the story defends her ordinary days against the Instrument's totalizing memory. Form: school weeks with tribunal summonses interleaved. End on: her classroom's window list of what the class saw today, chalk, her handwriting. Lever: the defense calls her back — recant or double down, cut before she speaks.
+- **91 Good Offices** — angle: interpretation craft — register, softening, the professional ethics of mercy — examined through her own wartime renderings seeding the machine; the audit is her mirror. Form: audit sessions against archived transcript excerpts. End on: her testimony's last sentence, "every choice was defensible," and the pen signing the deposition. Lever: one un-softened sentence, restored, read aloud in the hearing — what the war would have heard.
+
+---
+
+## §G. Project FAR — the Volume I novels
+
+**What Volume I is:** fifty novel-scale premises — far-future, cosmic, survival-engineering. These are not stories for THE GRAIN's shelf; they are books. Do not draft them as 5,000-word shorts; the dossier's three-act outlines are novel skeletons.
+
+**The far voice (delta from bible §2):** all of §2 holds — banned phrases, no filtering, no epiphanies, rhythm — with these amendments: (1) trade-lock opens to ship and station trades, and to the sciences the crew actually practices; (2) wonder is permitted at full register when *earned by procedure* — awe arrives through instruments read correctly, never through adjectives; (3) dread is procedural: the scariest sentence in a far novel is a nominal checklist with one line wrong; (4) the reality law applies *harder*, not softer — orbital mechanics, delta-v budgets, radiation, comms lag, and closed-loop life support must survive an engineer, because the far premise spends its one implausibility on the novum; (5) no invented slang beyond three terms per book, each doing real work.
+
+**The Novel Protocol (commission order for any Tier A premise):**
+1. **Treatment first.** Commission a full treatment: 25–35 chapter map with one-line beats, character sheets (vocation, possession, wound, lie they tell), a science memo (the novum's mechanism, constraints, and three places it must *cost* the characters something), and a continuity ledger file the drafts will maintain. Prompt: bible §4a's frame, swapping "story" for "treatment," pointing at the premise's dossier entry and the Tier A card below.
+2. **Draft in arcs.** Chapters commissioned three to four at a time, each agent reading treatment + ledger + prior arc; ledger updated each arc.
+3. **Revise by act,** one lever per pass, Lever Zero always available.
+
+**Tier A cards** — angle / structural note / the trap to avoid:
+
+- **01 Ballast** — angle: the deflection is a labor story; the crew are miners, not heroes, and the mass-driver is a workplace. Structure: mission clock chapters, dual POV (commander / the one who stays). Trap: don't let the sacrifice be noble too early — it's a rostering problem until the last act.
+- **02 The Custodian** — angle: competence porn with grief at its core — each dead specialist's manual is a eulogy Ray reads by fixing things. Structure: system-by-system (Water, Power, Air, Comms), one ghost per system. Trap: keeping Ray folksy — he's precise, not cute.
+- **04 Overburden** — angle: the refreeze is the antagonist and it has no motive the crew can use; the novel is about working under an unreadable will. Structure: depth-gauge countdown chapters, borehole diagrams as chapter heads. Trap: explaining the ocean — the moment it's explained, the book dies.
+- **08 Analog** — angle: epistemology thriller — the crew's discipline of memory is the plot; what film can hold, what a mind can. Structure: mission phases with "developed film" interchapters describing photographs neutrally. Trap: the anomaly as villain; it must stay a condition, like weather.
+- **11 Bathypelagic** — angle: contamination guilt at first-contact scale; the science team's own noise is the plot's engine. Structure: dive logs against the mats' response lag — cause and effect separated by chapters. Trap: waking-god cliché; the computation never notices them in any legible way, and that's worse.
+- **14 The Last Lighthouse** — angle: an astronomy procedural — the whole book is inference from shadows; no ship ever launches. Structure: one pulsar per part, the ring closing in the figures. Trap: showing the predator. The book's monster is a graph.
+- **16 Bait** — angle: desire as navigation hazard — the planet reads the crew better than they read themselves, and the exobiologist's loneliness is the flaw in the armor. Structure: approach-orbit-landing, with the signal's content maturing per part. Trap: paradise rendered vaguely; the lure must be specific to each crew member and shown through choices, not visions.
+- **21 The Verge** — angle: border-town western in the machine desert; salvage economics drive every choice. Structure: expedition ledger — fuel, water, nanomass prices — as chapter heads. Trap: the swarm's purpose revealed as speech; it should be revealed as *infrastructure*.
+- **26 The Unlearning** — angle: a librarian's thriller — the weapon is a catalog, the battlefield is curriculum; Sela's love of the archive is the thing the Order weaponized. Structure: three reading levels (novice texts, sealed chronicles, founders' layer) as the novel's strata. Trap: the attention above rendered as monster; keep it a statistical dread in sky-survey data to the last page.
+- **31 Not a Place of Honor** — angle: semiotics as survival — Osh's trade is reading, and every act of reading is a gamble staked in lives; the deep past speaks only in warnings designed for the ignorant. Structure: descent by marker ring, each ring's message a part title. Trap: the vault's occupant shown; the novel ends at the threshold or it cheapens.
+
+**Tier B:** hold. Each needs one editorial decision recorded before development (usually: what it's secretly about, and which sibling it must not resemble). Generate briefs via §H when called for, with the far voice.
+**Tier C:** reserve. Revisit after two books ship.
+
+---
+
+## §H. The Brief Protocol — turning any premise into a full brief
+
+Use this prompt with a strong model to produce a BIBLE-§5-grade brief for any premise. It encodes the editorial method; the quality bar is at the end.
+
+> You are the acquiring editor of a literary science fiction project. Read: (1) the premise — dossier entry Nº {N} in {ideas/volume-1-fifty-signals.html | ideas/volume-2-fifty-mirrors.html}; (2) the project's voice law — `manuscript/BIBLE.md` §2 in full (plus the far-voice delta in `manuscript/ATLAS.md` §G if this is a Volume I premise); (3) the direction card for this premise in ATLAS §C–§G, if one exists — the card's angle is binding.
+>
+> Write a chapter-brief in exactly this anatomy, 130–180 words:
+> **POV/tense/form** — and the form must *enact* the premise's question (a story about verification gets a verifying structure; a story about liturgy gets liturgical structure). **Length** in words. **Imagery domain** — trade-locked to the protagonist's actual work, named specifically. **Canon echo** — at most one item from BIBLE §3, or "none" with reason. **Ending directive** — an object, an act, or a spoken line; never a realization. **Forbidden** — the two or three moves that would let a lazy writer ruin this premise; name them precisely. **Levers** — exactly three alternate directions, each strong enough to be its own draft: typically one POV/structure alternative, one darker-or-warmer variant, one scope change.
+>
+> The bar: a brief is good when two different writers given it would produce recognizably the same story, and neither could write a lazy one. Write the brief to `manuscript/briefs/{project}/{NN}-{slug}.md` with a heading line naming premise number, title, and project. Nothing else in the file.
+
+---
+
+*Atlas v1. Amend with dates. When a premise is promoted into a book, update §B the same day.*
