@@ -68,6 +68,15 @@ The book's voice: **plainspoken precision with weather in it.** Sentences a work
 11. **The question stays under the floor.** Each brief names the question the story is secretly about. If any sentence in the draft could serve as that question's thesis statement, cut the sentence. The story argues by furniture.
 12. **Attribution:** "said," mostly, set mid-sentence. No "she quipped," no "he breathed."
 
+**The reality law (amendment, v1.1 — binding as part of §2):**
+
+13. **True to the trade.** Where a story touches real work — bar piloting, pharmacy, line work, luthiery, temple carpentry, hospice practice, conjunction screening, CMB cosmology, county government — the details must be accurate to actual practice: correct tools, correct units, correct jargon, correct failure modes, correct paperwork. If you are not sure of a detail, use one you can verify or leave it out. Never invent decorative pseudo-detail; a wrong part number is worse than no part number.
+14. **One novum, honest physics everywhere else.** Each story gets its single speculative element. Everything surrounding it obeys known science and engineering. The novum itself must be extrapolated honestly — a plausible mechanism, real constraints respected (energy, bandwidth, regulatory approval, cost, time), no magic wearing a lab coat.
+15. **Numbers survive an expert.** Orbital mechanics, dosages, radiation, timescales, prices, distances: write them so a professional in that field would not put the book down. Real institutions (NASA, dioceses, the FDA, county courts, the ITU) behave the way they actually behave, or are fictionalized plausibly and consistently.
+16. **Geography is real.** A named town gets its real river, its real highway, its real weather and crops. If the story needs a town that doesn't exist, invent one and place it honestly in a real county's terrain.
+
+The test for all four: *would a working professional in this trade, or a scientist in this field, stop trusting the page?* The book's authority is built from these details; they are load-bearing, not garnish.
+
 **Calibration example.** The same beat, two ways.
 
 *Voice violation:* "Standing in the empty pharmacy, Owen couldn't help but feel that everything had shifted. The silence stretched between the shelves like a living thing. It wasn't the pills that scared him — it was what they meant."
@@ -124,6 +133,8 @@ Paste §1, §2, §3, and the single chapter brief into the prompt, followed by �
 ## §5. Chapter briefs
 
 Format per chapter: source premise (dossier Nº) · POV/tense/form · length · imagery domain · canon echo · ending directive · forbidden · levers (alternate directions held in reserve — pull in revision, one at a time).
+
+**Lever Zero (available to every chapter, and the recommended first revision for any draft):** the verisimilitude pass. Check every trade, science, and geography detail against reality per §2 rules 13–16 — tools, units, procedures, institutions, place facts — and correct them without touching voice, structure, or plot. This lever does not count against the one-lever rule; it may be combined with any other.
 
 ---
 
