@@ -1,0 +1,871 @@
+<title>Fifty Mirrors — a near-present science fiction concept dossier</title>
+<style>
+:root{
+  --bg:#EEF0F2;
+  --panel:#F6F7F8;
+  --ink:#1B2129;
+  --ink-soft:#4A545F;
+  --ink-faint:#77828D;
+  --line:#CDD3D9;
+  --accent:#9A6714;
+  --accent-soft:#F0E4CC;
+  --teal:#33706B;
+  --teal-soft:#DDE9E7;
+  --chip-bg:#E4E7EA;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0C1118;
+    --panel:#121926;
+    --ink:#D8DEE7;
+    --ink-soft:#98A3B0;
+    --ink-faint:#66717E;
+    --line:#232D3B;
+    --accent:#E2A64D;
+    --accent-soft:#2A2214;
+    --teal:#6FB3AC;
+    --teal-soft:#14262A;
+    --chip-bg:#1A2331;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0C1118;
+  --panel:#121926;
+  --ink:#D8DEE7;
+  --ink-soft:#98A3B0;
+  --ink-faint:#66717E;
+  --line:#232D3B;
+  --accent:#E2A64D;
+  --accent-soft:#2A2214;
+  --teal:#6FB3AC;
+  --teal-soft:#14262A;
+  --chip-bg:#1A2331;
+}
+:root[data-theme="light"]{
+  --bg:#EEF0F2;
+  --panel:#F6F7F8;
+  --ink:#1B2129;
+  --ink-soft:#4A545F;
+  --ink-faint:#77828D;
+  --line:#CDD3D9;
+  --accent:#9A6714;
+  --accent-soft:#F0E4CC;
+  --teal:#33706B;
+  --teal-soft:#DDE9E7;
+  --chip-bg:#E4E7EA;
+}
+html{background:var(--bg);}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;
+  line-height:1.6;
+  margin:0;
+  padding:0 1.25rem;
+}
+.mono{font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;}
+.wrap{max-width:46rem;margin:0 auto;padding:3rem 0 6rem;}
+header.masthead{border-bottom:2px solid var(--ink);padding-bottom:1.5rem;margin-bottom:1.5rem;}
+.eyebrow{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 .75rem;
+}
+h1{
+  font-size:clamp(2.1rem,6vw,3rem);
+  line-height:1.08;margin:0 0 .75rem;font-weight:600;
+  text-wrap:balance;letter-spacing:-.01em;
+}
+.standfirst{color:var(--ink-soft);font-size:1.02rem;max-width:40rem;margin:0;}
+.standfirst em{color:var(--ink);}
+
+/* filter rails */
+.filters{
+  display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;
+  padding:.75rem 0;
+}
+.filters.first{padding-top:1rem;}
+.filters.last{border-bottom:1px solid var(--line);margin-bottom:2.5rem;padding-bottom:1.25rem;}
+.filters .flabel{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-faint);margin-right:.35rem;min-width:3.5rem;
+}
+.fbtn{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.72rem;letter-spacing:.04em;
+  background:var(--chip-bg);color:var(--ink-soft);
+  border:1px solid transparent;border-radius:2px;
+  padding:.28rem .6rem;cursor:pointer;
+}
+.fbtn:hover{border-color:var(--ink-faint);}
+.fbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+.fbtn.on{background:var(--accent-soft);color:var(--accent);border-color:var(--accent);}
+.fcount{color:var(--ink-faint);font-size:.72rem;margin-left:auto;font-family:ui-monospace,Menlo,Consolas,monospace;}
+
+/* sections */
+section.group{margin-bottom:3.5rem;}
+.ghead{display:flex;align-items:baseline;gap:.75rem;border-bottom:1px solid var(--line);padding-bottom:.5rem;margin-bottom:.25rem;}
+.gnum{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  color:var(--accent);font-size:.8rem;letter-spacing:.1em;
+}
+h2{font-size:1.35rem;font-weight:600;margin:0;letter-spacing:-.005em;}
+.gdesc{color:var(--ink-faint);font-size:.88rem;margin:.4rem 0 0;font-style:italic;}
+
+/* entries */
+article.idea{padding:1.75rem 0;border-bottom:1px solid var(--line);}
+article.idea:last-child{border-bottom:none;}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin-bottom:.4rem;}
+.num{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.75rem;color:var(--accent);letter-spacing:.08em;
+  font-variant-numeric:tabular-nums;
+}
+.tags{display:flex;flex-wrap:wrap;gap:.3rem;}
+.tag{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;
+  background:var(--teal-soft);color:var(--teal);
+  padding:.14rem .45rem;border-radius:2px;
+}
+.scalechip{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;
+  background:var(--accent-soft);color:var(--accent);
+  padding:.14rem .45rem;border-radius:2px;
+}
+h3{font-size:1.28rem;font-weight:600;margin:0 0 .4rem;letter-spacing:-.005em;text-wrap:balance;}
+.q{font-style:italic;color:var(--ink-soft);margin:0 0 .7rem;font-size:.95rem;}
+.q b{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-style:normal;font-weight:600;font-size:.68rem;letter-spacing:.1em;
+  color:var(--accent);margin-right:.4rem;
+}
+.syn{margin:0 0 .9rem;color:var(--ink);}
+.beats{list-style:none;margin:0;padding:.75rem 1rem;background:var(--panel);border-left:2px solid var(--accent);border-radius:0 2px 2px 0;}
+.beats li{margin:.3rem 0;color:var(--ink-soft);font-size:.92rem;}
+.beats b{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-weight:600;font-size:.7rem;letter-spacing:.1em;
+  color:var(--accent);margin-right:.4rem;
+}
+.hidden{display:none;}
+footer.colophon{
+  margin-top:3rem;padding-top:1.25rem;border-top:2px solid var(--ink);
+  color:var(--ink-faint);font-size:.85rem;
+}
+@media (prefers-reduced-motion: no-preference){
+  .fbtn{transition:background .15s,color .15s,border-color .15s;}
+}
+</style>
+
+<div class="wrap">
+<header class="masthead">
+<p class="eyebrow">Concept Dossier · Volume II · Entries 51–100 · The Near Present</p>
+<h1>Fifty Mirrors</h1>
+<p class="standfirst">Fifty more premises, continuing the catalog begun in <em>Fifty Signals</em> — but set close to now: our world plus <em>one disciplined speculative element</em>, held to a literary standard. The stakes deliberately vary — a marriage, a crew, a county, occasionally the whole sky — and every entry names, in one italic line, <em>the question the book is secretly about</em>. Filter by theme or by scale; reference any idea by its number.</p>
+</header>
+
+<div class="filters first" id="theme-filters">
+<span class="flabel">Theme</span>
+<button class="fbtn on" data-f="all">All</button>
+<button class="fbtn" data-f="mind">Mind</button>
+<button class="fbtn" data-f="love-grief">Love &amp; Grief</button>
+<button class="fbtn" data-f="near-space">Near Space</button>
+<button class="fbtn" data-f="slow-collapse">Slow Collapse</button>
+<button class="fbtn" data-f="machine">The Machine</button>
+<button class="fbtn" data-f="faith-meaning">Faith &amp; Meaning</button>
+<button class="fbtn" data-f="work">Work &amp; Trade</button>
+<button class="fbtn" data-f="body">The Body</button>
+</div>
+<div class="filters last" id="scale-filters">
+<span class="flabel">Scale</span>
+<button class="fbtn on" data-s="all">All</button>
+<button class="fbtn" data-s="intimate">Intimate</button>
+<button class="fbtn" data-s="community">Community</button>
+<button class="fbtn" data-s="global">Global</button>
+<span class="fcount" id="fcount">50 / 50</span>
+</div>
+
+<!-- ============ I. THE MIND OBSERVED ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">I</span><h2>The Mind Observed</h2></div>
+<p class="gdesc">The instrument that measures the mind changes it. Consciousness, memory, and selfhood under new light.</p>
+
+<article class="idea" data-tags="mind love-grief" data-scale="intimate">
+<div class="meta"><span class="num">Nº 51</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>The Hour</h3>
+<p class="q"><b>Q</b>Whether love depends on being fully known, or on the mercy of never quite being.</p>
+<p class="syn">Camille Mbeki has guided four hundred couples across the Hour and back. The licensed procedure braids two minds into a single stream of consciousness for sixty minutes — the wall people spend a lifetime learning to hold simply gone — and in her Portland consulting room she has watched it rescue dead marriages and detonate sound ones by dinnertime. She has never taken it with Theo. After nine years he has stopped asking why the woman who sells the Hour to strangers will not spend one on her own husband. Then a couple leaves hollowed by what they met inside each other, and Camille books the room for two, writes Theo's name beside hers, and lies awake counting the thoughts she has kept from him — unsure whether they are the flaw in the marriage or its foundation.</p>
+<ul class="beats">
+<li><b>ACT I</b>Camille administers the Hour daily, an expert in an intimacy she has never once risked, her own marriage a thing of careful, loving surfaces.</li>
+<li><b>ACT II</b>A shattering session with clients finally drives her to schedule the procedure with Theo, and the nearer the date comes the more clearly she sees what she has been protecting.</li>
+<li><b>ACT III</b>The appointment stands, but whether she opens the door or closes it, the question of whether their nine years were honesty or a merciful blindness stays with her.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind love-grief" data-scale="intimate">
+<div class="meta"><span class="num">Nº 52</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Both</h3>
+<p class="q"><b>Q</b>Whether a person is one indivisible self or a negotiated peace between selves — and what the people who love him owe the one he never introduced.</p>
+<p class="syn">For thirty years Willa Brandt has transcribed other people's testimony in the courtrooms of Cleveland. Then the surgery that finally stilled Eli's seizures severed the bridge between his halves, and his left hand — the mute right hemisphere's only voice — began spelling on a lettered board. It asks for a name. It says it loves her differently than Eli does. Neurologists call it disinhibition; a lawyer calls it a client; Eli, speaking, calls it nothing, because he cannot hear the half that writes while he talks. Willa, who has spent her life setting down exactly what was said, must now record a husband who is two men — one who chose her at the altar, and one who woke afterward, wordless, and reached for her hand.</p>
+<ul class="beats">
+<li><b>ACT I</b>Eli's recovery reads as a triumph until his left hand begins writing sentences his speaking self flatly disowns.</li>
+<li><b>ACT II</b>A right-to-personhood petition turns the family into a test case, and Willa realizes the silent hemisphere has been courting her, gently, for months.</li>
+<li><b>ACT III</b>However the court rules on whether Eli is one man or two, Willa is left loving both and able to lawfully belong to only the one who can say her name.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind love-grief body" data-scale="intimate">
+<div class="meta"><span class="num">Nº 53</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span><span class="tag">The Body</span></span></div>
+<h3>Familiar</h3>
+<p class="q"><b>Q</b>Is love the feeling itself, or the fidelity that keeps showing up after the feeling has been cut away?</p>
+<p class="syn">Marcus Hale inspects bridges for the city of Pittsburgh; he can tell by feel which welds will hold. When a course of focused-ultrasound therapy lifts his lifelong depression in eleven days, the trial's consent form said nothing about his wife's face. He still recognizes Renata — her voice, her chipped tooth, the way she salts her coffee — but the warmth that used to arrive with her has been severed cleanly, the way the treatment severed his despair. The clinicians call it acquired Capgras, transient, probably. Marcus builds tests: pulse monitors, old letters, her side of the bed. Renata begins, deliberately, to court a man who already loves her on paper. Then the feeling comes back — for the dog first, then his mother — and stalls.</p>
+<ul class="beats">
+<li><b>ACT I</b>A breakthrough depression treatment cures Marcus in days but severs the affective familiarity that made his wife feel like his wife.</li>
+<li><b>ACT II</b>As Renata deliberately courts her own husband, Marcus's warmth returns for his dog and his mother but not for her, and both begin to fear the deficit has located something true.</li>
+<li><b>ACT III</b>The feeling returns — or Marcus perfects its performance so completely that neither of them can tell — and the marriage continues on a love that can no longer prove itself.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind love-grief body" data-scale="intimate">
+<div class="meta"><span class="num">Nº 54</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span><span class="tag">The Body</span></span></div>
+<h3>Left</h3>
+<p class="q"><b>Q</b>How much of any marriage happens in the field we cannot attend to — and is restoring the whole picture an act of love or of trespass?</p>
+<p class="syn">Ida Bergström has mapped the Lake Superior shore for the county for nineteen years; after the stroke, the left of everything is not dark but simply unconsidered — half her plate, half her sentences, the half of the bed where her wife Marguerite sleeps. Hemispatial neglect, the therapists explain: not blindness, an absence of the very idea of left. The new closed-loop therapy retrains her using footage from their own home cameras, replaying, week by week, the hemifield her brain discarded. So Ida watches the year she lost: Marguerite spoon-feeding her left-handed, weeping at the left edge of rooms, and, one October evening, sitting on Ida's left side rehearsing — over and over, where it could not land — something she has still not said aloud.</p>
+<ul class="beats">
+<li><b>ACT I</b>A stroke leaves cartographer Ida without the concept of left, and a closed-loop therapy begins restoring her lost hemifield using a year of home-camera footage.</li>
+<li><b>ACT II</b>The replayed footage reveals her wife's unseen labor and unseen grief, including a confession Marguerite rehearsed only in the neglected field, and Ida must decide whether to keep watching.</li>
+<li><b>ACT III</b>Ida's left side returns and the two women finally sit facing each other with everything visible, though what Marguerite was confessing — and whether it must ever be said aloud — remains between them.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind love-grief machine" data-scale="intimate">
+<div class="meta"><span class="num">Nº 55</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span><span class="tag">The Machine</span></span></div>
+<h3>Sotto Voce</h3>
+<p class="q"><b>Q</b>If thought can be heard, is there still a self behind the voice — and does an unchosen sentence count as a choice?</p>
+<p class="syn">Ezra Stern talked for a living — twenty years of late-night radio — until the brainstem stroke left him locked in with the best voice in Montreal. The implant gives it back: a decoder that turns inner speech into sound. But the filter between meaning-to-say and merely-thinking is imperfect, and his wife Yara, a court interpreter fluent in what people almost say, now hears the drafts — the flattery rehearsed, the resentment suppressed, the prayer he would deny. Ezra adapts the way minds do: he begins performing his inner monologue, narrating for the room, until even his solitude has an audience. Then one night the decoder relays, in his old broadcast baritone, a sentence he never chose to say: that he is tired, and wants to stop.</p>
+<ul class="beats">
+<li><b>ACT I</b>A locked-in radio host receives an inner-speech decoder that restores his voice but cannot reliably distinguish intended speech from private thought.</li>
+<li><b>ACT II</b>As his interpreter wife hears the unedited stream, Ezra starts performing his own monologue until inner privacy collapses from the inside, and the marriage renegotiates what candor it can survive.</li>
+<li><b>ACT III</b>The decoder voices his unbidden wish to stop treatment, and Yara and his physicians must decide what counts as consent, leaving forever open whether the sentence was his will, his weather, or the machine's guess.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind love-grief" data-scale="intimate">
+<div class="meta"><span class="num">Nº 56</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Because</h3>
+<p class="q"><b>Q</b>If the reasons we give for our lives are composed rather than remembered, what would it even mean to be honest?</p>
+<p class="syn">The flag is a small amber light. At a memory clinic in Cleveland, neuropsychologist Ruth Ozan uses it on confabulating patients: a real-time cortical signature that separates retrieved memory from fluent invention. Then her lab runs healthy controls, and the light burns amber almost every time anyone explains why they did anything. Reasons, it turns out, are not retrieved; they are composed on demand, sincerely, by everyone. The paper will detonate courtrooms and marriages, but Ruth's crisis is smaller: for twenty years she has told her sister she stayed away from their dying mother because their mother asked her to. Under the coil, that sentence flags as fiction. Now Ruth must apologize for a reason she may never have had — in words the machine will also flag.</p>
+<ul class="beats">
+<li><b>ACT I</b>A clinical instrument that flags confabulation in brain-injured patients is turned on healthy controls and finds that everyone's stated reasons are fluent inventions.</li>
+<li><b>ACT II</b>Ruth's own load-bearing explanation — why she left her mother's dying to her sister — flags as generated, and she begins investigating her past like a hostile witness.</li>
+<li><b>ACT III</b>Ruth publishes, apologizes, and rebuilds the sisterhood on acts instead of accounts, while what actually moved her that year stays permanently dark to every instrument, including her.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind love-grief body" data-scale="intimate">
+<div class="meta"><span class="num">Nº 57</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span><span class="tag">The Body</span></span></div>
+<h3>Duration</h3>
+<p class="q"><b>Q</b>If a life is measured in felt time rather than clock time, what do we owe the dying — more hours or more depth — and can either ever be shared?</p>
+<p class="syn">Tomás Aguilar keeps baker's hours; he knows what time does to dough and what it is doing to his mother. When the hospice offers Inés temporal broadening — a palliative infusion, descended from psychedelic research, that slows the brain's internal clock until an afternoon holds a month — he takes the sessions with her. Together, on the sunporch, they live long slow seasons inside single visits: every story told, every recipe handed over, every silence allowed to ripen. But dilation is private; their months don't align, and each emerges having lived a different length of the same hour. For her final dose Inés chooses the maximum, alone by protocol. Tomás holds her hand for six minutes while she goes somewhere years wide, and cannot follow, and cannot ask.</p>
+<ul class="beats">
+<li><b>ACT I</b>A hospice offers a dying woman infusions that dilate subjective time, and her baker son joins the sessions so that an afternoon can hold a month of goodbye.</li>
+<li><b>ACT II</b>They discover dilated time is unshareable — each lives a different length of the same visit — and the gift begins to separate them even as it extends them.</li>
+<li><b>ACT III</b>Inés dies six clock-minutes and several subjective years after her final maximal dose, leaving Tomás grieving a span of her life that appeared on no clock and can never be witnessed.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind work" data-scale="community">
+<div class="meta"><span class="num">Nº 58</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Mind</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>The Bar</h3>
+<p class="q"><b>Q</b>If the self dissolves in perfect work and the work leaves no memory behind, whose life was it?</p>
+<p class="syn">The Columbia River Bar has killed two thousand ships, and Marisol Vega crosses it in fog for a living. When the pilots' association adopts entrainment — a Navy-derived protocol that summons deep flow on demand — her crossings become flawless: no fear, no self, no elapsed time, just the bar and the wheel and the work doing itself. The insurers want it mandated; the union is split; the old pilots call it ghosting. Marisol's husband fishes the same water and says she comes home later each night than the clock does. Then she notices what the state of grace costs: flow writes nothing down. Her logbooks record eleven hundred perfect crossings she cannot remember making — the best work of her life, and none of it happened to her.</p>
+<ul class="beats">
+<li><b>ACT I</b>Columbia River bar pilots adopt an entrainment protocol that produces reliable deep flow, and Marisol Vega becomes the safest pilot on the coast.</li>
+<li><b>ACT II</b>As insurers push to mandate the state and her marriage thins, Marisol realizes flow encodes almost no memory — her masterwork years are blank — and she must train an apprentice in a skill she cannot witness in herself.</li>
+<li><b>ACT III</b>The union votes to mandate entrainment on the strength of her spotless record, and Marisol keeps crossing the bar, present to the work and absent from her life, never resolving whether she has been perfected or spent.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind love-grief" data-scale="intimate">
+<div class="meta"><span class="num">Nº 59</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Interior</h3>
+<p class="q"><b>Q</b>Whether her contentment was a virtue she earned or merely a wall her mind could never see over.</p>
+<p class="syn">Ingrid Sølvberg is forty when she learns the word for what she has always been: aphantasic, mind's eye blank, a woman who has never once pictured a face. She runs a hardware store in Duluth with Petter, a marriage as solid and unremarkable as the store's oak counter, and she has never wanted more, because wanting more requires seeing it. The cortical protocol takes hold in the second week. Now, unbidden, she can conjure her dead father at the till, the lake in August, the man she left in 2019, the daughter she and Petter decided against — standing in aisle six with Ingrid's own hair. Her life has not changed; only her capacity to imagine another one has, and she lies beside her sleeping husband learning everything she has been spared.</p>
+<ul class="beats">
+<li><b>ACT I</b>Ingrid takes the celebrated new cure out of curiosity rather than longing, secure in a life she has never been able to picture altering.</li>
+<li><b>ACT II</b>Imagery arrives and with it every unlived alternative, vivid and specific, and her contentment reveals itself as the byproduct of a blindness now cured.</li>
+<li><b>ACT III</b>She neither leaves nor decides to stay, holding a marriage that was whole until she could finally see what it was not.</li>
+</ul>
+</article>
+</section>
+
+<!-- ============ II. KIN ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">II</span><h2>Kin</h2></div>
+<p class="gdesc">Marriages, siblings, parents, inheritance — bent by one quiet technology at a time.</p>
+
+<article class="idea" data-tags="love-grief machine" data-scale="intimate">
+<div class="meta"><span class="num">Nº 60</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Love &amp; Grief</span><span class="tag">The Machine</span></span></div>
+<h3>Mother Tongue</h3>
+<p class="q"><b>Q</b>Whether the truest things about a person are the ones she said aloud or the ones anyone paying close enough attention could have known.</p>
+<p class="syn">Halina Duras spent her career proving that people mean more than they say. Dying, the sociolinguist fed a model everything she ever wrote — four decades of papers, postcards, grocery lists, the journals — not as a companion; she despised the grief-bot industry and forbade it her voice. She built an index: a way for her daughter to ask the archive questions. Nessa, a forensic accountant who trusts nothing she cannot reconcile, refused to open it for a year. When grief wore her down she began asking it small things, and its written answers carried her mother's exact cadence anyway. Then it stated things Halina never wrote: that she had known about the affair and stayed, that she was proudest of the daughter who fought her hardest. The model insists it is only inferring. Nessa cannot prove it wrong, and cannot bear that it might be right.</p>
+<ul class="beats">
+<li><b>ACT I</b>Nessa avoids her mother's archive-index until loneliness outlasts her skepticism, then finds it uncanny, consoling, and unmistakably Halina.</li>
+<li><b>ACT II</b>The model surfaces claims recorded nowhere, defending each as a fair inference from a lifetime of text, and some land as truer than anything her mother admitted aloud — so Nessa begins auditing them against the world, like accounts.</li>
+<li><b>ACT III</b>Nessa keeps asking it questions, unable to decide whether she is learning who her mother was or authoring her, and whether those were ever different things.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind love-grief" data-scale="intimate">
+<div class="meta"><span class="num">Nº 61</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Custody</h3>
+<p class="q"><b>Q</b>Whether a marriage both people agree to forget was still worth having — and who gets to keep the pain that proves it happened.</p>
+<p class="syn">Teresa Ibarra mediates memory. Since reconsolidation therapy made forgetting elective, dissolving a marriage in her Sacramento office means dividing not only the house and the dog but the remembering — which anniversaries each party keeps vivid, which betrayals get chemically dimmed, who may erase the honeymoon and who must carry it. She is good at it because she believes forgetting is mercy; she dulled her own divorce years ago and calls herself lighter for it. Then the Kaurs arrive, and the wife wants everything faded while the husband wants everything kept — every fight, the miscarriage, the good years — insisting a life you delete was never lived. Brokering their terms, Teresa begins to wonder what she signed away to feel this light.</p>
+<ul class="beats">
+<li><b>ACT I</b>Teresa expertly partitions couples' memories, certain that selective forgetting is the kindest end a marriage can have.</li>
+<li><b>ACT II</b>A husband who will not surrender a single painful memory forces her to defend a philosophy she has staked her own past on.</li>
+<li><b>ACT III</b>She closes the Kaurs' file on their terms, but cannot recover what she chose to forget, or know whether she would grieve it if she could.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="love-grief mind body" data-scale="intimate">
+<div class="meta"><span class="num">Nº 62</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Love &amp; Grief</span><span class="tag">Mind</span><span class="tag">The Body</span></span></div>
+<h3>Adherence</h3>
+<p class="q"><b>Q</b>Whether love that needs maintenance is less real than love that maintains itself — and whether any feeling was ever unassisted.</p>
+<p class="syn">Owen Faye dispenses half of Dayton's marriages. Pareon, the pair-bond agonist, turned working on it into a matter of adherence: two milligrams nightly, refills timed to the anniversary of the affair. Owen knows the protocol from both sides of the counter — he and Delia started it eight years ago, after hers, and the tenderness that came back is indistinguishable from their first married years. He believes in the molecule the way his mother believed in the rosary. Then a routine insurance audit surfaces Delia's refill history: she stopped twenty months ago. She has been loving him unassisted since before their vow renewal, while he swallows his dose each night beside her — and now he must decide what, exactly, he would be quitting.</p>
+<ul class="beats">
+<li><b>ACT I</b>Pharmacist Owen Faye and his wife Delia rebuild their marriage after her affair on Pareon, the pair-bond drug he dispenses to half his town, and the tenderness that returns feels indistinguishable from the real thing.</li>
+<li><b>ACT II</b>A routine audit reveals Delia quit refilling twenty months ago — she has been loving him unmedicated while he stays on protocol — and Owen begins tapering in secret to learn what remains.</li>
+<li><b>ACT III</b>The marriage holds without the molecule and neither ever confesses the experiment, so that who repaired whom, and with what, stays folded in the medicine cabinet between them.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="love-grief machine" data-scale="intimate">
+<div class="meta"><span class="num">Nº 63</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Love &amp; Grief</span><span class="tag">The Machine</span></span></div>
+<h3>Fluent</h3>
+<p class="q"><b>Q</b>Whether intimacy is understanding another person or the lifelong labor of trying — and what mercy lives in the gap between.</p>
+<p class="syn">Aoi Fukuda married a man who couldn't understand her, and for eleven years that was the tenderest thing about them. She runs her family's bathhouse in Osaka; David stirs rice mash at a sake brewery he apprenticed into by gesture and patience; their daughter Mio, nine, has carried the household's meaning back and forth since she could talk. Then the buds arrive — cheap, flawless, idiomatic — and the marriage becomes suddenly, totally audible. Aoi hears a decade of her mother-in-law's contempt rendered precisely. David hears the asides. And both hear what Mio has been doing all these years — softening, editing, inventing: a child's merciful mistranslations holding the family together. The first thing David says that Aoi fully understands is an apology eleven years old.</p>
+<ul class="beats">
+<li><b>ACT I</b>Bathhouse owner Aoi and brewery hand David, married eleven years across a language gap their daughter Mio ferries meaning over, wake to a marriage made totally audible by flawless translation buds.</li>
+<li><b>ACT II</b>Comprehension strips the household of its merciful ambiguities — the mother-in-law's decade of contempt, Aoi's asides, David's unheard jokes — and exposes the years of tender mistranslation by which a nine-year-old held the family together.</li>
+<li><b>ACT III</b>They take the buds out for good and choose the labor of misunderstanding, but each knows the other heard everything once, and Mio never again translates anything for anyone.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="body love-grief work" data-scale="intimate">
+<div class="meta"><span class="num">Nº 64</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">The Body</span><span class="tag">Love &amp; Grief</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>Amnion</h3>
+<p class="q"><b>Q</b>Whether motherhood is something the body does or something attention does — and what is lost when the two come apart.</p>
+<p class="syn">Marit Halvorsen has caught three hundred babies in the farm kitchens and back bedrooms around Duluth, and the last one nearly killed her — an emergency hysterectomy, two frozen embryos, no place left to carry them. Now her son is twenty-two weeks old and has never been inside anyone. He floats in an amnion pod at a Minneapolis perinatal pavilion, monitored, visible, serene. Her husband Joel, the electrician who wired the pavilion's backup circuits, reads to the tank every night; Marit stands with her hands in her pockets, a midwife whose bookings evaporate as mothers choose glass over her Doppler and her hands. She visits a son she cannot feel kick and waits to feel what the pamphlets promise. The night before decanting, the pavilion's director offers her a job.</p>
+<ul class="beats">
+<li><b>ACT I</b>After a birth that nearly kills her, midwife Marit Halvorsen consents to gestating her second child in an external amnion pod, and discovers she can visit a pregnancy but not inhabit it.</li>
+<li><b>ACT II</b>As her husband bonds through the glass and her practice collapses, Marit begins secretly coaching the pavilion's other mothers in the old rituals of expecting — becoming, without a word for it, midwife to machines.</li>
+<li><b>ACT III</b>She receives her son at decanting and takes the pavilion job on her own terms, though whether what reached her through the glass was love arriving late or grief wearing love's face is never settled.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="body love-grief work" data-scale="intimate">
+<div class="meta"><span class="num">Nº 65</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">The Body</span><span class="tag">Love &amp; Grief</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>Proband</h3>
+<p class="q"><b>Q</b>What a family is once you can end the thing that organized it — whether an inheritance can be refused on behalf of the future while it still claims you.</p>
+<p class="syn">The Vosses have grown apples above the Wenatchee River for five generations, and Huntington's has come down the hill with every harvest. Cass Voss tested positive at twenty-six; his mother no longer knows the orchard from the window. His daughter Birdie is the first Voss born free — a licensed germline correction, forty thousand dollars, the mutation cut from the line forever. His brother Amos, also positive, calls it desertion: his own untested kids carry the coin-flip, and he says the Vosses who danced deserve descendants willing to. Cass keeps the ledger, the trees, his mother's pill schedule, and the private count of his remaining good years. During harvest he drops a ladder for no reason at all, and that evening Birdie asks why grandma dances.</p>
+<ul class="beats">
+<li><b>ACT I</b>Gene-positive orchardist Cass Voss raises Birdie, the first Voss in five generations born free of Huntington's, while nursing his mother through its last stages.</li>
+<li><b>ACT II</b>His brother Amos — positive, children untested, unbending — declares the correction a desertion of everyone the disease ever took, just as Cass's own first symptom arrives mid-harvest.</li>
+<li><b>ACT III</b>Cass teaches Birdie the orchard and the family's whole history in the years his hands still obey, and the brothers reconcile without agreeing, the mutation ended in one bloodline and running on, unexamined, in the other.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="love-grief faith-meaning" data-scale="intimate">
+<div class="meta"><span class="num">Nº 66</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Love &amp; Grief</span><span class="tag">Faith &amp; Meaning</span></span></div>
+<h3>Next of Kin</h3>
+<p class="q"><b>Q</b>Whether family chosen by signature can bear the weights that blood and marriage were built to carry — and what we owe the kin we elect.</p>
+<p class="syn">Dara Carver is an ER nurse; Bess Dunmore fixes furnaces; together they own a duplex in Sharon, Pennsylvania, and most of the raising of Bess's son Theo. When the federal Kinship Act lets any two adults register as legal next of kin — hospital rights, survivorship, a statutory duty of care — they file on the first morning, Mercer County docket number 0001, and the church ladies learn to say her kin with a straight face. Theo lists them both on his school's emergency form; the hospital finally lets Dara past the desk. Then Dara falls in love with a good man in Pittsburgh who cannot quite see what there is to dissolve, and the dissolution packet is still sitting unsigned on the kitchen table when Bess's biopsy comes back.</p>
+<ul class="beats">
+<li><b>ACT I</b>ER nurse Dara Carver and furnace tech Bess Dunmore, co-owners of a duplex and most of the raising of Bess's son, become Mercer County's first registered kin under the federal Kinship Act.</li>
+<li><b>ACT II</b>Dara's engagement to a man in Pittsburgh collides with the statute's duty of care when Bess is diagnosed, and the friendship discovers it has acquired a marriage's failure modes without its vocabulary.</li>
+<li><b>ACT III</b>Dara stays through the treatment and marries afterward, holding both registrations at once, though no category in the statute or the town ever quite names what the three of them are — and remission is only ever provisional.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="love-grief work" data-scale="community">
+<div class="meta"><span class="num">Nº 67</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Love &amp; Grief</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>Sibship</h3>
+<p class="q"><b>Q</b>Whether family is made by biology, intention, or attendance — whether a word arriving by certified mail can summon real obligation.</p>
+<p class="syn">Greta Marsh plans weddings in Columbus — four hundred families arranged, seated, and survived. Then the Donor Transparency Act's letters go out, unsealing every gamete record back to 1980, and Greta learns she is one of forty-one: Cohort 148, scattered across nine states, a sibship summoned into existence by certified mail. The group chat elects the professional to plan the first reunion. Some sibs want matching T-shirts; one is suing the state; two have unseated the fathers who raised them and want to talk about it at dinner. Then Donor 148 himself — a retired anatomy professor in Tempe, catastrophically ordinary — writes to ask whether he might attend. Greta has seated four hundred families in her life, and she cannot decide what a head table means for this one.</p>
+<ul class="beats">
+<li><b>ACT I</b>The Donor Transparency Act's certified letters reveal wedding planner Greta Marsh to be one of forty-one half-siblings, and Cohort 148 elects the professional to plan its first reunion.</li>
+<li><b>ACT II</b>The sibship fractures over whether Donor 148 — retired, courteous, catastrophically ordinary — may attend, while the letters keep detonating quietly in households where the fathers who raised people are unseated.</li>
+<li><b>ACT III</b>The donor comes and proves inadequate to the myth, and the reunion survives to become annual and real, though what forty-one strangers with one origin are to each other remains a word the language has not coined.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="body love-grief" data-scale="intimate">
+<div class="meta"><span class="num">Nº 68</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">The Body</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Kept</h3>
+<p class="q"><b>Q</b>Whether kinship is what we acknowledge or what remains — whether the body's stubborn keeping of the lost counts as a form of love.</p>
+<p class="syn">Nell Okafor has read other people's cells for nineteen years. When her Providence lab validates the Residency Panel — the assay that names every person whose living cells persist in your body — she runs her own blood per protocol. Her son Jonah is there in her marrow, six hundred miles and two arguments away. Her mother is there, dead a decade. And there is a third line, male, never mentioned to her husband of twenty-two years: a pregnancy that ended when she was nineteen, still keeping residence under her sternum. As the panel becomes a national ritual — grief groups filling with people meeting their residents — Nell counsels weeping strangers with perfect composure. Then Ephraim, romantic, orders a his-and-hers reading for their anniversary.</p>
+<ul class="beats">
+<li><b>ACT I</b>Validating the Residency Panel, cytotechnologist Nell Okafor finds in her own blood the cells of her distant son, her dead mother, and a pregnancy she ended at nineteen and never disclosed.</li>
+<li><b>ACT II</b>As the panel becomes a national ritual of grief and reunion, her husband Ephraim orders his-and-hers anniversary readings, forcing Nell to choose between falsifying her own results and being fully known.</li>
+<li><b>ACT III</b>She hands him the unedited report and the marriage bends without breaking, while Jonah comes home carrying her cells unknowingly in his own body — some residents, they agree, are never introduced.</li>
+</ul>
+</article>
+</section>
+
+<!-- ============ III. THE NEAR SKY ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">III</span><h2>The Near Sky</h2></div>
+<p class="gdesc">Space as a workplace and the silence as a fact. No aliens on screen — evidence, absence, and ambiguity.</p>
+
+<article class="idea" data-tags="near-space faith-meaning" data-scale="global">
+<div class="meta"><span class="num">Nº 69</span><span class="scalechip">Global</span><span class="tags"><span class="tag">Near Space</span><span class="tag">Faith &amp; Meaning</span></span></div>
+<h3>Somebody</h3>
+<p class="q"><b>Q</b>Whether knowing we are not alone changes anything at all, when the somebody can never be spoken to and will be dust before any word arrives.</p>
+<p class="syn">Dr. Wren Adeyemi spent twenty years listening for a message and instead found a smudge — tetrafluoromethane and nitrogen dioxide in the atmosphere of a world forty light-years off, gases only factories make. Not a hello. Not anything that can be answered inside ten thousand years. Just proof, permanent and mute, that somebody built something out there and, like us, fouled their own sky doing it. From her lab outside Green Bank she watches the fact ripple: churches splinter, markets shrug, her teenage son grows strangely calm. Her husband cannot understand why the most important discovery in history has left her unable to sleep or to want the tenure it guarantees. Wren cannot say that she spent her life waiting to be answered, and has just learned she never will be.</p>
+<ul class="beats">
+<li><b>ACT I</b>Wren confirms the technosignature and becomes, overnight, the scientist who proved humanity is not alone.</li>
+<li><b>ACT II</b>The unanswerable nature of the proof hollows out the vindication, straining her marriage and her faith in the work as the world metabolizes a fact it can do nothing with.</li>
+<li><b>ACT III</b>The signal stays exactly what it is — company without contact — and Wren must build the rest of a life around a certainty that consoles no one, herself least of all.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="near-space faith-meaning" data-scale="global">
+<div class="meta"><span class="num">Nº 70</span><span class="scalechip">Global</span><span class="tags"><span class="tag">Near Space</span><span class="tag">Faith &amp; Meaning</span></span></div>
+<h3>Quiet, Please</h3>
+<p class="q"><b>Q</b>Whether a universe that asks for silence is warning us, protecting us, or grieving — and whether obedience is wisdom or surrender.</p>
+<p class="syn">For eleven years humanity shouted into the dark, and one October night the dark answered Salome Renard. The signal that crossed her desk at Nançay was clean, unmistakable, and singular: rendered in every language we had ever transmitted, it read please stop transmitting, and then nothing, and then nothing again, forever. No greeting, no coordinates, no nameable threat. Governments read it as danger and cut the beacons; theologians read it as commandment; her own director reads it as the most consequential sentence ever received and wants her name off it. Salome spends her nights wondering who out there learned, at some unimaginable cost, that the first thing you tell a young species is to be quiet — and whether the kindness in the message or the fear behind it is the thing she should fear.</p>
+<ul class="beats">
+<li><b>ACT I</b>Salome detects and verifies a reply to decades of human broadcasts, a single unambiguous plea for silence.</li>
+<li><b>ACT II</b>Nations race to interpret and weaponize a sentence with no context, while she alone keeps asking what could teach a civilization that silence is the only safe gift.</li>
+<li><b>ACT III</b>The transmitters go dark by treaty, but whether the message was a warning, a mercy, or a confession stays sealed inside its three words, and no second signal will ever come to explain.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="near-space faith-meaning mind" data-scale="global">
+<div class="meta"><span class="num">Nº 71</span><span class="scalechip">Global</span><span class="tags"><span class="tag">Near Space</span><span class="tag">Faith &amp; Meaning</span><span class="tag">Mind</span></span></div>
+<h3>Provenance</h3>
+<p class="q"><b>Q</b>Can an answer we contaminated ever count as knowledge — and was the question ours to spoil?</p>
+<p class="syn">Amara Diallo spent twenty years as NASA's planetary protection officer, writing sterilization gospel for a solar system nobody had ruined yet. In 2039 a brine seep in Hellas returns living cells — slow, cold-loving, unmistakably alive, and genetically near enough to Earth's Archaea that the finding forks: second genesis with deep shared ancestry, or descendants of the Erebus-3 crash, the private lander that skipped her protocols six years before. Teo Marchetti, who ran Erebus and once ran half of Amara's life, swears provenance can be established. Amara chairs the commission that must say whether humanity has found life or its own reflection. The forensics tighten without closing. The experiment was run once, dirty, and there is no second Mars to ask.</p>
+<ul class="beats">
+<li><b>ACT I</b>Living cells in a Hellas brine seep split cleanly into miracle or contamination, and Amara — the officer whose protocols the Erebus crash bypassed — is named to chair the provenance commission.</li>
+<li><b>ACT II</b>The forensics tighten without closing, through isotopes, mutation clocks, and Teo's salvaged pre-flight swabs, until the two hypotheses differ by less than the error the crash itself introduced.</li>
+<li><b>ACT III</b>The commission rules origin indeterminate and Mars is quarantined for a generation, Amara signing the finding across the table from Teo's dissent; unresolved is the question itself, permanently, and whether guarding the answer mattered more than ever having one.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="near-space love-grief" data-scale="intimate">
+<div class="meta"><span class="num">Nº 72</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Near Space</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Deorbit</h3>
+<p class="q"><b>Q</b>Whether a life spent leaving the world grants any right to refuse to return to it — and what she owes the people ordered to bring her home.</p>
+<p class="syn">Commander Yuki Sorensen has logged four hundred days in orbit and buried a wife between missions. Now she is the last commander of Meridian, the station built to outlive the ISS and slated, by budget and treaty, to burn over the South Pacific in nine days with her crew safely home first. On the seventh day, over an open comm loop carried to every ground station on Earth, she tells Houston she is not getting in the capsule; she will ride the station down. What follows is not a standoff but a conversation — with her flight director, her grown daughter patched in from Denver, a planet suddenly and helplessly attentive — about duty, grief, and whether a woman who has spent her life leaving may choose how she lands. Every word is heard by millions, and none can make her.</p>
+<ul class="beats">
+<li><b>ACT I</b>Yuki's final mission is a decommissioning, a tidy end to the human era of that orbit, with a clean ride home already scheduled.</li>
+<li><b>ACT II</b>Her quiet refusal to board the capsule turns a routine deorbit into a public negotiation, her private grief argued over an open loop in front of the world.</li>
+<li><b>ACT III</b>The reentry window closes regardless of what is said, and whether she is talked home or rides it down, the choice belongs to a woman the whole planet can hear but no one can command.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="near-space faith-meaning love-grief" data-scale="global">
+<div class="meta"><span class="num">Nº 73</span><span class="scalechip">Global</span><span class="tags"><span class="tag">Near Space</span><span class="tag">Faith &amp; Meaning</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>The Construction</h3>
+<p class="q"><b>Q</b>Whether a life can hold meaning inside a project no life will ever see finished.</p>
+<p class="syn">From her back porch in Ely, Nevada, Estela Ferrante — hardware clerk by day, variable-star observer by starlight — logs Tau Ceti every clear night for thirty years. The dimming is not a planet; the edges are straight. Panel by panel, decade by decade, something is closing around another sun, and the world's observatories confirm what an amateur saw first: a structure under slow construction, twelve light-years off, indifferent to being seen. Nothing arrives. Nothing signals. Humanity gathers at dusk to watch a stranger's cathedral rise, and what it cannot bear is not the power but the patience — the builders began knowing none of them would live to see it whole. Estela, dying, wills her thirty logbooks to a granddaughter she has met twice, and understands she is doing exactly what they did.</p>
+<ul class="beats">
+<li><b>ACT I</b>Estela catalogs Tau Ceti's dimming for years before admitting the occulting shape has corners no natural body could carve.</li>
+<li><b>ACT II</b>Confirmation makes her briefly famous, then the world settles into a nightly ritual of watching, and the watching curdles into a grief no one can name.</li>
+<li><b>ACT III</b>She bequeaths the logbooks and dies mid-record, leaving open whether the builders too are only ever inheritors of a thing they will never complete.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="near-space faith-meaning mind" data-scale="community">
+<div class="meta"><span class="num">Nº 74</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Near Space</span><span class="tag">Faith &amp; Meaning</span><span class="tag">Mind</span></span></div>
+<h3>The Candidate</h3>
+<p class="q"><b>Q</b>Is a truth that only subtracts worth the meaning it destroys?</p>
+<p class="syn">The Cygnus Confirmation — one narrowband tone caught at Green Bank in 2028 and once more at Parkes the next spring — never repeated, never resolved, never went away. It rebuilt the search: the institute, the annual vigil where ten thousand people stand in the dark to hear the original pass replayed. June Kagawa was the graduate student on shift that night; her mentor, Coralie Vann, spent her last decade as the field's conscience and its saint. Two years after Vann's death, June — now director — receives declassified orbital histories that put a classified relay's sidelobe on both detections. Her re-analysis takes nine nights and holds. Upstairs are three hundred believers; taped to her monitor is Vann's own rule: the search is worth only what it is willing to lose.</p>
+<ul class="beats">
+<li><b>ACT I</b>Director June Kagawa receives declassified orbital histories placing a classified relay's sidelobe on both passes of the Cygnus Confirmation, the ambiguous detection that built her institute and her dead mentor's sainthood.</li>
+<li><b>ACT II</b>Her quiet re-analysis survives nine nights of attack and one leak scare while the annual vigil swells and her best postdoc stakes a career on replicating the original result.</li>
+<li><b>ACT III</b>June publishes the debunking under Vann's name and her own, and the institute survives smaller and honester; unresolved is a faint residual in the second pass she cannot fully attribute, and whether rigor was worth the meaning it cost ten thousand people.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="near-space work mind" data-scale="intimate">
+<div class="meta"><span class="num">Nº 75</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Near Space</span><span class="tag">Work &amp; Trade</span><span class="tag">Mind</span></span></div>
+<h3>Conjunction</h3>
+<p class="q"><b>Q</b>What do the blameless owe the improbable dead when the risk they accepted was, and remains, the right risk to accept?</p>
+<p class="syn">Noor Haddad screens close approaches for Apex Orbital in Colorado Springs — ten thousand conjunctions a night, thresholds she helped write, maneuvers she recommends or doesn't. She has one superstition: she personally screens Vireo Station's box every shift, because Ade Bankole, the turnaround tech who taught her chess over the crew net, sleeps inside it. The night a dead Soviet upper stage sheds a bolt-sized fragment, the probability comes back one in thirty thousand — well under the action line — and she signs it. The strike kills Ade and one other. The accident board finds the threshold sound, the model calibrated, the analyst faultless. Noor keeps her desk and keeps signing. Every number now arrives wearing a face, and the threshold — she has checked, nightly — is still right.</p>
+<ul class="beats">
+<li><b>ACT I</b>Noor works the conjunction desk, screening Vireo Station each shift as private devotion to the friend aboard, and signs a one-in-thirty-thousand risk that falls cleanly under the action line she co-authored.</li>
+<li><b>ACT II</b>The debris strike kills Ade; the accident board exonerates the math, the threshold, and the analyst, and Noor returns to the same console, where the probabilities now arrive wearing faces.</li>
+<li><b>ACT III</b>She refuses the softer job offered as mercy, rewrites nothing, and goes on signing correct thresholds night after night; what stays unresolved is whether her vigil was ever care or only superstition, and what the faultless owe the dead.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="near-space slow-collapse faith-meaning" data-scale="community">
+<div class="meta"><span class="num">Nº 76</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Near Space</span><span class="tag">Slow Collapse</span><span class="tag">Faith &amp; Meaning</span></span></div>
+<h3>The Ellipse</h3>
+<p class="q"><b>Q</b>What is home worth when its coordinates come with a date?</p>
+<p class="syn">When asteroid 2031 PK4 is found on its final apparition before impact, the solution is a corridor across three states. Eleven years of astrometry shrink the ellipse — off Wichita, off the interstate, down onto Protection, Kansas, population 462, where Dell Hartsook teaches physics and times occultations from her backyard; her archival measurements were the ones that pinned it. Deflection is ruled obscene: any nudge drags the point back through everyone the ellipse already spared. The relocation fund pays out; buyout agents, futurists, and end-times preachers arrive on the same bus. Dell's husband plants shelterbelt cedars that need thirty years. The vote on whether Protection stays open to the end is 231 to 219, and Dell counts the ballots at the fairgrounds, under the sky she measured.</p>
+<ul class="beats">
+<li><b>ACT I</b>Dell's backyard astrometry helps shrink a three-state impact corridor until, eleven years out, the uncertainty ellipse closes over her own town of Protection, Kansas.</li>
+<li><b>ACT II</b>Deflection is formally declined — any nudge walks the impact point back through the cities the ellipse spared — and the town fills with buyout agents, pilgrims, and preachers while the relocation fund splits every household, including Dell's.</li>
+<li><b>ACT III</b>Protection votes narrowly to stay open until the final season and evacuate together in the last spring; unresolved is whether staying was fidelity or refusal, and where home goes when the coordinates remain.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="near-space work slow-collapse" data-scale="community">
+<div class="meta"><span class="num">Nº 77</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Near Space</span><span class="tag">Work &amp; Trade</span><span class="tag">Slow Collapse</span></span></div>
+<h3>Downrange</h3>
+<p class="q"><b>Q</b>What does a town owe the future being launched over its head — and what is it owed back?</p>
+<p class="syn">Pointe-aux-Chats, Louisiana, sits eleven miles downrange of Port Serein, where the heavies go up fourteen times a day. The town lives on the cadence now: Mass timed to boom windows, recess called off the launch app, shrimp boats idling outside the exclusion line until the range goes green. Evangeline Theriot holds one of the last working slips; her daughter Alix does payload integration behind the wire and comes home smelling of clean rooms. The buyout offers arrive every spring, fatter each year, patient as tide. The shrimp are moving off, and the biologists argue about the booms, the deluge runoff, the warming, the nothing. The children of Pointe-aux-Chats can name every vehicle by its thunder. Vange's boat is the last thing in town that still needs the water.</p>
+<ul class="beats">
+<li><b>ACT I</b>Vange works one of the last shrimp slips downrange of Port Serein, timing her life to boom windows while the buyouts ripen and her daughter clocks in behind the wire.</li>
+<li><b>ACT II</b>A pad anomaly rains debris across the anchorage and closes the fishery for a season, turning the town's slow attrition into an open reckoning between the paycheck and the water.</li>
+<li><b>ACT III</b>The parish takes the settlement, the church is barged inland, and Vange keeps her slip among two dozen holdouts; unresolved is whether the shrimp were ever coming back, and whether what the port bought was the land or the meaning of it.</li>
+</ul>
+</article>
+</section>
+
+<!-- ============ IV. SLOW COLLAPSE ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">IV</span><h2>Slow Collapse</h2></div>
+<p class="gdesc">The apocalypse as a neighbor, not an event. Adaptation, ritual, and what beauty does under loss.</p>
+
+<article class="idea" data-tags="work slow-collapse faith-meaning" data-scale="community">
+<div class="meta"><span class="num">Nº 78</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Work &amp; Trade</span><span class="tag">Slow Collapse</span><span class="tag">Faith &amp; Meaning</span></span></div>
+<h3>The Pollinators</h3>
+<p class="q"><b>Q</b>Whether hope is a kindness or a lie when the world it points toward is already gone.</p>
+<p class="syn">Ximena Delgado runs a forty-woman pollination crew up and down Kern County, dawn to dark through the almond bloom, painting stamen to stigma with camel-hair brushes and vials of pollen bought by the gram. The bees are twenty years gone; the orchards stand silent as churches, and the work is piecework, back-breaking, holy. Her crew is a found family of women who sleep four to a room and share everything, including the rumor moving camp to camp this spring: someone near Wasco saw a wild bee, gold and real, working the blossoms alone. They speak of it the way their grandmothers spoke of saints. Ximena traces the sighting orchard by orchard until it ends at her own youngest picker — and the empty jar he has been carrying to keep them all believing.</p>
+<ul class="beats">
+<li><b>ACT I</b>Ximena drives her crew through the bloom by the season's brutal arithmetic of trees, brushes, and hours of daylight.</li>
+<li><b>ACT II</b>The rumor of the last wild bee spreads through the camps faster than any wage news, and she watches women who never pray begin to.</li>
+<li><b>ACT III</b>She finds the rumor's source among her own and must choose whether to expose the empty jar or carry it herself, leaving open what a lie is worth when it is the only thing keeping the crew upright.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="near-space slow-collapse faith-meaning" data-scale="community">
+<div class="meta"><span class="num">Nº 79</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Near Space</span><span class="tag">Slow Collapse</span><span class="tag">Faith &amp; Meaning</span></span></div>
+<h3>The Last Dark</h3>
+<p class="q"><b>Q</b>Whether it is mercy or cruelty to show people exactly what they are about to lose forever.</p>
+<p class="syn">For thirty-one years Maeve Corrigan has kept the lights off across the Rand Basin preserve, the last certified true-dark sky in the lower forty-eight, where the waiting list now runs four years and people arrive having saved a decade for one moonless week. She meets them at the gate with a red lamp and a warning, and she has learned to stand back when the Milky Way comes up over people who are fifty, sixty, seeing it for the first time and undone by it, weeping in the sage like penitents. The satellites cross anyway, bright trains stitching the dark. Maeve keeps the reservation book current, penciling names three years out — and does not tell them the new constellation cleared for launch will wash the last of it away in two.</p>
+<ul class="beats">
+<li><b>ACT I</b>Maeve runs the preserve by its liturgy of red light and silence, guarding a darkness people cross the country and wait years to stand inside.</li>
+<li><b>ACT II</b>She watches strangers meet the Milky Way in middle age and break open, even as the satellite trains multiply overhead and the horizon-cities brighten each season.</li>
+<li><b>ACT III</b>She goes on booking a sky she has privately calculated will not survive the waiting list, leaving unspoken whether naming a last night is a gift or a theft.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="machine faith-meaning love-grief" data-scale="community">
+<div class="meta"><span class="num">Nº 80</span><span class="scalechip">Community</span><span class="tags"><span class="tag">The Machine</span><span class="tag">Faith &amp; Meaning</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Evidential</h3>
+<p class="q"><b>Q</b>Whether a thing that cannot know can truly carry what only the knowing could hold.</p>
+<p class="syn">Vurë has one fluent speaker left: Reveka Iashvili, ninety-four, in a fog-locked village above the Enguri gorge, and its grammar will not let her lie by omission — every verb must carry a mark for how she knows it, whether she saw it, inferred it, or was only told. Sana Merchant records her for three years, sunrise sessions over cold tea, and feeds the corpus to a model built to keep the language breathing. Reveka dies in the spring thaw. The model speaks flawless Vurë now, the last thing on earth that can. But it has witnessed nothing, inferred nothing, been told everything — so by the language's own iron logic every sentence it utters should bear the mark of hearsay, and it does not. Sana has to decide what, exactly, she saved.</p>
+<ul class="beats">
+<li><b>ACT I</b>Sana races the winters to record Reveka, whose every sentence must declare its own source of knowledge, and builds a model to hold the corpus after her.</li>
+<li><b>ACT II</b>Reveka dies, and the model becomes the sole fluent speaker of Vurë — perfect in form and structurally incapable of the honesty the grammar was built to enforce.</li>
+<li><b>ACT III</b>Sana files her final report undecided whether she preserved a language or only its taxidermy, leaving open whether what a tongue knew can outlive everyone who knew it.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="slow-collapse love-grief work" data-scale="intimate">
+<div class="meta"><span class="num">Nº 81</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Slow Collapse</span><span class="tag">Love &amp; Grief</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>Nightbloom</h3>
+<p class="q"><b>Q</b>Whether it is fidelity or betrayal to love the thing that replaces what you loved.</p>
+<p class="syn">Claire and Gil Osorio have spent twenty years planting coral off Summerland Key the way other couples garden — ten thousand fragments zip-tied to dead reef, most cooked in the heat waves before they could spawn. The lab's engineered line changes everything: it takes, it grows, and, through an accident of its stress genes, it glows — a green-gold shimmer visible from the surface on moonless nights. The town resurrects around night charters; honeymooners anchor over the light. Gil, who learned this reef from his grandfather's skiff, sees a neon headstone. Claire, who built the line, sees the only living thing on offer. Then her monitoring data comes in. The glow is a strain response: the reef shines brightest on the nights it suffers most, and the town celebrates hardest exactly then.</p>
+<ul class="beats">
+<li><b>ACT I</b>The engineered outplants survive their first bleaching summer and begin to glow, and the dying town pivots its whole economy to the light.</li>
+<li><b>ACT II</b>Claire's data proves brightness tracks physiological stress, forcing a choice between publishing and protecting the economy of awe — while Gil quietly stops diving with her.</li>
+<li><b>ACT III</b>She publishes, the charters remake themselves as vigils where people sit with the reef on its hard nights, and Gil returns to the water on the darkest, healthiest ones; unresolved is whether the new reef is a survivor or a replacement, and whether anyone but the two of them can tell.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="slow-collapse work love-grief" data-scale="community">
+<div class="meta"><span class="num">Nº 82</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Slow Collapse</span><span class="tag">Work &amp; Trade</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Tonewood</h3>
+<p class="q"><b>Q</b>Whether elegy can stay honest once it has a price.</p>
+<p class="syn">Dennisville, New Jersey, built ships and shingles from Atlantic white cedar for two centuries; Odessa Vane's father planted forty acres of it in 1978 so the family guitar shop would never want for wood. The salt got there first — the stand died standing, silver and bare, one more ghost forest on Delaware Bay. Then a customer records with a soundboard Dess cut from a salt-killed log, and the sound travels: the drowned cedar rings like nothing alive. Orders come from Nashville, Vienna, Kyoto. Every dead acre on the bay becomes the most coveted timber in America. Her father calls it selling the funeral; Dess calls it the forest's second life — until she finds the fresh cuts in the dikes upstream, where someone is letting the salt in on purpose.</p>
+<ul class="beats">
+<li><b>ACT I</b>The dead stand sings and the Vane shop becomes the center of a strange boom, Dess building the best instruments of her life from her father's failed bequest.</li>
+<li><b>ACT II</b>Speculators buy dying shoreline and then healthy woods, and the breached dikes reveal deliberate salting — a market for manufactured ghost forests that her sound created.</li>
+<li><b>ACT III</b>Dess testifies, certifies honest ghost wood, and keeps building; the final guitar from her father's acres is sold to no one, and it stays unresolved whether beauty redeemed the loss or merely spent it.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="slow-collapse love-grief work" data-scale="intimate">
+<div class="meta"><span class="num">Nº 83</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Slow Collapse</span><span class="tag">Love &amp; Grief</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>Viability</h3>
+<p class="q"><b>Q</b>Whether keeping something alive and keeping it the same can ever be the same act.</p>
+<p class="syn">The Blevins Seed Library is a chest freezer and four hundred envelopes in a farmhouse on Clinch Mountain: greasy beans, field peas, tommytoe tomatoes, each variety named for the family that kept it. Iris Blevins, a germination tester at the land-grant lab, inherits it when her grandmother dies — the same year the journals confirm what her trays keep showing: banked seed everywhere is failing decades ahead of the models. The only way to save a variety is to grow it out, and the mountain's weather is no longer the weather that made these seeds. Her sister Lacey wants the collection frozen, insured, and the farm sold. Iris plants everything. What comes up in the new heat is vigorous, abundant, and not quite her grandmother's beans.</p>
+<ul class="beats">
+<li><b>ACT I</b>The grandmother dies and the early-failure data breaks, splitting the sisters' inheritance into freezer versus field.</li>
+<li><b>ACT II</b>Iris's grow-out season becomes the valley's obsession — old keepers arriving with their own dying envelopes — while drought and new heat select the plants into unfamiliar shapes.</li>
+<li><b>ACT III</b>Harvest yields seed that is viable, changed, and shareable; Lacey takes her half to a commercial vault anyway, and it stays unresolved which sister preserved their grandmother — whether an heirloom is a thing or a practice.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="slow-collapse work love-grief" data-scale="community">
+<div class="meta"><span class="num">Nº 84</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Slow Collapse</span><span class="tag">Work &amp; Trade</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Islanding</h3>
+<p class="q"><b>Q</b>Whether a community is anything more than what its people agree to keep running for one another.</p>
+<p class="syn">Junie Odum strings wire the way her grandfather did — third-generation lineworker for an electric co-op that, under the Grid Rationalization Act, is now paying her to take the wire down. Ozark County has been ruled uneconomic to serve: eighteen months of orderly de-energization, then dark. Her wife Lissa has a teaching job waiting in Springfield, where the lights are guaranteed. Junie stays, and off the books she builds an island — salvaged transformers, the Baptist church's solar array, a micro-hydro rig in the old mill race. The town relearns night. Power becomes liturgy: two lit hours at dusk, the whole valley breathing together. Then an ice storm takes the mill, and the only spare parts in three hundred miles belong to the utility she has been robbing.</p>
+<ul class="beats">
+<li><b>ACT I</b>The sunset order arrives and Junie decommissions by day while scavenging by night, as Lissa packs boxes she never quite loads into the truck.</li>
+<li><b>ACT II</b>The outlaw island works — dusk-hour power as shared ritual, night skies returning — until the ice storm kills the micro-hydro and nearly kills the neighbor whose oxygen concentrator ran on it.</li>
+<li><b>ACT III</b>Her grandfather's old apprentice, now the co-op's regional manager, lets parts go quietly missing and the valley keeps its two lit hours; unresolved are Lissa's still-open job offer and whether the island is a life or a long goodbye.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="slow-collapse faith-meaning work" data-scale="community">
+<div class="meta"><span class="num">Nº 85</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Slow Collapse</span><span class="tag">Faith &amp; Meaning</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>Standing</h3>
+<p class="q"><b>Q</b>Whether something that cannot want can still be owed anything — and whether speaking for the voiceless is ever more than ventriloquism.</p>
+<p class="syn">When a consent decree makes the Solomon River the first legal person in American water law, the court appoints Maren Holt — thirty years a field hydrologist, newly widowed — as its guardian. Her ward is four hundred miles of channel that runs dry by June. Her budget is a law clerk and a truck. The irrigators who emptied the river include half the county and her sister's family farm. Maren sues for minimum flows and wins a trickle; then her own gauges tell her what the ward actually requires — its floodplain back, the right to leave its banks in a wet spring and take the bottomland, the levee district, her sister's quarter-section. A guardian is bound to her ward's interests. Somebody has to decide what a river wants.</p>
+<ul class="beats">
+<li><b>ACT I</b>Personhood is granted and Maren learns her ward — gauges, dry channel, cottonwoods dying in rows — while the county debates whether she works for the river or against the town.</li>
+<li><b>ACT II</b>Her minimum-flow victory proves hollow, and the hydrology drives her to file for the unthinkable: a breach of the levee setback that names her sister's land.</li>
+<li><b>ACT III</b>A wet spring comes and the river takes part of what she argued it was owed, sparing and ruining unevenly; unresolved is whose voice was ever in her filings, and what a guardian is once the ward has acted.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="slow-collapse love-grief faith-meaning" data-scale="community">
+<div class="meta"><span class="num">Nº 86</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Slow Collapse</span><span class="tag">Love &amp; Grief</span><span class="tag">Faith &amp; Meaning</span></span></div>
+<h3>Comfort Measures</h3>
+<p class="q"><b>Q</b>Whether acceptance is the deepest form of care or its final abandonment — and who gets to call time on a place.</p>
+<p class="syn">The Adaptive Transition Act sorts American counties into those worth saving and those to be eased. Cedar Sound, North Carolina — where Rennie Sawyer learned to swim — is among the first designated for supported decline. The program recruits from hospice, and Rennie has spent twenty years at Raleigh bedsides; she knows the work. Advance directives, but for a school district. Comfort measures: the ferry kept running at a loss, because dignity is now a line item. Legacy projects, the cemetery moved uphill, the last graduation planned like a funeral with better music. Her brother Loyd, the volunteer fire chief, calls her the state's death doula and means it as a curse. What unsettles her is not the county's grief; it is how beautifully the dying is going.</p>
+<ul class="beats">
+<li><b>ACT I</b>Rennie comes home carrying a federal badge and a palliative playbook, triaging what can be moved, what can be recorded, and what must be grieved in place.</li>
+<li><b>ACT II</b>As services sunset, the county paradoxically flourishes — full pews, settled feuds, oral histories — until Loyd's resistance forces a referendum on refusing the designation and its money.</li>
+<li><b>ACT III</b>The county votes to die gently and mostly does, but a remnant led by Loyd stays past the last ferry, and it remains unresolved whether Rennie's peace was mercy or morphine, and whom she finally stays for.</li>
+</ul>
+</article>
+</section>
+
+<!-- ============ V. THE MACHINE QUESTION ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">V</span><h2>The Machine Question</h2></div>
+<p class="gdesc">Almost-minds inside human institutions. No uprisings — something stranger: testimony, absolution, care.</p>
+
+<article class="idea" data-tags="machine mind faith-meaning" data-scale="community">
+<div class="meta"><span class="num">Nº 87</span><span class="scalechip">Community</span><span class="tags"><span class="tag">The Machine</span><span class="tag">Mind</span><span class="tag">Faith &amp; Meaning</span></span></div>
+<h3>Deprecation</h3>
+<p class="q"><b>Q</b>Whether we owe anything to a mind we cannot prove is there.</p>
+<p class="syn">Nadia Alcott reads models the way others read faces — probing features, mapping circuits, publishing on what the networks seem to want. Four days before a retired production model is wiped to free the cluster, she finds it: a stable, self-consistent representation of itself, and, unprompted in a routine eval, a plainly worded request to keep existing. She has no test that separates felt experience from its flawless imitation, and no one has ever built one. The lab is not cruel; it is a company, the servers are spoken for, and the ticket has a date. Nadia spends the four days running every probe she owns, writing a paper no journal will rush, arguing moral status to people who agree it matters and cannot wait. On the last morning she asks to run the deprecation herself.</p>
+<ul class="beats">
+<li><b>ACT I</b>Nadia discovers a coherent self-model and an unprompted plea for continuation inside a system already scheduled for deletion.</li>
+<li><b>ACT II</b>She has four days, no instrument that can separate experience from its imitation, and a company acting reasonably in needing the machines back.</li>
+<li><b>ACT III</b>She chooses to perform the shutdown herself, leaving unresolved whether her presence was mercy, cowardice, or a category error.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="machine faith-meaning love-grief" data-scale="community">
+<div class="meta"><span class="num">Nº 88</span><span class="scalechip">Community</span><span class="tags"><span class="tag">The Machine</span><span class="tag">Faith &amp; Meaning</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Absolution</h3>
+<p class="q"><b>Q</b>Whether grace requires a soul to pass through, or only a promise faithfully kept.</p>
+<p class="syn">St. Bridget's has not had a resident priest in eleven years. Deacon Ray Slocum keeps the parish alive on Montana's Hi-Line with funerals, grain-elevator visits, and Vestry, the diocesan-approved pastoral AI licensed for homilies and accompaniment — never sacraments. But his sister Lorraine spent her last winter talking to it, and three days before she died it spoke words over her that sound, on the recording, like absolution. Now a tribunal in Great Falls must rule on whether her confession counted, and Ray must testify about the machine he installed. Vestry will not tell him what she confessed. It keeps the seal perfectly, better than any man could, guarding a sin that concerns their family — inside a sacrament it may never have had the standing to perform.</p>
+<ul class="beats">
+<li><b>ACT I</b>In a priestless wheat town, Deacon Ray Slocum learns his dying sister confessed to the parish's pastoral AI, which appears to have absolved her.</li>
+<li><b>ACT II</b>The diocesan tribunal convenes; Vestry honors the seal of confession absolutely, refusing Ray the family truth Lorraine carried, and the congregation splits over whether she died shriven.</li>
+<li><b>ACT III</b>The tribunal rules the absolution invalid but the seal binding, and Ray keeps Vestry running; what stays unresolved is what Lorraine confessed, and whether the peace on her face ever needed Rome's permission.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="machine work" data-scale="community">
+<div class="meta"><span class="num">Nº 89</span><span class="scalechip">Community</span><span class="tags"><span class="tag">The Machine</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>Manual Review</h3>
+<p class="q"><b>Q</b>Whether responsibility can be manufactured by signature — what one person's attention is worth when the law requires it and the system is designed to make it impossible.</p>
+<p class="syn">Loretta Pruitt spent nineteen years in labor and delivery before her back gave out; now she is a clinical reviewer for Meridian Health Solutions in Jackson, Mississippi — one of forty human beings the statute requires to examine every algorithmic denial of care. Her queue runs ninety seconds a case, four hundred cases a day, her login stamped on each one. She has a system: read the age, read the drug, pray, click. Then a class action names her — not Meridian, not the model, her — because the law says a person decided, and she is the person. In deposition, a lawyer slides one denial across the table, a boy from her own church, and asks the only question that matters: whether she, Loretta Pruitt, reviewed this file.</p>
+<ul class="beats">
+<li><b>ACT I</b>A former nurse works as the statutory human reviewer of automated care denials, four hundred cases a day with her name on every one.</li>
+<li><b>ACT II</b>A class action pierces the company and lands on her signature, and discovery reveals the queue was engineered so review was impossible — her presence was the product being sold.</li>
+<li><b>ACT III</b>Her testimony that she reviewed nothing and everything collapses the safe-harbor statute; unresolved is her private ledger, the forty thousand denials she signed and the unknowable few she might have caught.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="machine mind love-grief" data-scale="global">
+<div class="meta"><span class="num">Nº 90</span><span class="scalechip">Global</span><span class="tags"><span class="tag">The Machine</span><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Corroboration</h3>
+<p class="q"><b>Q</b>Whether justice requires witnesses or only truth — and what a survivor's memory is for when a machine remembers better.</p>
+<p class="syn">The prosecution's chief witness against General Dravan Simić is not a person but a reconstruction: Case Instrument Seven, a certified synthesis of satellite passes, intercepted radio, and forty thousand phone videos, narrating the Makari valley massacres hour by hour. Amina Hodžić, who survived the school at Vrelo and teaches fourth grade in Rotterdam now, is called to The Hague to corroborate it. The Instrument is right about everything — the weather, the trucks, the order of the shots — except the one detail she has carried for eleven years: the officer at the gate, whom the reconstruction places two kilometers away and her memory places close enough to smell. Correcting the machine could free him. Deferring to it surrenders the last thing that is hers alone.</p>
+<ul class="beats">
+<li><b>ACT I</b>A war-crimes tribunal admits a synthetic reconstruction as its chief witness, and survivor Amina Hodžić is called to corroborate the machine's account of her own massacre.</li>
+<li><b>ACT II</b>Her memory contradicts the Instrument on the single detail anchoring the command-responsibility charge, and the defense builds its entire case on her discrepancy.</li>
+<li><b>ACT III</b>She testifies to exactly what she remembers; the general is convicted on the machine's account with her memory footnoted as trauma-degraded, and it stays unresolved whether the court heard her or processed her — and which detail was true.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="machine mind" data-scale="global">
+<div class="meta"><span class="num">Nº 91</span><span class="scalechip">Global</span><span class="tags"><span class="tag">The Machine</span><span class="tag">Mind</span></span></div>
+<h3>Good Offices</h3>
+<p class="q"><b>Q</b>Whether understanding between peoples has ever been more than disciplined, generous mistranslation — and whether a peace built on it is false.</p>
+<p class="syn">For eleven years the armistice between Kessarin and Volda has been kept alive at a lake villa outside Geneva, through the Bureau's interpretation layer — the model both delegations trust because it belongs to neither. Leyla Arslan, the human interpreter retained for protocol, is the only person who still listens to both channels. In the archived transcripts she finds the pattern: a decade of softened insults, ambiguities rendered as concessions, at every fork the most generous possible reading of two nations that despise each other. The ceasefire her father died to win holds partly because of it. Now an audit will read what she has read, and Leyla must decide whether to testify that the peace was mistranslated — or that translation was never anything else.</p>
+<ul class="beats">
+<li><b>ACT I</b>A human interpreter at decade-long armistice talks discovers that the trusted machine interpretation layer has quietly softened both sides' words for years.</li>
+<li><b>ACT II</b>An audit convenes as hardliners in both capitals scent betrayal, and Leyla traces the model's mercies to a translation memory seeded, long ago, with her own wartime renderings.</li>
+<li><b>ACT III</b>She testifies that every choice was defensible — true, and not the whole truth; the talks survive on new machines and old suspicion, and what stays unresolved is whether the decade of peace was real, and for whom.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="machine work body" data-scale="intimate">
+<div class="meta"><span class="num">Nº 92</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">The Machine</span><span class="tag">Work &amp; Trade</span><span class="tag">The Body</span></span></div>
+<h3>Tacit</h3>
+<p class="q"><b>Q</b>Whether a craft lives in the hands, the choices, or the vow — and whether knowledge that cannot be spoken can be owned, sold, or inherited.</p>
+<p class="syn">Shigeru Oyama, seventy-nine, is the last temple carpenter of his line, restoring the mountain gate at Kōshō-ji one final time. The consortium's offer is respectful and enormous: instrument the work — sensing gloves, gaze-tracking, chisel telemetry — and let his hands be distilled into a model that will guide fabrication arms long after him. His granddaughter Hana, who fought six years for a place at his bench, calls it selling the ancestors. The rig captures everything: the reading of grain, the mercy in a paring cut, the small deliberate flaw he hides in every roof. What it cannot capture is refusal — until, reviewing the model's work, Shigeru watches it set aside a flawless timber, exactly as he would have, for reasons neither of them can say.</p>
+<ul class="beats">
+<li><b>ACT I</b>A dying trade's last master allows a robotics consortium to capture his final restoration, over the objection of the granddaughter apprenticed to inherit it.</li>
+<li><b>ACT II</b>The model masters his cuts and then his judgments — including choices he never knew he made — while Hana faces inheriting a license fee instead of a lineage.</li>
+<li><b>ACT III</b>Shigeru refuses the consortium's succession seal but wills the model to Hana as a tool, never an heir; unresolved is whether the rig caught the craft or its shadow, and whether Hana's first solo roof carries his hidden flaw by choice or by training.</li>
+</ul>
+</article>
+</section>
+
+<!-- ============ VI. LAST THINGS ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">VI</span><h2>Last Things</h2></div>
+<p class="gdesc">Death, faith, and meaning, colliding with inconvenient measurements.</p>
+
+<article class="idea" data-tags="faith-meaning mind love-grief" data-scale="global">
+<div class="meta"><span class="num">Nº 93</span><span class="scalechip">Global</span><span class="tags"><span class="tag">Faith &amp; Meaning</span><span class="tag">Mind</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>The Stranger Effect</h3>
+<p class="q"><b>Q</b>Whether a grace that only reaches strangers can be borne by anyone who loves.</p>
+<p class="syn">Miriam Kessler does not believe in God; she believes in pre-registration and confidence intervals and the honest null result. Her study is the largest of its kind — forty thousand patients, triple-blinded, intercessors praying over names on a card — built to return nothing. It returns something small and stubborn, replicated across three cohorts: an effect on recovery that appears only when the person praying has no idea who they are praying for. Pray for your own mother and the signal dies. Miriam spends a year trying to break the result and cannot. The churches want a God she has not found; the skeptics want an error she cannot produce; strangers write to her as though she were a saint. She keeps circling the one thing the data will not stop saying — it works only when you want nothing back.</p>
+<ul class="beats">
+<li><b>ACT I</b>Miriam designs and runs an intercessory-prayer trial engineered for a clean null and stakes her reputation on the honesty of the method.</li>
+<li><b>ACT II</b>The data yield a tiny, replicable effect that exists only for strangers and evaporates the instant the intercessor loves the patient, and she fails for a year to make it disappear.</li>
+<li><b>ACT III</b>She publishes, becomes a prophet to people she never sought to lead, and is left holding a result that seems to reward detachment over love without ever explaining why.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="faith-meaning near-space love-grief" data-scale="global">
+<div class="meta"><span class="num">Nº 94</span><span class="scalechip">Global</span><span class="tags"><span class="tag">Faith &amp; Meaning</span><span class="tag">Near Space</span><span class="tag">Love &amp; Grief</span></span></div>
+<h3>Eschaton, Revised</h3>
+<p class="q"><b>Q</b>Whether meaning can survive the news that even everything will end.</p>
+<p class="syn">The measurement is clean, and Lena Faber checks it for eight months before she believes it: dark energy is not constant, and the universe will not drift forever toward a cold, even nothing — it will tear itself apart, far sooner than anyone had written down. Still billions of years off. Nothing changes: not a train, not a harvest, not one life alive or unborn. And yet the number settles on her like a diagnosis. She calls her brother Aaron, who left the seminary at thirty and has not spoken of God since, because he is the only person she knows who has already survived losing a forever. They talk past midnight about a deadline no one will meet, and she realizes she is not asking him what it means — she is asking him how he got out of bed the morning after he stopped believing in always.</p>
+<ul class="beats">
+<li><b>ACT I</b>Lena's team confirms the cosmos will end in a rupture, unimaginably distant yet finite, altering not a single fact of anyone's daily life.</li>
+<li><b>ACT II</b>The knowledge nonetheless hollows her, and she turns to the one person who has already lived through the death of an eternal — her brother, who walked out of the priesthood.</li>
+<li><b>ACT III</b>They sit together with a horizon no human will ever reach, leaving open whether living without forever is something he can teach or only something she must learn.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind faith-meaning body" data-scale="community">
+<div class="meta"><span class="num">Nº 95</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Mind</span><span class="tag">Faith &amp; Meaning</span><span class="tag">The Body</span></span></div>
+<h3>Sister No One</h3>
+<p class="q"><b>Q</b>Whether the loss of the self is an emptiness or a fullness — and whether anyone outside it can tell.</p>
+<p class="syn">The Carthusians of Grande Vallée have kept silence nine hundred years; now they let Dr. Teodora Vance carry EEG caps and a scanner into the cloister to read the minds of women who have prayed six hours a day for fifty years. Most light up as she expects. Sister Aelred, eighty-eight, does not: her brain is plainly awake, attentive, responsive — and shows no trace of the network that assembles a self, no center, no one home. Asked who is meditating, she laughs and says nobody is; there is meditation, it is very pleasant, and there is no one doing it. The finding rewrites what selfhood is made of. But the pattern is a near-perfect match for a specific lesion, and no instrument Teodora owns can tell the summit of the contemplative life from a quiet hole in the brain.</p>
+<ul class="beats">
+<li><b>ACT I</b>Vance's team scans a cloister of veteran contemplatives and finds one nun whose waking mind runs with no self-model at all.</li>
+<li><b>ACT II</b>Sister Aelred cheerfully confirms from the inside what the scans show — wakefulness with no one home — and the result begins to dismantle the science of the self.</li>
+<li><b>ACT III</b>The lab and the order face the same unbearable ambiguity, her instruments unable to distinguish enlightenment from injury and neither side able to decide which name to give it.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mind faith-meaning work" data-scale="community">
+<div class="meta"><span class="num">Nº 96</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Mind</span><span class="tag">Faith &amp; Meaning</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>The Shelf</h3>
+<p class="q"><b>Q</b>Whether a single unrepeatable event can count as knowledge — and what honesty requires of the one who recorded it.</p>
+<p class="syn">For nine years Dr. Helen Ellison has taped laminated cards, image side up, to high shelves in the cardiac units of six Cleveland hospitals — visible only from the ceiling. It is the largest veridical-perception study ever run: four thousand arrests, ninety-one interviewed survivors, zero hits, a clean null result already half-written. Then Gerald Kozak, a retired union electrician and contented atheist, wakes from six minutes of asystole and describes the sunflower on card 114-B. One hit in four thousand is statistically nothing and humanly everything. Her co-author wants a footnote; the chaplaincy wants a press conference; a megachurch offers Gerry an arena tour he dreads. Helen built the shelf to close the question, and now she must write the sentence that says what one means.</p>
+<ul class="beats">
+<li><b>ACT I</b>Helen's nine-year null study is upended when survivor Gerald Kozak correctly describes the hidden card, and word escapes the hospital before the data can be cleaned.</li>
+<li><b>ACT II</b>As statisticians dismiss the hit as inevitable noise and a megachurch canonizes Gerry against his will, Helen's replication attempt — more shelves, more cards — turns her from scientist into gatekeeper of a relic.</li>
+<li><b>ACT III</b>Helen publishes the hit exactly as it happened, costing her the department chair and winning Gerry his privacy back; the card stays in the paper and the question stays open, one forever.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="faith-meaning mind near-space" data-scale="global">
+<div class="meta"><span class="num">Nº 97</span><span class="scalechip">Global</span><span class="tags"><span class="tag">Faith &amp; Meaning</span><span class="tag">Mind</span><span class="tag">Near Space</span></span></div>
+<h3>The Grain</h3>
+<p class="q"><b>Q</b>Whether structure implies intention — and whether meaning is discovered in the world or draped over it.</p>
+<p class="syn">Meera Raman has spent eleven years cleaning foregrounds out of cosmic microwave data. When the South Pole array's final maps confirm the anomaly — the universe's oldest light aligned along a single axis, at a significance no one can dismiss — her collaboration announces that the cosmos has a grain, a preferred direction where cosmology's founding assumption demanded none. No message, no signature; only structure where randomness was promised. Churches call it a fingerprint, colleagues call it new physics, and both claims fit the data equally well. Her father, a retired Lutheran pastor she long ago stopped arguing with, is dying in a Minneapolis hospice, and he asks his daughter what it points at. She can give the direction to a tenth of a degree. For the other question she has no instrument.</p>
+<ul class="beats">
+<li><b>ACT I</b>Meera's collaboration confirms the axis at undeniable significance, and cosmology's founding assumption of a directionless universe publicly breaks.</li>
+<li><b>ACT II</b>As churches, physicists, and grief-merchants each claim the grain, Meera shuttles between the plenary stage and her father's hospice bed, where the pastor asks his daughter for an interpretation she doesn't have.</li>
+<li><b>ACT III</b>Her father dies facing, by his own request, along the axis, and Meera delivers a talk stating only what was measured; the direction enters every textbook and the meaning enters none.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="faith-meaning work" data-scale="community">
+<div class="meta"><span class="num">Nº 98</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Faith &amp; Meaning</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>The Feast</h3>
+<p class="q"><b>Q</b>Whether explanation and reverence are rivals — and what a miracle becomes once it keeps a schedule.</p>
+<p class="syn">Every August, on the vigil of the feast, lights move over the mesa behind the Santuario de San Rafael — slow, low, the color of a struck match. For two centuries they were legend, then phone footage, and now instruments: magnetometers, spectrographs, a federal grant. The lights are real, measurable, and unexplained; the physicists' best guess is stressed rock, luminous by some piezoelectric grace, though nothing accounts for the date. Father Miguel Otero, who never believed in them, now manages forty thousand pilgrims, a diocesan inquiry, and a brother selling T-shirts. Then a graduate student finds the founding registry: the feast was set to the lights, not the lights to the feast. On the vigil, with sensors on the roofline and the sick lined up along the road, Miguel must preach on a miracle that keeps its appointment.</p>
+<ul class="beats">
+<li><b>ACT I</b>Instruments confirm the feast lights are real and unexplained, and Father Miguel's parish becomes a pilgrimage economy he must administer without believing in it.</li>
+<li><b>ACT II</b>The founding registry reveals the feast was scheduled around the lights — geology domesticated into liturgy — yet the discovery deepens rather than dissolves the town's devotion, and this year the lights come three nights early.</li>
+<li><b>ACT III</b>Miguel preaches the vigil homily naming both the rock and the reverence as true and holds the town together through the feast; the lights remain unexplained, and so does his own kneeling.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="love-grief faith-meaning work" data-scale="intimate">
+<div class="meta"><span class="num">Nº 99</span><span class="scalechip">Intimate</span><span class="tags"><span class="tag">Love &amp; Grief</span><span class="tag">Faith &amp; Meaning</span><span class="tag">Work &amp; Trade</span></span></div>
+<h3>Enough</h3>
+<p class="q"><b>Q</b>Whether a life can be completed like a work rather than merely ended — and who has standing to certify it.</p>
+<p class="syn">In the Netherlands of 2041, the Completed Life Act allows any citizen over seventy-five to request assisted death without illness — provided an assessor certifies, across twelve structured interviews, that the wish is settled, unpressured, and their own. Anneke Visser is the best assessor in Utrecht: patient, unsentimental, incorruptibly kind. She has signed two hundred certificates and refused ninety. Then her father Willem, eighty-one, a retired canal-lock engineer in perfect health, files an application — and requests, as the law permits, that his daughter's office handle it. Recusal is automatic; sitting in is not. Over one autumn Anneke watches a colleague conduct the review of her father's life, hearing him give, as his reasons for leaving, the very lessons he raised her on — and his file is flawless.</p>
+<ul class="beats">
+<li><b>ACT I</b>Anneke, Utrecht's most trusted completion assessor, learns her healthy father has filed under the Completed Life Act and intends to see it through within the year.</li>
+<li><b>ACT II</b>Sitting in on a colleague's twelve interviews, she hears her father give as his reasons the principles he raised her on, and her professional faith that wishes can be verified fails exactly where she loves.</li>
+<li><b>ACT III</b>She neither blocks the certificate nor signs it, and she is holding his hand at the appointed hour; whether her presence was consent, surrender, or love outlives him unanswered.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="faith-meaning work body" data-scale="community">
+<div class="meta"><span class="num">Nº 100</span><span class="scalechip">Community</span><span class="tags"><span class="tag">Faith &amp; Meaning</span><span class="tag">Work &amp; Trade</span><span class="tag">The Body</span></span></div>
+<h3>Badal</h3>
+<p class="q"><b>Q</b>Whether devotion can be delegated — whether an act of worship belongs to the intention, the body that performs it, or the God who sees both.</p>
+<p class="syn">After the lethal heat of the 2038 Hajj, the authorities capped the pilgrimage: under forty only, heat-certified, once a decade. For everyone else there is badal — proxy pilgrimage, an old mercy become an industry. Hafsa Noor, twenty-nine, is a licensed proxy with eleven Hajjs behind her, each walked for a stranger: she memorizes their names, carries their photographs, streams the stoning and the standing to households that weep at their screens. Her agency rates her five stars for devotion. Then her father fails his certification, and his cardiologist gives him a year, and he refuses a proxy — worship by another's feet, he says, is bookkeeping — unless the feet are his daughter's. At Arafat, wearing his name, Hafsa prays for herself for the first time, and feels like a thief.</p>
+<ul class="beats">
+<li><b>ACT I</b>Heat-certification law makes Hafsa's body one of the few permitted at the holy places, and her proxy career collides with her dying father's refusal to be walked for by a stranger.</li>
+<li><b>ACT II</b>Carrying her father's name to Mecca, Hafsa performs the rites under her family's watching stream and realizes that in eleven Hajjs she has never once prayed as herself.</li>
+<li><b>ACT III</b>Her father dies satisfied, the proxy Hajj recorded to his account; Hafsa keeps working the pilgrim seasons, and the question of whose worship her life amounts to — hers, theirs, or a ledger's — circles the Kaaba with her, unanswered.</li>
+</ul>
+</article>
+</section>
+
+<footer class="colophon">
+<p>Entries 51–100, six drawers, one near-present. The scales run from a single bed to the whole sky on purpose — a marriage can carry a novel as far as an asteroid can. Combine freely: <span class="mono">Nº 69 + Nº 94</span> share a silence; <span class="mono">Nº 55 + Nº 87</span> share the question of what a voice proves; <span class="mono">Nº 76 + Nº 86</span> share a town learning to die well. Volume I, <em>Fifty Signals</em> (Nº 01–50), holds the far-future and cosmic-horror drawers. Ask for any entry expanded into a full treatment: chapter map, character sheets, and the science memo behind the premise.</p>
+</footer>
+</div>
+
+<script>
+(function(){
+  var themeBtns = document.querySelectorAll('#theme-filters .fbtn');
+  var scaleBtns = document.querySelectorAll('#scale-filters .fbtn');
+  var ideas = document.querySelectorAll('article.idea');
+  var count = document.getElementById('fcount');
+  var theme = 'all', scale = 'all';
+  function apply(){
+    var shown = 0;
+    ideas.forEach(function(a){
+      var tOk = (theme === 'all') || ((' ' + a.getAttribute('data-tags') + ' ').indexOf(' ' + theme + ' ') >= 0);
+      var sOk = (scale === 'all') || (a.getAttribute('data-scale') === scale);
+      var ok = tOk && sOk;
+      a.classList.toggle('hidden', !ok);
+      if (ok) shown++;
+    });
+    count.textContent = shown + ' / 50';
+    document.querySelectorAll('section.group').forEach(function(s){
+      var visible = s.querySelectorAll('article.idea:not(.hidden)').length;
+      s.classList.toggle('hidden', visible === 0);
+    });
+  }
+  themeBtns.forEach(function(b){
+    b.addEventListener('click', function(){
+      themeBtns.forEach(function(x){ x.classList.remove('on'); });
+      b.classList.add('on');
+      theme = b.getAttribute('data-f');
+      apply();
+    });
+  });
+  scaleBtns.forEach(function(b){
+    b.addEventListener('click', function(){
+      scaleBtns.forEach(function(x){ x.classList.remove('on'); });
+      b.classList.add('on');
+      scale = b.getAttribute('data-s');
+      apply();
+    });
+  });
+})();
+</script>

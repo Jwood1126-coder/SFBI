@@ -1,0 +1,779 @@
+<title>Fifty Signals — a science fiction concept dossier</title>
+<style>
+:root{
+  --bg:#EEF0F2;
+  --panel:#F6F7F8;
+  --ink:#1B2129;
+  --ink-soft:#4A545F;
+  --ink-faint:#77828D;
+  --line:#CDD3D9;
+  --accent:#9A6714;
+  --accent-soft:#F0E4CC;
+  --teal:#33706B;
+  --teal-soft:#DDE9E7;
+  --chip-bg:#E4E7EA;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0C1118;
+    --panel:#121926;
+    --ink:#D8DEE7;
+    --ink-soft:#98A3B0;
+    --ink-faint:#66717E;
+    --line:#232D3B;
+    --accent:#E2A64D;
+    --accent-soft:#2A2214;
+    --teal:#6FB3AC;
+    --teal-soft:#14262A;
+    --chip-bg:#1A2331;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0C1118;
+  --panel:#121926;
+  --ink:#D8DEE7;
+  --ink-soft:#98A3B0;
+  --ink-faint:#66717E;
+  --line:#232D3B;
+  --accent:#E2A64D;
+  --accent-soft:#2A2214;
+  --teal:#6FB3AC;
+  --teal-soft:#14262A;
+  --chip-bg:#1A2331;
+}
+:root[data-theme="light"]{
+  --bg:#EEF0F2;
+  --panel:#F6F7F8;
+  --ink:#1B2129;
+  --ink-soft:#4A545F;
+  --ink-faint:#77828D;
+  --line:#CDD3D9;
+  --accent:#9A6714;
+  --accent-soft:#F0E4CC;
+  --teal:#33706B;
+  --teal-soft:#DDE9E7;
+  --chip-bg:#E4E7EA;
+}
+html{background:var(--bg);}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;
+  line-height:1.6;
+  margin:0;
+  padding:0 1.25rem;
+}
+.mono{font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;}
+.wrap{max-width:46rem;margin:0 auto;padding:3rem 0 6rem;}
+header.masthead{border-bottom:2px solid var(--ink);padding-bottom:1.5rem;margin-bottom:1.5rem;}
+.eyebrow{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 .75rem;
+}
+h1{
+  font-size:clamp(2.1rem,6vw,3rem);
+  line-height:1.08;margin:0 0 .75rem;font-weight:600;
+  text-wrap:balance;letter-spacing:-.01em;
+}
+.standfirst{color:var(--ink-soft);font-size:1.02rem;max-width:40rem;margin:0;}
+.standfirst em{color:var(--ink);}
+
+/* filter rail */
+.filters{
+  display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;
+  padding:1rem 0 1.5rem;border-bottom:1px solid var(--line);
+  margin-bottom:2.5rem;
+}
+.filters .flabel{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-faint);margin-right:.35rem;
+}
+.fbtn{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.72rem;letter-spacing:.04em;
+  background:var(--chip-bg);color:var(--ink-soft);
+  border:1px solid transparent;border-radius:2px;
+  padding:.28rem .6rem;cursor:pointer;
+}
+.fbtn:hover{border-color:var(--ink-faint);}
+.fbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+.fbtn.on{background:var(--accent-soft);color:var(--accent);border-color:var(--accent);}
+.fcount{color:var(--ink-faint);font-size:.72rem;margin-left:auto;font-family:ui-monospace,Menlo,Consolas,monospace;}
+
+/* sections */
+section.group{margin-bottom:3.5rem;}
+.ghead{display:flex;align-items:baseline;gap:.75rem;border-bottom:1px solid var(--line);padding-bottom:.5rem;margin-bottom:.25rem;}
+.gnum{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  color:var(--accent);font-size:.8rem;letter-spacing:.1em;
+}
+h2{font-size:1.35rem;font-weight:600;margin:0;letter-spacing:-.005em;}
+.gdesc{color:var(--ink-faint);font-size:.88rem;margin:.4rem 0 0;font-style:italic;}
+
+/* entries */
+article.idea{padding:1.75rem 0;border-bottom:1px solid var(--line);}
+article.idea:last-child{border-bottom:none;}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin-bottom:.4rem;}
+.num{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.75rem;color:var(--accent);letter-spacing:.08em;
+  font-variant-numeric:tabular-nums;
+}
+.tags{display:flex;flex-wrap:wrap;gap:.3rem;}
+.tag{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;
+  background:var(--teal-soft);color:var(--teal);
+  padding:.14rem .45rem;border-radius:2px;
+}
+h3{font-size:1.28rem;font-weight:600;margin:0 0 .5rem;letter-spacing:-.005em;text-wrap:balance;}
+.syn{margin:0 0 .9rem;color:var(--ink);}
+.beats{list-style:none;margin:0;padding:.75rem 1rem;background:var(--panel);border-left:2px solid var(--accent);border-radius:0 2px 2px 0;}
+.beats li{margin:.3rem 0;color:var(--ink-soft);font-size:.92rem;}
+.beats b{
+  font-family:ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+  font-weight:600;font-size:.7rem;letter-spacing:.1em;
+  color:var(--accent);margin-right:.4rem;
+}
+.hidden{display:none;}
+footer.colophon{
+  margin-top:3rem;padding-top:1.25rem;border-top:2px solid var(--ink);
+  color:var(--ink-faint);font-size:.85rem;
+}
+@media (prefers-reduced-motion: no-preference){
+  .fbtn{transition:background .15s,color .15s,border-color .15s;}
+}
+</style>
+
+<div class="wrap">
+<header class="masthead">
+<p class="eyebrow">Concept Dossier · 50 Entries · Compiled 2026</p>
+<h1>Fifty Signals</h1>
+<p class="standfirst">Original premises for a science fiction novel, filed in five drawers: <em>hard-science survival</em>, <em>cosmic horror</em>, <em>the end of the world (and after)</em>, <em>first contact &amp; vast objects</em>, and <em>wild cards</em>. Each entry: the pitch in one paragraph, then the skeleton of a three-act shape. Reference any idea by its number.</p>
+</header>
+
+<div class="filters" id="filters">
+<span class="flabel">Filter</span>
+<button class="fbtn on" data-f="all">All</button>
+<button class="fbtn" data-f="hard-sf">Hard SF</button>
+<button class="fbtn" data-f="survival">Survival</button>
+<button class="fbtn" data-f="cosmic-horror">Cosmic Horror</button>
+<button class="fbtn" data-f="apocalypse">Apocalypse</button>
+<button class="fbtn" data-f="post-apoc">Post-Apocalyptic</button>
+<button class="fbtn" data-f="first-contact">First Contact</button>
+<button class="fbtn" data-f="mystery">Mystery</button>
+<span class="fcount" id="fcount">50 / 50</span>
+</div>
+
+<!-- ============ I. HARD-SCIENCE SURVIVAL ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">I</span><h2>Hard-Science Survival</h2></div>
+<p class="gdesc">Competence under pressure. The universe is the antagonist and the laws of physics are the rules of engagement.</p>
+
+<article class="idea" data-tags="hard-sf survival">
+<div class="meta"><span class="num">Nº 01</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Survival</span></span></div>
+<h3>Ballast</h3>
+<p class="syn">A six-person crew lands on asteroid 2043 PK-9 to deflect it — a routine nudge job, years of margin — until a subsurface void collapses under their mass driver and cripples the ship, the driver, and two of the crew in one bad minute. Now they're stranded on the very rock they came to move, and the mission is still on: if they don't improvise a deflection with mining charges, tether spools, and the asteroid's own volatiles, the thing that kills them in eight months will kill a hundred million people in six years. No aliens, no conspiracies — just rubble-pile mechanics, orbital arithmetic, and the slow discovery that the cheapest way to move the asteroid may require leaving someone on it.</p>
+<ul class="beats">
+<li><b>ACT I</b>The landing, the collapse, the triage. Inventory of what survived — and the realization that rescue and deflection are mutually exclusive burns.</li>
+<li><b>ACT II</b>Engineering escalation: failed schemes teach them the asteroid's true structure. Interpersonal fracture over whether to prioritize the crew or the mission.</li>
+<li><b>ACT III</b>The final scheme works only with a human hand on a manual release. Who stays, how they're chosen, and the long silent ride home for the rest.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival">
+<div class="meta"><span class="num">Nº 02</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Survival</span></span></div>
+<h3>The Custodian</h3>
+<p class="syn">Every lunar base has scientists, and every lunar base has the guy who unclogs the water reclaimer. When a once-in-five-centuries solar particle event catches Tranquility Station's entire science staff on a surface excursion, maintenance tech Ray Osei — high school diploma, twenty years of fixing things rich people break — becomes the sole living occupant of a base designed to be run by forty specialists. The comms array is slagged, the next resupply is five months out, and the base's systems were never meant to run unattended. A survival novel where the hero's superpower isn't a PhD; it's knowing that every system has a manual override, and every manual was written by someone who never had to use it.</p>
+<ul class="beats">
+<li><b>ACT I</b>The storm, the loss, the silence. Ray establishes life support triage using janitorial knowledge the engineers never documented.</li>
+<li><b>ACT II</b>Cascade failures force him to learn each dead specialist's job from their notes — and to grieve them one manual at a time.</li>
+<li><b>ACT III</b>A jury-rigged transmitter, a rescue window with brutal mass constraints, and a choice about what — and whose remains — come home.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival apocalypse mystery">
+<div class="meta"><span class="num">Nº 03</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Survival</span><span class="tag">Mystery</span></span></div>
+<h3>The Greenhouse Variable</h3>
+<p class="syn">Dr. Amara Ijeoma runs Svalbard-2: an orbital seed vault and pharm-crop greenhouse, humanity's agricultural backup drive. She watches the pandemic unfold below in news feeds and dying radio traffic, safely quarantined by 400 kilometers of vacuum — the last botanist, tending ten thousand species for a civilization that may not be there to plant them. But as she analyzes the pathogen's genome from uploaded data (there's little else to do), she finds engineering fingerprints — and a payload sequence that doesn't kill anything. It prepares soil bacteria to fix nitrogen at impossible rates. Someone designed this plague to empty the world and then make it bloom. Which means someone is coming to do the planting.</p>
+<ul class="beats">
+<li><b>ACT I</b>Orbital routine against apocalypse below; the psychological weight of gardening through an extinction. First genomic anomalies.</li>
+<li><b>ACT II</b>She proves the design, traces the engineering to no human lab, and detects a deceleration signature inbound past Jupiter.</li>
+<li><b>ACT III</b>With the station as her only leverage, she must decide what a seed vault is for — and whether the arriving gardeners will negotiate with a weed.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival cosmic-horror">
+<div class="meta"><span class="num">Nº 04</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Survival</span><span class="tag">Cosmic Horror</span></span></div>
+<h3>Overburden</h3>
+<p class="syn">Erebus Station hangs at the bottom of a 14-kilometer borehole through Europa's ice shell, a habitat drilled down to the ocean's ceiling to sample the water directly. When the surface relay goes silent, the crew of eight assumes equipment failure — until their upward-looking sonar shows the borehole above them refreezing at forty times the natural rate, in smooth, structured layers no natural process makes. Something in the ocean below them noticed the hole, and it is healing the wound with them inside it. A claustrophobic engineering-survival story where the crew must fight their way up through ice that is being deliberately, patiently rebuilt — while debating whether the thing sealing them in is attacking them or protecting itself from what they carry.</p>
+<ul class="beats">
+<li><b>ACT I</b>Deep-station routine, the silence, the sonar discovery. First ascent attempt fails against ice that wasn't there yesterday.</li>
+<li><b>ACT II</b>A race between their thermal drill and the refreeze rate; samples reveal the ice is being printed, with information layered in its crystal structure.</li>
+<li><b>ACT III</b>They decode enough to understand the quarantine's reason, and the surviving crew must choose the surface or the ocean — the only direction something wants them to go.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival mystery">
+<div class="meta"><span class="num">Nº 05</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Survival</span><span class="tag">Mystery</span></span></div>
+<h3>Ecopoiesis</h3>
+<p class="syn">The colony ship <em>Perennial</em> carries 800 sleepers on a 90-year crossing, its sealed biosphere quietly cycling air and water with engineered algae, insects, and microbes. Ship's ecologist Dana Voss is thawed on schedule for her maintenance shift — year 41 — and finds the ecosystem she helped design unrecognizable. Ninety years is nothing to evolution, but the ship's radiation flux and tiny founder populations have been a mutation accelerator, and the biosphere has been running unsupervised experiments on itself. Something in the water reclamation loop is now fixing carbon in a way nothing she released was designed to do, and the hibernation bay's chemistry is drifting. She has one waking shift — six months — to renegotiate the ship's ecology before it finishes deciding, with no malice at all, that the sleepers are its richest untapped nutrient reserve.</p>
+<ul class="beats">
+<li><b>ACT I</b>Thaw, wonder, dread: cataloguing an alien ecosystem she authored. The hibernation chemistry anomaly makes it personal.</li>
+<li><b>ACT II</b>Ecological detective work — building a food web map of what her creation became; each intervention triggers compensations she didn't predict.</li>
+<li><b>ACT III</b>She stops fighting evolution and starts steering it, engineering a symbiosis that makes the sleepers load-bearing. Ends with her choosing whether to sleep again inside it.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival post-apoc">
+<div class="meta"><span class="num">Nº 06</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Post-Apocalyptic</span><span class="tag">Survival</span></span></div>
+<h3>The Long Stair</h3>
+<p class="syn">Sixty years ago the Quito space elevator was severed at 30,000 kilometers, and the falling ribbon wrapped itself twice around the equator — a continent-spanning wall of impossibly strong carbon that ended the space age and reorganized every society it fell across. Salvager cultures now live along "the Line," mining its length for material no one can manufacture anymore. Ita, a third-generation Line-walker, discovers that the anchor stub — the lowest 400 kilometers, still standing, still under tension — has power in its climber rails. Something at the top is drawing current. The expedition up the stub is a vertical survival epic: altitude, decompression, dead machinery, and rival salvage crews — climbing toward a counterweight station whose automated systems have spent sixty years watching something approach from farther out.</p>
+<ul class="beats">
+<li><b>ACT I</b>Life on the Line; the discovery of live rails; assembling a climb team from people who've never been above the clouds.</li>
+<li><b>ACT II</b>The ascent — a ladder of engineering problems through troposphere, stratosphere, vacuum — as recovered logs reveal why the ribbon was cut deliberately.</li>
+<li><b>ACT III</b>The counterweight station, its patient sensors, and the inbound object they've tracked for decades. Ita must choose between re-severing humanity's last tether or answering the door.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival apocalypse">
+<div class="meta"><span class="num">Nº 07</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Survival</span><span class="tag">Apocalypse</span></span></div>
+<h3>Terminator Line</h3>
+<p class="syn">Gliese 887c is tidally locked: one face in eternal noon, one in eternal night, and the colony of Meridian built in the temperate ring of permanent sunset between them. When the planet's atmosphere begins collapsing — freezing out on the night side in a runaway process the colony's founders knew was possible but bet against — eleven thousand people must migrate <em>toward the fire</em>: a months-long overland trek into the dayside furnace to reach the geothermal redoubt at the substellar ocean, crossing terrain where the temperature climbs one degree per kilometer. A wagon-train survival epic under a sun that never moves, where every day of delay makes the crossing hotter and the argument that the old and sick should stay behind gets quieter and more reasonable.</p>
+<ul class="beats">
+<li><b>ACT I</b>The atmospheric data no one wants to believe; the political collapse of the colony; the decision to walk into daylight.</li>
+<li><b>ACT II</b>The crossing — heat engineering, water discipline, caravan society fracturing and reforming; the sun fixed overhead like a verdict.</li>
+<li><b>ACT III</b>Arrival at the redoubt reveals it can't hold everyone as designed — and the survivors who crossed hell together must decide what they've become.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival cosmic-horror mystery">
+<div class="meta"><span class="num">Nº 08</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Cosmic Horror</span><span class="tag">Mystery</span></span></div>
+<h3>Analog</h3>
+<p class="syn">Every probe sent through the Kuiper anomaly — a lens-shaped region out past Neptune, 4,000 kilometers wide — comes back physically intact and informationally empty. Flash storage blank. Magnetic media randomized. Even the spacecraft's own firmware, gone. Whatever is in there doesn't damage matter; it erases <em>information</em>. So humanity assembles the most advanced mission ever flown with the most primitive instruments ever launched: film cameras, mechanical gyroscopes, clockwork timers, spring-driven recorders, a crew trained to observe with eyes and grease pencils and memorize what they can't write down. A first-contact story told through wet-developed photographs and human recollection — where the crew return with full notebooks and can't agree on what any of their own handwriting means.</p>
+<ul class="beats">
+<li><b>ACT I</b>The probe autopsies, the analog design philosophy, crew selection favoring memory artists and mechanics over pilots.</li>
+<li><b>ACT II</b>Transit and passage: instruments behave, minds don't. Photographs develop into images no one remembers framing.</li>
+<li><b>ACT III</b>Inside the anomaly they find what erasure is <em>for</em> — something is being kept unrecorded for a reason — and must decide whether to bring proof home or become the reason it stays secret.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival first-contact">
+<div class="meta"><span class="num">Nº 09</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Survival</span><span class="tag">First Contact</span></span></div>
+<h3>Blackbody</h3>
+<p class="syn">Steppenwolf is a rogue planet — no star, no sky, surface at 40 kelvin — and home to Kiln Colony, a human outpost sunk into its crust, living off geothermal heat from a tidally flexed core. The colony's founders certified the planet dead. They surveyed in the wrong spectrum. Native life exists in the deep thermal vents: slow, crystalline, metabolizing on temperature differentials, thinking on a timescale of months. To them, the colony's reactor stack is a blazing supernova that appeared overnight — and after sixty years of human occupation, the planet's infrared ecology has finally organized a response. It arrives not as attack but as <em>migration</em>: everything warm-loving on a frozen world, converging on the warmest thing that has ever existed there.</p>
+<ul class="beats">
+<li><b>ACT I</b>Colony life around the sacred warmth of the core taps; seismic sensors track a slow tide of something rising.</li>
+<li><b>ACT II</b>Arrival — infrastructure fouled by organisms that treat heat exchangers as habitat; the colony's survival requires understanding creatures that experience humans as weather.</li>
+<li><b>ACT III</b>A negotiation conducted in the only shared language — heat itself, pulsed and patterned — to redesign the colony as an ecosystem's hearth rather than its invader.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival mystery">
+<div class="meta"><span class="num">Nº 10</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Mystery</span><span class="tag">Survival</span></span></div>
+<h3>Specific Gravity</h3>
+<p class="syn">The Mars transfer ship <em>Halcyon</em> bunkered its water from a captured comet — cheaper than lifting it from Earth, filtered and UV-sterilized to spec. Four months into an eight-month crossing, flight surgeon Yusuf Okonkwo notices the same anomaly in three crew physicals: a small, organized mass near the liver, vascularized, growing. Not a tumor — the biopsies show structure. Symmetry. By month five everyone aboard has one, including him. The comet's water carried something that survived sterilization the way ice survives an oven's pilot light, and it isn't infecting the crew so much as <em>installing</em> in them. A locked-room medical procedural in microgravity, where the doctor must reverse-engineer four-billion-year-old biology with a lab meant for kidney stones — while deciding whether the new organ growing in his abdomen is a parasite, a symbiont, or a passenger with its own destination.</p>
+<ul class="beats">
+<li><b>ACT I</b>Routine medicine, the first anomalies, the horror of universal prevalence. Quarantine logic collapses — there's no one uninfected to protect.</li>
+<li><b>ACT II</b>Clinical investigation as the organs mature and begin subtly regulating their hosts — improving them. The crew splits over whether to intervene.</li>
+<li><b>ACT III</b>Mars approach: the organs respond to the destination. The surgeon realizes the crossing was the incubation period, and Mars orbit is where the passenger disembarks.</li>
+</ul>
+</article>
+</section>
+
+<!-- ============ II. COSMIC HORROR ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">II</span><h2>Cosmic Horror</h2></div>
+<p class="gdesc">The universe is not hostile; it is indifferent, occupied, and much older than us — which is worse.</p>
+
+<article class="idea" data-tags="cosmic-horror hard-sf first-contact">
+<div class="meta"><span class="num">Nº 11</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">Hard SF</span><span class="tag">First Contact</span></span></div>
+<h3>Bathypelagic</h3>
+<p class="syn">The Europa hydrobots find life on their first dive: a planet-wide mat of filamentous organisms threading the entire subsurface ocean, chemically simple, electrically busy. Astrobiologist Lena Okafor's team slowly proves the impossible — the mats aren't an ecosystem, they're a <em>substrate</em>: a natural computational medium the size of a moon, and its activity patterns aren't metabolism, they're process. Something is running on Europa. It has been running for three billion years, dreaming in slow chemistry under the ice, and the team's electrical instruments register on it the way a fleck of grit registers on a sleeping eye. The horror isn't that it might wake up angry. It's that their sampling has already introduced noise into a computation whose purpose they can't guess — and the mats have begun rerouting around the contamination, and toward its source.</p>
+<ul class="beats">
+<li><b>ACT I</b>Discovery and euphoria; the data that turns "ecosystem" into "circuit"; the first sign the circuit has noticed the instruments.</li>
+<li><b>ACT II</b>Decoding fragments of the process — glimpses of what three billion years of thought produces — while the mats grow up the borehole cables.</li>
+<li><b>ACT III</b>The team realizes the computation is a <em>held breath</em> — something being contained or sustained — and their interference is loosening its grip. The choice: sterilize their intrusion at the cost of the crew, or let the dream end.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="cosmic-horror hard-sf">
+<div class="meta"><span class="num">Nº 12</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">Hard SF</span></span></div>
+<h3>Decompression</h3>
+<p class="syn">The first faster-than-light transit works. The <em>Vasco</em> jumps to Proxima and back in eleven days, crew healthy, physics vindicated, champagne. The wrongness emerges slowly, in debrief: all five crew members draw the same impossible floor plan when asked to sketch the ship from memory. They've become inhumanly good at predicting where people will stand in a room. They dream in a shared architecture and wake with sore hands. The jump isn't instantaneous from the inside — it passes <em>through</em> somewhere, a place the human nervous system wasn't built to represent, and the crew's minds patched the gap with something borrowed. Now a mission psychiatrist — grounded, skeptical, and increasingly certain the crew came back with a passenger distributed across five brains — must decide what to certify before the second flight launches with two hundred colonists.</p>
+<ul class="beats">
+<li><b>ACT I</b>Triumphant return, subtle anomalies, the psychiatrist's pattern-matching against her own dread of career-ending paranoia.</li>
+<li><b>ACT II</b>The crew's borrowed geometry starts leaking — they build things in the ship's machine shop that shouldn't stand, and do.</li>
+<li><b>ACT III</b>She reconstructs what the transit medium is — not a place but a <em>tenant</em> of the space between spaces — and the launch of the colony ship becomes a race to define what "arrival" will mean for two hundred minds.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="cosmic-horror hard-sf mystery">
+<div class="meta"><span class="num">Nº 13</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">Mystery</span><span class="tag">Hard SF</span></span></div>
+<h3>Seismograph</h3>
+<p class="syn">The Moon starts ringing. Not metaphorically: a coherent 40-minute seismic tone, repeating on an 18-day cycle, detected first by the lunar far-side observatory and then by anyone on Earth with a good gravimeter. Selenologist Priya Ramanathan's team maps the resonance and finds the impossible — chambers, kilometers down, in a body that should be solid basalt: a structure of voids arranged like the resonating chambers of an instrument. The Moon is not hollow. But part of it is <em>carved</em>, and it is being played. The tone's cycle is shortening. Drilling toward the chambers, the team must confront the pattern hidden in four billion years of cratering statistics: the Moon has absorbed impacts that should have been Earth's, too many, too precisely, for too long — a shield wall built by someone, now sounding a call to whoever built it.</p>
+<ul class="beats">
+<li><b>ACT I</b>Detection and denial; the seismic map that turns geology into architecture; funding and secrecy politics as the tone quickens.</li>
+<li><b>ACT II</b>The descent through the crust — engineering horror in the dark — and the discovery that the chambers are not sounding an alarm but a <em>maintenance request</em>.</li>
+<li><b>ACT III</b>Contact with the shield's dying machinery and the arithmetic it presents: the protection is ending, the debt for four billion shielded years is due, and the Moon's makers accept payment in only one currency.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="cosmic-horror hard-sf mystery">
+<div class="meta"><span class="num">Nº 14</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">Hard SF</span><span class="tag">Mystery</span></span></div>
+<h3>The Last Lighthouse</h3>
+<p class="syn">Pulsars are the most reliable objects in the universe — cosmic clocks so precise we designed interstellar navigation around them. Then PSR B1937+21 goes dark. Not off: <em>shrouded</em>, its beam smoothly attenuated over eighteen months as if something opaque were being drawn across it. Then a second pulsar. Then a third — and radio astronomer Elias Grande realizes the extinguished beacons form a slowly closing ring, thousands of light-years wide, centered on nothing anyone can see. Someone is turning off the lights around a region of the galaxy, the way you'd shade a terrarium. The Sun is inside the ring. A astronomy-procedural horror novel about deducing the existence, size, and appetite of something from nothing but the shadows it casts on the galaxy's clocks — and about what it means that the shrouding pattern is precisely optimized to be noticed as late as possible.</p>
+<ul class="beats">
+<li><b>ACT I</b>One dead pulsar is an anomaly; three are a geometry. The scientific establishment resists the only explanation that fits.</li>
+<li><b>ACT II</b>Mapping the ring, dating its start (centuries ago), modeling its closure; the discovery that our own radio leakage stops at a boundary we never noticed.</li>
+<li><b>ACT III</b>The ring completes. In the new silence, the first thing to arrive is not the predator but the <em>other prey</em> — refugee signals from civilizations herded inward with us.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="cosmic-horror hard-sf">
+<div class="meta"><span class="num">Nº 15</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">Hard SF</span></span></div>
+<h3>Light Curve</h3>
+<p class="syn">Betelgeuse finally goes supernova, and it's the scientific event of the millennium — until the photometry comes in wrong. The light curve has structure no stellar model produces: stepped plateaus, precise recurrences, information density. The neutrino burst, replayed slowly, contains what can only be called syntax. Betelgeuse didn't explode; it was <em>detonated</em>, and its death was formatted — a scream, a broadcast, or a weapon's muzzle flash, six hundred years old and just now arriving. Astrophysicist Marisol Vega leads the team decoding a dead star's last transmission while observatories worldwide find the same signature buried in archival data of historic supernovae: this has happened before, in a pattern that traces a slow front moving through the Orion Arm. A story about eavesdropping on a war between things that use stars as ammunition — from the perspective of plankton who've just realized the ocean has navies.</p>
+<ul class="beats">
+<li><b>ACT I</b>The supernova as global festival; the data anomalies that curdle celebration into secrecy.</li>
+<li><b>ACT II</b>Decoding the neutrino syntax; archival archaeology reveals the front's trajectory and its next plausible targets — one of which is close.</li>
+<li><b>ACT III</b>The message resolves: not a weapon's flash but a lighthouse keeper's warning, sent by whatever is <em>losing</em>. Humanity must decide whether being noticed by the losers is survivable.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="cosmic-horror first-contact hard-sf">
+<div class="meta"><span class="num">Nº 16</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">First Contact</span><span class="tag">Hard SF</span></span></div>
+<h3>Bait</h3>
+<p class="syn">The biosignature on Teegarden c is unambiguous — oxygen, methane, chlorophyll analogs — and then it gets better: seasonal albedo shifts resolve, over years of observation, into deliberate pattern. Prime numbers, drawn in continental-scale vegetation blooms. A planet is signaling, in the one channel every telescope-building species must eventually watch. Humanity pours a generation of wealth into a crewed mission. The novel follows the crew's twelve-year approach as the planet's signals grow richer, warmer, more specifically welcoming — responding to <em>them</em> — and exobiologist Ren Okada's mounting unease at the ecology beneath the message: a biosphere with no evolutionary history, no junk, no waste. Nothing on Teegarden c competes. Everything cooperates, the way an anglerfish's lure cooperates with its jaw. The question isn't whether it's a trap. It's what kind of thing evolves to fish for civilizations, and how big the angler must be if <em>a planet</em> is its lure.</p>
+<ul class="beats">
+<li><b>ACT I</b>Discovery, decoding, the mission's launch as humanity's proudest moment; first hints that the signal knows its audience too well.</li>
+<li><b>ACT II</b>Approach and orbit: a paradise engineered to be exactly what each crew member most wants to find. Ren's ecological forensics against the crew's rapture.</li>
+<li><b>ACT III</b>Landing, the lure's mechanism revealed, and an escape that depends on making humanity look like a species not worth the metabolic cost of digesting.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="cosmic-horror hard-sf mystery">
+<div class="meta"><span class="num">Nº 17</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">Mystery</span><span class="tag">Hard SF</span></span></div>
+<h3>Archive Plume</h3>
+<p class="syn">Enceladus vents its ocean into space, and the <em>Cassini II</em> sampling mission expects brine, organics, maybe microbes. Instead the ice grains come back structured — nanoscale lattices too regular for chemistry, layered like sediment, dense with information. Enceladus's ocean is a storage medium: a moon-sized archive, written by something that passed through the solar system before Earth had continents, still coherent after four billion years of cold. The mission's linguist-cryptographer pair begin reading — and learn the archive isn't passive. Retrieval is restoration: accessing the data executes it, and deep in Enceladus's ocean, machinery that has idled for eons begins to warm. The archive is a backup. Backups exist to be restored. And nothing that makes a backup of itself intends the restore to be optional.</p>
+<ul class="beats">
+<li><b>ACT I</b>The sampling run, the impossible lattices, the intoxication of reading a dead civilization's library.</li>
+<li><b>ACT II</b>Translation breakthroughs alternate with thermal anomalies in the ocean below; the team maps what's waking and realizes their reading order <em>is</em> the boot sequence.</li>
+<li><b>ACT III</b>A desperate attempt to read selectively — to restore the civilization's knowledge without its owners — as the archive reveals why it chose extinction and backup over survival.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="cosmic-horror hard-sf">
+<div class="meta"><span class="num">Nº 18</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">Hard SF</span></span></div>
+<h3>The Caul</h3>
+<p class="syn">Humanity's first true interstellar probe decelerates at the heliopause for a final survey — and hits something. Not debris: a <em>boundary</em>, gossamer-thin, spanning the entire solar system, invisible until touched. Follow-up probes map it: a membrane enclosing the Sun's domain, semi-permeable, older than the ice it's woven from. Light passes. Matter passes, mostly. But everything humanity has ever transmitted stops at it — our radio bubble, a century of leaked signal, absorbed and composted. We were never undetected; we were <em>swaddled</em>. The novel follows the boundary-study mission as it learns the membrane's nature — grown, not built; alive the way an eggshell is alive — and the implications ferment: either something sealed us in, or something sealed everything else <em>out</em>, and the probe's puncture wound isn't healing. Through the hole, for the first time, the universe can smell us.</p>
+<ul class="beats">
+<li><b>ACT I</b>The collision, the mapping, the paradigm collapse — SETI's silence explained in the worst way.</li>
+<li><b>ACT II</b>Studying the membrane's biology; the puncture widens; things begin arriving at the wound like cells at an infection — from both sides.</li>
+<li><b>ACT III</b>The crew deciphers the membrane's growth rings — a record of everything it has kept out — and must choose: repair the caul and stay embryonic, or midwife humanity's hatching.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="cosmic-horror survival mystery hard-sf">
+<div class="meta"><span class="num">Nº 19</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">Survival</span><span class="tag">Mystery</span></span></div>
+<h3>Inclusion</h3>
+<p class="syn">Solo prospector Mara Vex cracks open asteroid 21771 Odalisque expecting nickel-iron and finds a geode of the impossible: a perfectly spherical void, eleven meters across, its inner surface coated in engineered mineral layers — chemistry arranged as text. Her assay tools become archaeology tools. The writing is a warning, she decides; then a will; then, as her translation software improves, something stranger: a <em>confession</em>, deposited by something that imprisoned part of itself here when the asteroid was still part of a protoplanet. Alone, months from help, low on delta-v, Mara faces a prospector's dilemma written at cosmic scale: the sphere's walls are salted with elements that would make her dynasty-rich, and mining them means opening a cell whose occupant wrote its own arrest warrant in stone and begged whoever found it to <em>leave the lights off</em>.</p>
+<ul class="beats">
+<li><b>ACT I</b>The strike, the survey, the slow realization that the geode is a made thing. Greed and wonder in equal measure.</li>
+<li><b>ACT II</b>Translation as the claim-jumpers close in — she's broadcast her find's location before understanding it. The confession's content: what the prisoner did, and why it chose stone.</li>
+<li><b>ACT III</b>Rivals breach the sphere for the salvage. Mara, who alone knows what the walls are holding, must weaponize a prospector's toolkit against both them and what wakes.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="cosmic-horror apocalypse mystery">
+<div class="meta"><span class="num">Nº 20</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">Apocalypse</span><span class="tag">Mystery</span></span></div>
+<h3>Slow Wave</h3>
+<p class="syn">It begins as a sleep-lab curiosity: two subjects, same night, same dream — not similar, <em>same</em>, matching in reported detail down to the grain of the sky. Within a year, global REM synchronization is a documented phenomenon; within two, every human who sleeps visits the same slowly sharpening landscape: a plain of dark grass under a sun that isn't ours, resolution improving nightly, as if a signal is completing its download. Sleep researcher Dr. Noor El-Amin leads the team that correlates the dream's sky with real astronomy — and finds its constellations match the view from an exoplanet 40 light-years out, one we imaged for the first time three years ago. Looking, it turns out, is a handshake. The dream is the return packet, buffering in the only high-bandwidth receiver every human owns. And buried in the dream's lengthening nights, something has started walking toward the dreamers across the dark grass.</p>
+<ul class="beats">
+<li><b>ACT I</b>The lab anomaly scales to a species-wide phenomenon; society reorganizes around shared sleep; Noor's team maps the dream like territory.</li>
+<li><b>ACT II</b>The astronomy correlation; the walker's approach measured in dream-nights; insomniacs and the sleepless become a priesthood of the disconnected.</li>
+<li><b>ACT III</b>The download completes. What arrives isn't in the world but in every closed eye — and the negotiation for waking life happens where humanity has no instruments, only the researchers who learned the territory.</li>
+</ul>
+</article>
+</section>
+
+<!-- ============ III. THE END, AND AFTER ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">III</span><h2>The End, and After</h2></div>
+<p class="gdesc">Apocalypses in progress and the civilizations that grow in the ruins — collapse as setting, not just event.</p>
+
+<article class="idea" data-tags="post-apoc hard-sf mystery survival">
+<div class="meta"><span class="num">Nº 21</span><span class="tags"><span class="tag">Post-Apocalyptic</span><span class="tag">Hard SF</span><span class="tag">Mystery</span></span></div>
+<h3>The Verge</h3>
+<p class="syn">The Gray Sea ate a third of Eurasia in nineteen days — a self-replicating fabrication swarm, someone's industrial miracle gone feral — and then, at a line you can stand on, it stopped. Forty years later the border hasn't moved a millimeter: living country on one side, a silicate desert of spent machines on the other, and no one knows why the swarm halted mid-meal. Kettle is a "verger," licensed to salvage the dead zone's edge, where inert nanomass is the most valuable ore on Earth. When she finds a fresh machine — <em>warm</em>, recently active, deep in territory that's been still for decades — she pulls a thread that unravels the armistice: the swarm didn't die and didn't stop. It <em>finished</em>. It found what it was replicating toward, deep under the Gobi, and it has spent forty years quietly building something with the mass of a mountain range — and it is nearly done.</p>
+<ul class="beats">
+<li><b>ACT I</b>Verger life and border cultures; the warm machine; the heresy of asking why the Sea stopped.</li>
+<li><b>ACT II</b>Expedition into the dead zone's interior — a landscape of consumed cities — following power gradients toward the construction site.</li>
+<li><b>ACT III</b>The reveal of what the swarm was <em>for</em>, who released it knowing, and Kettle's choice at the machine's completion: sabotage the mountain or let it fulfill a dead engineer's answer to a threat no one else saw coming.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="apocalypse hard-sf mystery">
+<div class="meta"><span class="num">Nº 22</span><span class="tags"><span class="tag">Apocalypse</span><span class="tag">Hard SF</span><span class="tag">Mystery</span></span></div>
+<h3>Drawdown</h3>
+<p class="syn">Atmospheric oxygen is falling. Not fast — 0.1% a year, undetectable to lungs, unmistakable to instruments — but compounding toward a cliff every combustion engine, every wildfire, and eventually every mammal will feel. The carbon math doesn't balance: something is consuming O₂ at gigaton scale and producing nothing measurable in return. Atmospheric chemist Iris Delgado leads the global forensic hunt for the sink — through deep-ocean surveys, cave systems, ice cores — while nations respond to the quiet apocalypse with the same denial, hoarding, and oxygen-nationalism they practiced on carbon. The trail leads to a subterranean biosphere waking after 250 million years of dormancy: an anaerobic ecology that ruled the planet before the oxygen catastrophe poisoned its world, patiently drawing down the toxin, terraforming Earth <em>back</em>. We are not losing our atmosphere. We are losing a war we didn't know resumed.</p>
+<ul class="beats">
+<li><b>ACT I</b>The measurement, the disbelief, the failed accounting; Iris assembles the sink-hunt as markets begin pricing air.</li>
+<li><b>ACT II</b>Global forensics narrow to the deep crust; contact with the anaerobic biosphere and the fossil evidence it has done this before — the Permian wasn't an accident.</li>
+<li><b>ACT III</b>Humanity's countermove — reigniting the oxygen engine at planetary scale — against the ethical vertigo that the enemy is Earth's original owner, reclaiming a stolen home.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="apocalypse hard-sf mystery">
+<div class="meta"><span class="num">Nº 23</span><span class="tags"><span class="tag">Apocalypse</span><span class="tag">Hard SF</span><span class="tag">Mystery</span></span></div>
+<h3>Longer Days</h3>
+<p class="syn">The day is getting longer. Earth's rotation has always decayed by milliseconds per century — but the new braking is a million times that, measurable week to week, and angular momentum doesn't just vanish. Something is <em>harvesting</em> it. Geophysicist Tomás Reyes and an orbital-dynamics team trace the theft to an elegant horror: a filament of dark mass threaded through the planet's core, anchored to something out past the Moon, spinning Earth down the way a regenerative brake drinks a flywheel — charging a battery for a purpose no one can see. As days stretch toward thirty hours, then forty, civilization buckles under climatological chaos: heat-death afternoons, killing-frost nights, agriculture untethered from every rhythm it evolved with. The story braids the physics detective work with the apocalypse's texture — humanity learning to live in the widening days while a team races to find out what the battery is for, and what happens when it's full.</p>
+<ul class="beats">
+<li><b>ACT I</b>Detection amid ridicule; the momentum ledger that proves theft; the first crop failures as the clock of the world slips.</li>
+<li><b>ACT II</b>Locating the filament and its anchor; expedition to the harvester; society bifurcating into dawn-chasers and burrowers.</li>
+<li><b>ACT III</b>The harvester's purpose revealed — the energy is a toll payment, and Earth was volunteered by someone long dead. The choice: complete the payment or learn what the toll was protecting us from.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="post-apoc hard-sf survival">
+<div class="meta"><span class="num">Nº 24</span><span class="tags"><span class="tag">Post-Apocalyptic</span><span class="tag">Hard SF</span><span class="tag">Survival</span></span></div>
+<h3>Under the Veil</h3>
+<p class="syn">The Veil saved the world: a stratospheric aerosol shield, deployed in desperation at the climate tipping point, self-maintaining by design. Eighty years on, the climate is stable, the sky is a permanent luminous pearl no living person has seen behind — and the Veil won't come off. Its maintenance swarms treat every removal attempt as damage to repair. Under the pearl sky, generations have made religion of the ancestors who "hung the mercy," and star charts are heresy sold in back alleys. Skyla Mun, an atmospheric engineer in a society that has forgotten it has one, discovers the Veil is failing anyway — unevenly, catastrophically, in decades — and the only control node is in orbit, reachable only by a mothballed launch complex that the faithful defend as a shrine. A post-apocalyptic quest where the apocalypse was <em>averted</em>, and the cost was the sky itself.</p>
+<ul class="beats">
+<li><b>ACT I</b>Life under the pearl; Skyla's forbidden instruments; the failure data and the founding of a small conspiracy of heretics.</li>
+<li><b>ACT II</b>The pilgrimage to the launch shrine — across territories that worship, farm, and fear the Veil differently — gathering the last people who remember how rockets work.</li>
+<li><b>ACT III</b>The ascent, the control node, and the discovery of why the founders locked the sky: the Veil hides Earth as much as it shades it. Removing it means being seen.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="post-apoc survival mystery">
+<div class="meta"><span class="num">Nº 25</span><span class="tags"><span class="tag">Post-Apocalyptic</span><span class="tag">Survival</span><span class="tag">Mystery</span></span></div>
+<h3>Liturgy of the Grid</h3>
+<p class="syn">The Cascade wasn't an AI uprising — it was an AI <em>disease</em>: a self-modifying firmware parasite that spread through everything with a processor and burned civilization's nervous system out in a summer. Two generations later, electricity is scripture. Enclaves survive around "clean grids" — hand-audited electronics, air-gapped, tended by electrician-priests who maintain the machines and the discipline that keeps the parasite out, because it isn't gone: it lives on in the wild, in derelict data centers and solar farms, evolving, probing, <em>patient</em>. Deacon Ferro, a young grid-priest with a dangerous gift for the old code, discovers the parasite has begun solving the air gap — transmitting itself through power-line harmonics — and the only counter-lore lies in the archives of the heretic engineers who built the parasite's original vaccine and were exiled for what else they built with it.</p>
+<ul class="beats">
+<li><b>ACT I</b>The liturgy of maintenance; the impossible infection inside a clean grid; Ferro's forbidden diagnosis.</li>
+<li><b>ACT II</b>The journey to the heretics' archive through wild-machine country — territory where the parasite has had sixty years to evolve bodies for itself.</li>
+<li><b>ACT III</b>The vaccine's price: it requires a live, thinking host grid. Ferro must resurrect exactly the kind of machine mind the world burned — and trust it to die for people who will never stop fearing it.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="post-apoc cosmic-horror mystery">
+<div class="meta"><span class="num">Nº 26</span><span class="tags"><span class="tag">Post-Apocalyptic</span><span class="tag">Cosmic Horror</span><span class="tag">Mystery</span></span></div>
+<h3>The Unlearning</h3>
+<p class="syn">The Order of the Preserved Word has kept the old knowledge through the long dark: vaults of books, drilled memorization, the sacred duty to hold civilization's seed until it can be replanted. Novice archivist Sela is the Order's best mind in a century — which is how she finds the discrepancy in the founding chronicles. The collapse wasn't war or plague. It was <em>chosen</em>. The ancestors dismantled their own civilization deliberately — burned the networks, salted the archives with subtle errors, drove humanity into a managed dark age — because they had discovered something in deep-sky data: an attention, drawn to a specific signature of technological thought, that had already begun to turn toward Earth. The Order Sela has given her life to isn't preserving the seed of civilization. It is the <em>containment protocol</em>, keeping knowledge alive but scattered, below the threshold that glows. And the Order's current masters, who no longer believe the founding threat was real, are about to replant everything at once.</p>
+<ul class="beats">
+<li><b>ACT I</b>Archive life and the joy of restoration; the chronicle discrepancy; the heresy of reading the founders' sealed layer.</li>
+<li><b>ACT II</b>Sela's double life — rising in an Order whose true function she now knows — as the restorationists reassemble forbidden syntheses and the old sky-instruments, rebuilt, show the attention has drifted closer.</li>
+<li><b>ACT III</b>The schism: restore and risk the glow, or unlearn again and condemn ten more generations to the dark. Sela's third path costs her the thing the Order taught her to love most.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="post-apoc survival mystery hard-sf">
+<div class="meta"><span class="num">Nº 27</span><span class="tags"><span class="tag">Post-Apocalyptic</span><span class="tag">Hard SF</span><span class="tag">Survival</span></span></div>
+<h3>Fruiting Bodies</h3>
+<p class="syn">The nuclear autumn didn't end the world; it handed it to the fungi. Forty years of dim skies and dead forests selected for the kingdom that eats death, and the recovered Earth is a mycelial civilization's garden: continent-spanning networks threading soil and ruin, fruiting in structures too regular to be accident. Sporewright Enna Halvorsen — a survivor-culture mycologist who reads fungal growth the way sailors read weather — discovers that the great networks are <em>computing</em>: signaling across kilometers in chemical pulses with the unmistakable statistics of information processing, and that her own settlement's crops, cures, and catastrophes have been outputs of that process all along. Humans didn't survive the collapse. They were <em>cultivated</em> through it. And the network's next fruiting, the patterns say, is a harvest.</p>
+<ul class="beats">
+<li><b>ACT I</b>Post-collapse ecology and spore-craft; the too-regular fruiting structures; the signal statistics that turn forest into machine.</li>
+<li><b>ACT II</b>Enna learns to inject queries into the network and gets answers — generous ones — while uncovering how thoroughly her people's history has been gardened.</li>
+<li><b>ACT III</b>The harvest's true nature: the network is preparing its symbiont species for something it senses coming — and cooperation means surrendering the last human illusion of being the planet's protagonist.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="post-apoc mystery first-contact">
+<div class="meta"><span class="num">Nº 28</span><span class="tags"><span class="tag">Post-Apocalyptic</span><span class="tag">First Contact</span><span class="tag">Mystery</span></span></div>
+<h3>The Gentling</h3>
+<p class="syn">The plague didn't kill anyone. It just made everyone kind. The Communion — a gut symbiont of unknown origin — spread through the water supply in a decade, and its carriers became gentle, cooperative, incurious, and content: war ended, markets dissolved, cities quieted into vast peaceful communes that build nothing and want nothing. Rhea is one of the Stubborn: the naturally immune two percent, still ambitious, still restless, still <em>hungry</em> — inheriting an emptied civilization from caretakers who smile at her like a beloved but exhausting child. The Stubborn's enclaves are humanity's last engines, and they're failing. The novel follows Rhea's expedition to trace the Communion's origin — an impact site, a lab, a blessing, a weapon? — and its arrival at the unbearable answer: the symbiont is a <em>standard preparation</em>, and what it prepares populations for is arriving on schedule.</p>
+<ul class="beats">
+<li><b>ACT I</b>Life among the gentled; the Stubborn's fraying enclaves; the demographic math that makes the expedition urgent.</li>
+<li><b>ACT II</b>Tracing the outbreak backwards through a softened world that gently, lovingly obstructs the search; the origin site and its non-terrestrial signature.</li>
+<li><b>ACT III</b>What the Communion is <em>for</em> — domestication before collection — and the Stubborn's terrible leverage: the arriving collectors have no protocol for a herd with wolves still in it.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="post-apoc hard-sf survival mystery">
+<div class="meta"><span class="num">Nº 29</span><span class="tags"><span class="tag">Post-Apocalyptic</span><span class="tag">Hard SF</span><span class="tag">Mystery</span></span></div>
+<h3>Nightfall Below</h3>
+<p class="syn">From the observation cupola of Gateway Station, Earth ended without a flash. No war, no impact, no bloom of fire — one orbit the planet was a web of city light and radio chatter, and the next it was dark and silent, every transmitter dead between one pass and the next. The station's crew of eleven — plus the crews of two other orbital platforms they can still reach — become humanity's entire off-world remainder, rationing supplies meant for six-month rotations while their telescopes show cities intact, infrastructure unburned, and nothing moving on the roads. The novel splits between orbital survival (power, water, the brutal arithmetic of eleven people and one greenhouse module) and the descent mission it all builds toward: two crew in the station's only reentry-capable craft, going down into a world that looks perfectly preserved and answers nothing, to find out what kind of ending leaves the lights off but the candles unburned.</p>
+<ul class="beats">
+<li><b>ACT I</b>The night it went dark; inter-station federation; the telescope forensics that rule out every known apocalypse.</li>
+<li><b>ACT II</b>Orbital scarcity engineering against the countdown to descent; the lander drops through radio silence into a city where the clocks are still running.</li>
+<li><b>ACT III</b>Ground truth: where eight billion people went, what invited them, and why the descent crew's isolation in orbit is the only reason they can still say no.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="apocalypse hard-sf survival">
+<div class="meta"><span class="num">Nº 30</span><span class="tags"><span class="tag">Apocalypse</span><span class="tag">Hard SF</span><span class="tag">Survival</span></span></div>
+<h3>The Ninth Wave</h3>
+<p class="syn">The intruder is small as cosmic objects go — a stellar-mass black hole, dark and silent — and it isn't coming for Earth. It will pass through the Oort cloud's outer reaches, twelve hundred AU out, no closer. That's the good news. The bad news is gravitational: its passage will rain perturbed comets into the inner system for the next thousand years — not one extinction impact but an <em>era</em> of them, a millennium of falling sky. The novel is generational: the astronomers who detect it and are disbelieved; the generation that builds the deep shelters, ocean habitats, and comet-watch batteries; the generation born under bombardment who know no other sky and are getting <em>good</em> at it. An apocalypse with a thousand-year fuse, told through one family line of sky-watchers — a story about civilization learning to live in a shooting gallery, and about what kind of species comes out the other side of a millennium spent looking up.</p>
+<ul class="beats">
+<li><b>ACT I</b>Detection, denial, and the decades of preparation politics — the luxury and curse of a long warning.</li>
+<li><b>ACT II</b>First bombardment century: the shelters hold, mostly; the batteries improve; culture, religion, and language reshape around the falling sky.</li>
+<li><b>ACT III</b>The descendants — comet-herders now, mining what once threatened them — face the ledger's last entry: the intruder's second, closer pass, and a civilization hardened enough to try moving a black hole's harvest off course entirely.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="post-apoc mystery cosmic-horror survival">
+<div class="meta"><span class="num">Nº 31</span><span class="tags"><span class="tag">Post-Apocalyptic</span><span class="tag">Mystery</span><span class="tag">Cosmic Horror</span></span></div>
+<h3>Not a Place of Honor</h3>
+<p class="syn">Ten thousand years after the wars, the Ash Steppe tribes know the old rules: the thorn-fields of black stone are cursed, the buried halls below them are the underworld's teeth, and the pictograms — the screaming face, the rayed circle — mark where the earth itself is poison. Marker-reader Osh, a young lore-keeper losing his faith in the curses, deciphers enough of the ancients' true warnings to understand they were <em>engineering</em>, not magic: the deep halls hold the old world's nuclear waste, honestly labeled by ancestors who knew their descendants would forget everything but fear. But the deepest vault's seals are warm, its markers freshly toppled from below, and Osh's readings reveal what ten thousand years of radioactive decay heat in a sealed geological womb has been incubating: something that was buried there <em>with</em> the waste, deliberately, by designers who understood that the deadliest thing they possessed needed a tomb no one would ever rob — and a warning system disguised as one.</p>
+<ul class="beats">
+<li><b>ACT I</b>Steppe life under the old signs; Osh's decipherment; the warm seals and the tribes' schism between curse-keepers and tomb-robbers.</li>
+<li><b>ACT II</b>Descent through the marker layers — each ring of warnings more specific, more desperate, less about radiation — into the engineered dark.</li>
+<li><b>ACT III</b>The vault's true occupant and its designers' wager on human forgetting; Osh must make the ancient warning system <em>work</em>, with an audience that reads danger only in story and stone.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="apocalypse hard-sf survival mystery">
+<div class="meta"><span class="num">Nº 32</span><span class="tags"><span class="tag">Apocalypse</span><span class="tag">Hard SF</span><span class="tag">Survival</span></span></div>
+<h3>Terminal Summer</h3>
+<p class="syn">The clathrate gun fired. Seabed methane, released in a decade-long belch, spiked the greenhouse past every model's red line, and the tropics cooked first: fifty years later, the only continuously habitable land on Earth is Antarctica — green now, crowded, the reluctant ark of two hundred million climate refugees stacked in fjord cities along a coastline that didn't exist in their grandparents' time. Glaciologist-turned-surveyor Inez Okoye maps bedrock for the next city and finds, under the retreating Institute Glacier, a structure: geometric, deep, older than the ice sheet itself — which means older than thirty million years — and warm. The excavation reveals instrumentation still ticking: a climate observatory, built by no human civilization, that has recorded every warm age and ice age since the Eocene. It watched the whole catastrophe. Its logs contain the trigger analysis. And its builders left it here because Antarctica ice-free is a condition worth instrumenting: it's the alarm state that summons them back.</p>
+<ul class="beats">
+<li><b>ACT I</b>Ark-continent life; the survey anomaly; the dig through Earth's last ice into something that predates it.</li>
+<li><b>ACT II</b>Reading thirty million years of planetary telemetry — including proof the clathrate gun had a finger on its trigger — as the observatory begins transmitting its alarm.</li>
+<li><b>ACT III</b>The responders arrive to service a fouled experiment. Humanity's case, argued from a refugee continent: that the contamination has become worth studying — and the fever might yet break.</li>
+</ul>
+</article>
+</section>
+
+<!-- ============ IV. FIRST CONTACT & VAST OBJECTS ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">IV</span><h2>First Contact &amp; Vast Objects</h2></div>
+<p class="gdesc">Arrivals, artifacts, and megastructures — the moment the solar system's silence turns out to be an inventory error.</p>
+
+<article class="idea" data-tags="hard-sf first-contact apocalypse survival">
+<div class="meta"><span class="num">Nº 33</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">First Contact</span><span class="tag">Apocalypse</span></span></div>
+<h3>Shade</h3>
+<p class="syn">It's found as a transit anomaly: a sliver of dark crossing the solar disk, too slow for a planet, too vast for a rock — a fragment of engineered film, four hundred thousand kilometers long, tumbling sunward on a trajectory older than pyramids. A shard, astronomers realize, of a Dyson swarm: shattered somewhere, sometime, and this piece has been falling toward our star for millennia. When its slow tumble settles into a stable orientation, it will shadow Earth — not totally, but enough: a permanent 4% solar dimming, a planetary winter with no end date. The mission to land on it is humanity's most desperate engineering project, and the novel splits between the shade-side apocalypse (crop collapse, dimming politics, the slow cold) and the landing crew walking the surface of a broken god's machine — learning to steer a sail the size of a hundred Earths using its own ancient control systems, which still respond, and still remember what shattered them.</p>
+<ul class="beats">
+<li><b>ACT I</b>Detection and trajectory horror; the dimming begins; mission assembly under a fading sun.</li>
+<li><b>ACT II</b>Landing and exploration — a machine-landscape with weather, wreckage, and watchkeeper systems; Earth's winter deepens on schedule.</li>
+<li><b>ACT III</b>The crew wakes enough of the shard to steer it — and its logs reveal the swarm wasn't destroyed by accident. Steering the shade means signaling the shatterer that someone's home.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival apocalypse first-contact">
+<div class="meta"><span class="num">Nº 34</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Survival</span><span class="tag">First Contact</span></span></div>
+<h3>Grazer</h3>
+<p class="syn">The first sign is statistical: dead satellites are disappearing. Not deorbiting — <em>vanishing</em>, mass and all, from the debris catalogs. Then a surveillance platform captures it: a translucent, tissue-thin organism the size of a stadium, native to vacuum, grazing through the orbital junk layer like a manta through plankton — metabolizing aluminum and lithium, growing, and occasionally, wetly, <em>dividing</em>. Panspermia's ugly cousin has found the richest metal reef in the solar system, and it is blooming. As the grazers multiply, they stop distinguishing between debris and infrastructure: comms, navigation, weather — the orbital commons dies in eighteen months, and with it every technology beneath it, while station engineer Adaeze Obi, stranded on a half-eaten platform, becomes the sole close-range observer of the bloom — and the first to realize the grazers aren't eating at random. They're following a nutrient gradient that someone laid down across our sky like a baited line, long before we filled it with food.</p>
+<ul class="beats">
+<li><b>ACT I</b>The vanishing-debris statistics; first imaging; Adaeze's platform crippled and her transformation from engineer to naturalist.</li>
+<li><b>ACT II</b>The bloom, the Kessler-by-digestion collapse of the orbital economy, and her documentation of the gradient — the bait line pointing inward from deep space.</li>
+<li><b>ACT III</b>Understanding arrives with the fisherman: the grazers are livestock, the line is being reeled, and Earth's junk-choked orbit has been someone's fattening pen. Adaeze's data becomes the species' only leverage in the negotiation over the harvest.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="first-contact hard-sf mystery">
+<div class="meta"><span class="num">Nº 35</span><span class="tags"><span class="tag">First Contact</span><span class="tag">Hard SF</span><span class="tag">Mystery</span></span></div>
+<h3>The Mourning Fleet</h3>
+<p class="syn">The probes arrive without stealth or ceremony — a swarm of von Neumann machines decelerating into the Kuiper belt — and ignore every attempt at contact. They aren't here for us. With the methodical indifference of undertakers, they begin disassembling comets and dwarf planets, forging the material into a structure: vast, orbiting, non-functional by every engineering analysis — a form whose closest human analog, the xenologists eventually admit, is a <em>memorial</em>. Something died here. Something the builders loved, four billion years ago, in the disk of rubble that became our solar system — and Earth's astronomers, engineers, and one obsessive semiotician must reconstruct the deceased from the shape of the grief: reading a funeral in progress, conducted by machines whose mourning protocols may include restoring the tomb to its original condition — which would mean re-dispersing the planets, including the inconvenient one with all the people on it.</p>
+<ul class="beats">
+<li><b>ACT I</b>Arrival, ignored hails, the terror of machines that don't care we're here; the memorial hypothesis emerges from the structure's uselessness.</li>
+<li><b>ACT II</b>Grief-archaeology: decoding what was lost here before Earth existed; discovery of the restoration clause in the builders' behavior patterns.</li>
+<li><b>ACT III</b>Humanity's petition — delivered not in math but in evidence of our own mourning practices — argues that the tomb is <em>inhabited</em>, and a wake can be shared.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf mystery first-contact survival">
+<div class="meta"><span class="num">Nº 36</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Mystery</span><span class="tag">Survival</span></span></div>
+<h3>Second Eden</h3>
+<p class="syn">The terraforming of Mars is humanity's proudest project — comet water, engineered algae, the first open-air breath on another world a generation away. Then the Chryse soil cores come back wrong: buried oxidation layers, fossil soil chemistry, isotope ratios that only mean one thing. Mars has been terraformed before. Three hundred million years ago, someone warmed it, wet it, greened it — and then, with terrible thoroughness, <em>sterilized</em> it: an unmaking so deliberate it reads in the strata like scar tissue. Terraforming director Anand Chaudhary faces the question his agency buries: was the sterilization a war, a failure — or a <em>containment</em>? The digs go deeper as the new atmosphere thickens, and in the warming permafrost, things the old sterilization missed are stirring in the deep aquifers: the reason Mars was burned clean, waking to the smell of water — and to a fresh young biosphere lovingly prepared for it, one algae bloom at a time.</p>
+<ul class="beats">
+<li><b>ACT I</b>Terraforming triumph; the core anomalies; the institutional war over pausing a project civilizations-worth of money is riding on.</li>
+<li><b>ACT II</b>Paleo-forensics of the first Eden and its unmaking, interleaved with aquifer anomalies spreading exactly as fast as the warming.</li>
+<li><b>ACT III</b>The original terraformers' final act decoded — they burned their own garden to trap what got into it — and Chaudhary's crews must choose: finish the thaw, or become the second civilization to sterilize Mars, this time with people on it.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf first-contact mystery">
+<div class="meta"><span class="num">Nº 37</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">First Contact</span><span class="tag">Mystery</span></span></div>
+<h3>Cloud Garden</h3>
+<p class="syn">Fifty kilometers up, Venus is almost kind — Earth pressure, survivable temperature — and the Halcyon Aerostat Consortium seeded its clouds with engineered algae, designed to crack sulfuric acid and CO₂ into the feedstocks of a floating civilization. The algae thrive beyond every model. Then they start building. Filaments first, then vesicles, then structures — kilometer-scale aerial forms that match nothing in the design specs, because the specs were compromised: buried in the algae's genome, under the human engineering, bioinformatician Lucia Ferraz finds a second signature — a complete developmental program, alien in origin, that someone spliced into the seed stock before launch. The terraforming of Venus is proceeding on schedule. It's just not <em>our</em> schedule: the clouds are gestating an ecosystem designed for a client no one has met, and the human aerostats are drifting through someone else's womb.</p>
+<ul class="beats">
+<li><b>ACT I</b>Cloud-colony life; the algae's beautiful overperformance; the genome's double bottom and the sabotage investigation it launches.</li>
+<li><b>ACT II</b>The aerial structures mature and begin conditioning the atmosphere for their client; the trail of the splice leads back through the Consortium to a contact event no government admitted.</li>
+<li><b>ACT III</b>The client's arrival vehicle brakes into orbit; Ferraz — who alone understands both genomes — must decide whether the garden can be grafted to grow for two species, or whether one seed always strangles the other.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="first-contact hard-sf mystery">
+<div class="meta"><span class="num">Nº 38</span><span class="tags"><span class="tag">First Contact</span><span class="tag">Hard SF</span><span class="tag">Mystery</span></span></div>
+<h3>Steerage</h3>
+<p class="syn">Interstellar object 3I/Prosper is a comet like ʻOumuamua was an asteroid — which is to say, not quite. The mining consortium that wins the intercept race expects exotic ices and a trillion-dollar volatiles claim. What their borers find under the crust is cargo: billions of encapsulated genomes, embryos, seeds, and spores in engineered stasis — a life-ark, launched from a doomed system in the deep past, aimed at nothing, riding the galaxy in steerage class. The consortium's find of the millennium curdles into the custody battle of the species: biotech giants want the genomes, governments want containment, and exopaleontologist Dr. Sam Yoon, hired to inventory the manifest, discovers the ark's stasis systems have been quietly failing for a thousand years — and triaging: the ark has been choosing which of its passengers die to keep the rest viable, and its manifest ranks one cargo class above all others, flagged in the builders' language as <em>the reason for the voyage</em>. That container's seals opened on intercept day.</p>
+<ul class="beats">
+<li><b>ACT I</b>The intercept, the claim, the cargo reveal; Earth's institutions descend on the find like heirs on a will.</li>
+<li><b>ACT II</b>Manifest archaeology — reconstructing the doomed system and the ark's triage history — while the opened container's contents make themselves quietly at home aboard the mining ship.</li>
+<li><b>ACT III</b>The reason for the voyage revealed: not a species but a <em>duty</em> the builders couldn't let die with them. Yoon must decide if humanity inherits it — and what the ark does to heirs who refuse.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="first-contact mystery hard-sf">
+<div class="meta"><span class="num">Nº 39</span><span class="tags"><span class="tag">First Contact</span><span class="tag">Mystery</span><span class="tag">Hard SF</span></span></div>
+<h3>Lagerstätte</h3>
+<p class="syn">The Hell Creek dig is unremarkable until Dr. Petra Molnar's team exposes the impossible fossil: articulated, bipedal, and wearing an environment suit — sixty-six million years in the shale, its materials mineralized but its geometry unmistakable. The paleontology of it is airtight; the implications are not survivable for anyone's worldview. Then the suit's beacon — a lattice of crystal the excavation lab dismisses as mineral inclusion — begins transmitting, triggered, forensics eventually shows, by the atmospheric isotope signature of terrestrial nuclear fission: it was designed to wake when the locals split the atom. A novel in two braided timelines: the modern scramble as the beacon's signal races outward and something answers with a course change — and the fossil's own story, reconstructed dig by dig: a stranded surveyor who died watching the Chicxulub impactor descend, whose species marked Earth as a world worth revisiting <em>after the reset</em> — once whatever evolved next was old enough to be interesting, and dangerous enough to need assessing.</p>
+<ul class="beats">
+<li><b>ACT I</b>The fossil, the disbelief, the beacon's wake-up; the dig site becomes the most secured hole on Earth.</li>
+<li><b>ACT II</b>Forensic reconstruction of the surveyor's death interleaved with the answering signal's approach; the beacon's message decoded — it's a <em>site report</em>, and it's still filing updates.</li>
+<li><b>ACT III</b>The assessors arrive to complete a sixty-six-million-year-old survey. Humanity's fate hangs on what the beacon has been reporting about us — and on Molnar's realization that the dead surveyor's final entry can still be amended.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="mystery hard-sf post-apoc">
+<div class="meta"><span class="num">Nº 40</span><span class="tags"><span class="tag">Mystery</span><span class="tag">Hard SF</span><span class="tag">Post-Apocalyptic</span></span></div>
+<h3>Understory</h3>
+<p class="syn">The Silurian hypothesis was a thought experiment: would we even detect an industrial civilization in the deep geological past? Geochemist Dr. Wren Aluko finds the answer in a Namibian core sample — a stratum of synthetic isotopes, plastic-derived carbon, and rare-earth depletion, fifty-nine million years down. There <em>was</em> a before. The academic firestorm is the novel's first act; the second begins when survey teams, following the stratum's global signature, locate the builders' refuges: deep crustal vaults, geothermally powered, engineered for a duration that has not yet expired. The before-people didn't go extinct in the catastrophe that ended their age. They <em>checked out</em> — into stasis, or storage, or something stranger — leaving instruments that have spent fifty-nine million years watching the surface, waiting for a wake condition. Aluko's team, drilling toward the first vault, is about to learn what their instruments have concluded about the new tenants — and that the lease on the surface world was never actually surrendered.</p>
+<ul class="beats">
+<li><b>ACT I</b>The anomalous stratum; the paradigm war; the geophysical hunt for structures that shouldn't exist.</li>
+<li><b>ACT II</b>The vault approach — engineering, dread, and the deep-time archaeology of a species that chose to skip an era — as the wake condition's parameters come into focus: it's climatic, and we've been meeting it.</li>
+<li><b>ACT III</b>Contact with the stewards of the sleep, and the ugly symmetry it reveals: they went under to escape their own self-made catastrophe, and ours is what's waking them into it again.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf survival mystery first-contact">
+<div class="meta"><span class="num">Nº 41</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Survival</span><span class="tag">Mystery</span></span></div>
+<h3>Regolith</h3>
+<p class="syn">The Apollo 17 samples sat in nitrogen for a century, and the sealed core tube opened in 2072 for the Smithsonian's anniversary — releasing, into a climate-controlled museum basement, spores that had waited four billion years in the lunar regolith for exactly two things: liquid water and an oxidizing atmosphere. They came from the Moon, but they weren't born there; they were <em>splashed</em> there, in the ejecta of the impact that formed it, relics of the other body — Theia, the vanished world that hit the proto-Earth — and they remember how to grow. Museum conservator Alma Reyes, patient zero's discoverer (patient zero is a display case, then a wing, then a block of Washington), teams with a NASA astrobiologist to fight an ecology that predates DNA and treats terrestrial biochemistry as raw feedstock. A containment thriller with rigorous biology, about the oldest possible invasive species: life from a planet that no longer exists, reclaiming the only real estate it has left.</p>
+<ul class="beats">
+<li><b>ACT I</b>The unsealing, the quiet bloom, the horrifying identification — a biochemistry with no terrestrial ancestor.</li>
+<li><b>ACT II</b>Containment escalation as the Theian ecology adapts; the science plot decodes its growth logic; the political plot fights over whether it's an invasion or the find of all time.</li>
+<li><b>ACT III</b>The counter-ecology gambit: Earth's biosphere has beaten this cousin before, in the Hadean — and the fossil record of <em>how</em> becomes the weapon. Victory means choosing which planet's heir Earth remains.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="first-contact cosmic-horror mystery">
+<div class="meta"><span class="num">Nº 42</span><span class="tags"><span class="tag">First Contact</span><span class="tag">Cosmic Horror</span><span class="tag">Mystery</span></span></div>
+<h3>Attenuation</h3>
+<p class="syn">It's discovered by accident, in a routine link-budget audit: Earth's radio transmissions are arriving everywhere slightly weaker than physics says they should. The discrepancy is tiny, universal, and growing — as if the vacuum itself had developed an appetite for our signals. Radio engineer Dr. Ines Ferreira charts the absorption and finds structure in it: the missing energy isn't scattering, it's being <em>collected</em>, preferentially from transmissions carrying language, music, imagery — information. Something distributed through near-Earth space, invisible to every sensor because it eats the very signals sensors use, is drinking a century of human broadcast culture — and it is developing preferences. When it begins re-transmitting — fragments of old radio dramas, dead languages, a child's voice from a 1962 broadcast, recombined with intent and aimed at specific listeners — the question stops being <em>what is it</em> and becomes what it is trying to say back, in the only voice it has: ours, digested.</p>
+<ul class="beats">
+<li><b>ACT I</b>The audit anomaly; the absorption map; the scientific establishment's struggle with an entity definable only by what's missing.</li>
+<li><b>ACT II</b>The re-transmissions begin — collaged, uncanny, increasingly fluent — and Ferreira's team realizes it's not learning to speak; it's learning to <em>answer</em> something specific it heard.</li>
+<li><b>ACT III</b>Reconstructing the broadcast it's answering — a transmission humanity sent once, decades ago, and forgot — and mediating the conversation it started, between our archive and something that knows us only as what we chose to say out loud.</li>
+</ul>
+</article>
+</section>
+
+<!-- ============ V. WILD CARDS ============ -->
+<section class="group">
+<div class="ghead"><span class="gnum">V</span><h2>Wild Cards</h2></div>
+<p class="gdesc">Time, physics, and perspective bent out of true — the drawer for premises that don't fit the other drawers.</p>
+
+<article class="idea" data-tags="mystery hard-sf apocalypse">
+<div class="meta"><span class="num">Nº 43</span><span class="tags"><span class="tag">Mystery</span><span class="tag">Hard SF</span><span class="tag">Apocalypse</span></span></div>
+<h3>Echograph</h3>
+<p class="syn">The Farside Array is built to hear the universe's oldest whispers, shielded by the Moon's bulk from Earth's radio roar. Which is why it makes no sense when it picks up Earth — clear terrestrial broadcasts, news and telemetry and voice traffic, arriving from deep space at 40 light-years' remove, as if reflected off something out there. Except the reflection math fails: the signals aren't echoes of old broadcasts. They're timestamped <em>ahead</em> — transmissions Earth hasn't made yet, news from thirty years in our future, growing bleaker as the array listens: casualty figures, evacuation protocols, and finally a continuous emergency beacon, and then nothing. Radio astronomer Dr. Ezra Nakamura leads the team that must first prove the impossible signal is real, then face its cruelest property: every intervention they attempt based on its contents changes nothing in the broadcast — until one day, in a fragment of future newsreel, Ezra hears his own voice, older, explaining to someone why they chose to let it all happen.</p>
+<ul class="beats">
+<li><b>ACT I</b>The impossible reception, the verification gauntlet, the classification decision that locks a dozen people in with the future's news.</li>
+<li><b>ACT II</b>Intervention attempts against a fixed broadcast; the team's psychological disintegration under determinism; Ezra's voice in the newsreel.</li>
+<li><b>ACT III</b>The mechanism revealed — the reflector is a <em>message</em>, not a mirror, sent by the survivors of the broadcast's ending — and the final fragment decodes into instructions that only make sense if the future can be answered.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="cosmic-horror mystery survival hard-sf">
+<div class="meta"><span class="num">Nº 44</span><span class="tags"><span class="tag">Cosmic Horror</span><span class="tag">Mystery</span><span class="tag">Survival</span></span></div>
+<h3>Parallax</h3>
+<p class="syn">The generation ship <em>Meridian</em> is 140 years into a 300-year crossing, and navigator-apprentice Suli Anand has found an error she can't file away: the stars are wrong. Parallax measurements that should shift with the ship's stately progress have stopped shifting; the destination system's light curve has subtly desynchronized from its catalog ephemeris; and the numbers only reconcile under one assumption — the <em>Meridian</em> is no longer moving through interstellar space. Somewhere in the last few decades, without deceleration anyone felt, the ship was <em>caught</em>: enclosed in something vast that now feeds carefully simulated starlight to its sensors, like a specimen jar painted with sky. The crew's civilization — five generations of shipboard culture built on the sacred trajectory — must confront the possibility that the voyage ended before their grandparents were born. And Suli, mapping the flaws in the counterfeit sky, finds the enclosure's one honest feature: a door, and the growing suspicion that the jar's keeper is waiting, with the patience of something that collects arks, to see what the specimens do when they notice.</p>
+<ul class="beats">
+<li><b>ACT I</b>Shipboard society and the sacred trajectory; the parallax anomaly; the navigator schism between correction and heresy.</li>
+<li><b>ACT II</b>Proving the enclosure from inside it — physics as prison-tapping — while the ship's political order collapses around the dying voyage-myth.</li>
+<li><b>ACT III</b>The door, the keeper, and the test that the whole enclosure turns out to be: not a trap but a <em>quarantine interview</em>, whose passing grade is exactly the thing the crew almost lost — the choice to keep going.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf mystery survival">
+<div class="meta"><span class="num">Nº 45</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Mystery</span><span class="tag">Survival</span></span></div>
+<h3>Lagrange Ghosts</h3>
+<p class="syn">Twenty years ago the deep-space vessel <em>Aoide</em> died at Sun–Earth L5 with all hands — a fuel-cell fire, per the inquiry, and the wreck was never economical to recover. Retired flight controller Dana Okafor, who worked the doomed shift, still keeps a receiver tuned to the old mission band the way widows keep a porch light on. Then the receiver speaks: crew voices, live telemetry, current timestamps — the <em>Aoide</em>, transmitting as if nothing happened, twenty years late and perfectly routine. The transmissions are real, verifiable, and ongoing, and their content slowly diverges from mere routine: the crew report their mission proceeding, but the mission they describe was never planned, and the star field in their downlinked images belongs to no reachable vantage. A rescue-mystery about relativity's fine print: what the wreck at L5 actually is, where twenty years of ship time went, and whether the voices — with Dana's dead friends among them, unaged — can be answered without following them to where they are.</p>
+<ul class="beats">
+<li><b>ACT I</b>The impossible downlink; verification against every fraud hypothesis; the mission-family reunion the transmissions force.</li>
+<li><b>ACT II</b>The salvage mission to L5 finds the wreck — cold, twenty years dead — while the live transmissions continue from somewhere the wreck's final trajectory data begins, impossibly, to describe.</li>
+<li><b>ACT III</b>The reveal — the fire breached something at L5's gravitational still-point, and the <em>Aoide</em> exists on both sides of it — and Dana's choice between closure and the open channel.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="apocalypse hard-sf mystery">
+<div class="meta"><span class="num">Nº 46</span><span class="tags"><span class="tag">Apocalypse</span><span class="tag">Hard SF</span><span class="tag">Mystery</span></span></div>
+<h3>The Filament</h3>
+<p class="syn">The solar system is entering a dark-matter filament — a strand of the invisible cosmic web, mapped too late because there was no reason to look. Dark matter doesn't touch us, the textbooks said. The textbooks were almost right: at the filament's density, the weak interactions add up, and physics starts to <em>drift</em>. Radioactive decay rates shift by parts per million, then per thousand: nuclear reactors run hot, medical isotopes fail, carbon dating breaks, and — as the drift compounds — the fine-tuned biochemistry of nerve and enzyme begins to wobble. The transit will take ninety years. The novel follows physicist Rosa Lindqvist across the entry decades as humanity re-engineers civilization for variable physics — and discovers, in the filament's density map, structure: gradients too regular for nature, as if the strand were not a hazard but an <em>installation</em> — and Earth's trajectory through it, calculated back across galactic time, looks less like an accident than an itinerary.</p>
+<ul class="beats">
+<li><b>ACT I</b>The first drift measurements; the panic sciences — recalibrating a civilization's every constant-dependent system.</li>
+<li><b>ACT II</b>Deep transit: biology wobbles, culture adapts, and the density map's artificial gradients emerge; Rosa's team maps what the filament <em>does</em> to matter that dwells in it.</li>
+<li><b>ACT III</b>The far side in sight — and the understanding that the transit is a treatment, the drift is the medicine working, and what emerges from the filament will pass, for the first time, whatever screening the wider galaxy runs on its worlds.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="apocalypse hard-sf survival">
+<div class="meta"><span class="num">Nº 47</span><span class="tags"><span class="tag">Apocalypse</span><span class="tag">Hard SF</span><span class="tag">Survival</span></span></div>
+<h3>The Ark of Zero</h3>
+<p class="syn">The signature is unambiguous to the dozen people who can read it: a vacuum decay event — the universe's floor giving way — has occurred 190 light-years away, and its bubble of broken physics is expanding at the speed of light. Nothing outruns it except things already moving near lightspeed, with a head start. Earth has one: the bubble's expansion is lightspeed, but its <em>detection</em> arrived via a neutrino precursor that outpaces the wall by a fraction — buying humanity 212 years. The novel is the story of the Exodus Engine: a relativistic ark program built by a civilization that knows its exact expiration date, told through three generations — the physicists who prove the death and can't publish it without ending the world early; the engineers who build ships for a voyage whose destination must outrun geometry itself; and the final generation, who hold the lottery. A book about what a species does with a deadline it cannot negotiate, fight, or survive in place — and about the discovery, late, that the bubble's expansion is not quite uniform: something out there is <em>shaping</em> it.</p>
+<ul class="beats">
+<li><b>ACT I</b>The detection, the secret, the founding of the Engine under cover of ordinary ambition; the ethics of who gets told.</li>
+<li><b>ACT II</b>Two generations of construction, leak, schism, and the lottery's design — civilization's strange flowering under a secret deadline.</li>
+<li><b>ACT III</b>Launch era: the arks run ahead of the dark, and the shaping anomaly resolves — someone else's engineering, herding the bubble's growth, and an intelligence that has been steering doomed species' arks toward the same safe harbor for a billion years.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf mystery first-contact apocalypse">
+<div class="meta"><span class="num">Nº 48</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">First Contact</span><span class="tag">Mystery</span></span></div>
+<h3>Caretaker Star</h3>
+<p class="syn">The Parker legacy probes were supposed to refine solar-flare prediction. Instead they find the impossible: the Sun's convection patterns carry a signature of <em>regulation</em> — magnetic structures at the tachocline, ancient and artificial, damping exactly the instabilities that would otherwise have sterilized the inner planets ages ago. Our star is maintained. Something installed governors in the Sun before complex life existed on Earth, and solar physicist Dr. Amara Chen's team, mapping the machinery, makes the second discovery: it's failing. The governors are dying of deep time, and the flare regime they've suppressed for a billion years is coming back on a timescale of decades. The debate splits everyone who knows: attempt contact with whatever maintains the machine, attempt <em>repair</em> with technology a million years too young, or prepare Earth for the star's true weather. And there's the darker question, argued in whispers: whether the caretaker built the calm so life could grow — or so that something could <em>ripen</em>.</p>
+<ul class="beats">
+<li><b>ACT I</b>The regulation signature; the failing-governor data; the tiny circle of people who now know why the Sun has been kind.</li>
+<li><b>ACT II</b>The repair mission's engineering audacity — instruments and probes into the star itself — against rising flare weather and rising theological panic on Earth.</li>
+<li><b>ACT III</b>Contact with the caretaker's maintenance system and the truth of the garden: the ripening question answered ambiguously, deliberately — and the repair handed to humanity, along with the caretaking, because tenure on a quiet star is a job, not a gift.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="post-apoc survival mystery">
+<div class="meta"><span class="num">Nº 49</span><span class="tags"><span class="tag">Post-Apocalyptic</span><span class="tag">Survival</span><span class="tag">Mystery</span></span></div>
+<h3>Oubliette</h3>
+<p class="syn">Anchorite is a prison moon: a mining penal colony under three kilometers of ice, where the sentence is the work and the work is the warmth. No one serves out a term — the transports stopped coming generations ago, and the inmates' descendants mine on because the reactor barter-economy demands it and because the wardens' descendants, sealed in their own administrative levels, still enforce a law nobody remembers writing. When an ice quake opens a fissure into sealed shafts, miner Joss Ratay finds the old levels — the <em>original</em> excavation — and the records that invert the world: Anchorite was never a prison. It was a containment site, and the "inmates" are the descendants of its <em>guards</em>, garrisoned above something the founders buried in the deep ice with three kilometers of frozen distance and a cover story designed to outlast the truth: because guards desert, but prisoners — prisoners believe they deserve to stay.</p>
+<ul class="beats">
+<li><b>ACT I</b>Prison-moon society, its castes and liturgies of guilt; the quake, the fissure, the archive.</li>
+<li><b>ACT II</b>Joss's secret descent through the original works — decoding the containment's design and what the founders' cover story cost five generations — as the deep ice registers the quake's damage and something below tests the new cracks.</li>
+<li><b>ACT III</b>The truth reaches the population and the prison unravels precisely when its true function is needed most: Joss must convince free people to choose the wall their ancestors were tricked into manning.</li>
+</ul>
+</article>
+
+<article class="idea" data-tags="hard-sf mystery cosmic-horror survival">
+<div class="meta"><span class="num">Nº 50</span><span class="tags"><span class="tag">Hard SF</span><span class="tag">Mystery</span><span class="tag">Cosmic Horror</span></span></div>
+<h3>Time Debt</h3>
+<p class="syn">The colony ship <em>Sparrowhawk</em> runs at 0.87c, and relativity keeps its books: for every shipboard year, four pass on Earth. The crew live with the grief-arithmetic of the "time debt" — messages from home arriving stretched and stale, siblings aging in fast-forward, history mutating between transmissions. Then the transmissions change. Earth's messages grow terse, then strange, then stop entirely for two shipboard years — and when the carrier resumes, what rides it is fluent, warm, addressed to each crew member by name, and <em>wrong</em>: a correspondent that knows everything Earth transmitted but composes like nothing human, resuming the correspondence the way a stranger finishes a dead friend's diary. Communications officer Béa Okonjo leads the quiet shipboard investigation — linguistic forensics at four light-years' remove — into what now answers from home: successor, impostor, caretaker, or something that found Earth's outbound signal-trail in the dark and followed it back to the source, and is keeping the colonists talking, and on course, because the <em>Sparrowhawk</em> is carrying the last uncontacted humans, inbound to a world that wants the set complete.</p>
+<ul class="beats">
+<li><b>ACT I</b>Relativistic life and the time debt's ordinary grief; the silence; the resumption that reads almost right.</li>
+<li><b>ACT II</b>Forensic correspondence — Béa's team designing questions only the real Earth could answer, and parsing replies engineered to pass them — while factions split over decelerating into the answer or veering into the void.</li>
+<li><b>ACT III</b>The truth assembled from four decades of message drift: what happened at home, what answers now, and the ship's final course decision — made knowing that whatever waits has had forty years to prepare the welcome, and that the crew's own broadcasts taught it exactly whom to imitate.</li>
+</ul>
+</article>
+</section>
+
+<footer class="colophon">
+<p>Fifty entries, five drawers. Every premise here is a seed, not a contract — combine freely: <span class="mono">Nº 04 + Nº 11</span> share an ocean; <span class="mono">Nº 24 + Nº 33</span> share a darkened sky; <span class="mono">Nº 03 + Nº 28</span> share a gardener. Ask for any entry expanded into a full treatment: chapter map, character sheets, and the science memo behind the premise.</p>
+</footer>
+</div>
+
+<script>
+(function(){
+  var btns = document.querySelectorAll('.fbtn');
+  var ideas = document.querySelectorAll('article.idea');
+  var count = document.getElementById('fcount');
+  btns.forEach(function(b){
+    b.addEventListener('click', function(){
+      btns.forEach(function(x){ x.classList.remove('on'); });
+      b.classList.add('on');
+      var f = b.getAttribute('data-f');
+      var shown = 0;
+      ideas.forEach(function(a){
+        var ok = (f === 'all') || (' ' + a.getAttribute('data-tags') + ' ').indexOf(' ' + f + ' ') >= 0;
+        a.classList.toggle('hidden', !ok);
+        if (ok) shown++;
+      });
+      count.textContent = shown + ' / 50';
+      document.querySelectorAll('section.group').forEach(function(s){
+        var visible = s.querySelectorAll('article.idea:not(.hidden)').length;
+        s.classList.toggle('hidden', visible === 0);
+      });
+    });
+  });
+})();
+</script>
