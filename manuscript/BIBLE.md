@@ -79,6 +79,15 @@ The book's voice: **plainspoken precision with weather in it.** Sentences a work
 
 The test for all four: *would a working professional in this trade, or a scientist in this field, stop trusting the page?* The book's authority is built from these details; they are load-bearing, not garnish.
 
+**The clarity law (amendment, v1.3 — binding, written after first-reader feedback):** several early drafts asked too much inference of the reader — unclear what things referred to, or what was happening. The fix is orientation, not simplification. **Mystery belongs to the heart of a story, never to its facts.**
+
+17. **Orient inside the first page.** Who we are with (by name), where and when we are, and what work is being done. Every section break that jumps time or place plants its anchor in the first two sentences ("Eleven years earlier," "By the second winter," "The night it happened").
+18. **The novum introduces itself plainly, once.** One or two clean declarative sentences, early, saying what the instrument, drug, or law is and does — unfussy, in the narrator's own voice. Trust the reader with the *implications*, never with the *mechanics*. (The older rule — nobody explains technology to someone who'd already know — governs dialogue. Narration owes the reader the fact.)
+19. **No unanchored referents.** A pronoun or epithet — "the woman," "the machine," "the letter" — never precedes the thing it names. New characters arrive with a name and a relation. If a paragraph's subject could be misread, rename it.
+20. **Jargon pays a toll.** Trade vocabulary is the book's texture, but any term a general reader cannot parse gets a quiet apposition on first use ("the snooper — the bucket truck that walks an inspector out under the deck"). At most one look-up-worthy term per page, and never one the plot hangs on.
+
+The test: a smart reader who knows nothing should be able to say, on any page, *what is happening and to whom* — even when they cannot yet say what it means. Mysterious about what things mean is the book. Mysterious about what things are is a defect.
+
 **Calibration example.** The same beat, two ways.
 
 *Voice violation:* "Standing in the empty pharmacy, Owen couldn't help but feel that everything had shifted. The silence stretched between the shelves like a living thing. It wasn't the pills that scared him — it was what they meant."
@@ -137,6 +146,8 @@ Paste §1, §2, §3, and the single chapter brief into the prompt, followed by �
 Format per chapter: source premise (dossier Nº) · POV/tense/form · length · imagery domain · canon echo · ending directive · forbidden · levers (alternate directions held in reserve — pull in revision, one at a time).
 
 **Lever Zero (available to every chapter, and the recommended first revision for any draft):** the verisimilitude pass. Check every trade, science, and geography detail against reality per §2 rules 13–16 — tools, units, procedures, institutions, place facts — and correct them without touching voice, structure, or plot. This lever does not count against the one-lever rule; it may be combined with any other.
+
+**Lever One (clarity — same standing as Lever Zero):** the orientation pass, per §2 rules 17–20. Add anchors to section jumps, a plain one-time introduction of the novum, names before pronouns, appositions on first-use jargon. This is *addition of orientation, not subtraction of style*: no simplifying of prose, no changes to plot, endings, structure, or voice, no cutting of subtlety about feeling. Expect the chapter to grow two to six percent. Settled fixes recorded in EDIT-NOTES.md must not be undone.
 
 ---
 
