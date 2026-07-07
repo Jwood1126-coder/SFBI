@@ -1,0 +1,37 @@
+# Nº 35 — The Mourning Fleet · FAR (Tier B)
+
+**Secretly about** — that the one credential which crosses an absolute gulf is grief: to matter to something that never came for you, you must prove you can mourn — which means first finishing a mourning of your own.
+
+**Sibling rule** — Nº 31 *Not a Place of Honor*: both stake survival on a single reader decoding a monument left by the long-vanished. Split on address — *Not a Place of Honor* reads a message built to be read, a warning aimed at whoever finds it; *The Mourning Fleet* reads grief addressed to no one, meaning stolen from behavior the Cortège never once directs at us. Let the fleet answer or acknowledge the reader even once and the book collapses into *Not a Place of Honor* with better telescopes.
+
+**The two questions**
+- Outward — How do a handful of scientists, with hours of light-lag, no way to touch or hail the fleet, and funders who want a weapon or a denial, keep Earth from being scheduled as reclaimable debris before the work-front reads its way sunward?
+- Inward — What must Saskia become to stop studying a subject and stand instead as a mourner with standing — which requires finishing, honestly and in public, a grief she has left open for years?
+
+**Dyad**
+- Equation — the reclamation schedule: mass reclaimed vs. Cenotaph completed, the work-front creeping sunward down a consumption curve toward a projected date the inner system enters the queue — every reading of it hours stale by the time light carries it home.
+- Mirror — Saskia and Desmond Achebe, estranged over a death they never mourned together, now that Desmond rides the survey vessel *Antiphon* on a scattered-disk body the Cortège has already queued: the first wake she must hold in real time is his, and it is the one she owes.
+
+**Shape** — Dual close third — Saskia Weisz (Earth, the reader) and Desmond Achebe (the belt, the consumed) — past tense; the split ends of the light-lag are the structure, the reader ahead of the characters. Chapters headed by a necrology: each a reclaimed body's designation, mass, and disposition — a roll of the dying solar system. ~120,000 words, ~34 chapters, three parts by funeral stage: Laying-Out / Eulogy / Procession.
+
+**The novum's price**
+- Time — Saskia's trade is iterative reading; light-lag forbids iteration. The fleet she interprets consumed three more bodies while her model ran, and she must stake lives on readings she cannot confirm.
+- Flesh — the Cortège does not distinguish inhabited mass from rubble; the body *Antiphon* rides is fed to the Cenotaph on schedule, no hail, no evacuation window, the crew reduced to feedstock without malice — and the loss buys the readers only data.
+- A relationship, and privacy — to offer a legible wake she must make her own grief an instrument, performing on the record and before hostile funders the death she and Desmond never mourned, spending the last private thing she owns with no proof it will register.
+
+**Science memo pointers** — Von Neumann self-replicators (Freitas & Merkle; Tipler; universal-constructor logic; realistic doubling times, feedstock chemistry demanding metals/silicates/volatiles, waste-heat thermodynamics of disassembly). Spend the care on interstellar braking into the belt — fusion/antimatter Δv budgets, magsail/electric-sail deceleration, why a swarm can brake at all. Kuiper inventory (classical/resonant/scattered disk; Pluto–Charon, Eris, Makemake, Haumea, Arrokoth; masses, densities, ices — H₂O, CO, CO₂, CH₄, N₂, tholins; belt mass ~0.01–0.1 M⊕). Characterization at 30–50 AU: thermal-IR waste-heat (JWST/far-IR), astrometry, stellar-occultation campaigns, compositional spectroscopy, light curves and interferometry to resolve geometry. Megastructure taxonomy to *exclude* function (Dyson swarm/statite, matrioshka computronium, propulsion, habitat) — reasoning by elimination is the plot. Dynamical history for the deceased: Nice-model instability, giant-planet migration, Nesvorný's ejected ice giant, primordial-disk mass, late heavy bombardment — the drafter commits to one identity and keeps it inferred. Restoration energetics: gravitational binding of the planets / Δv to re-disperse is astronomical — price it honestly, so the threat is scheduling, not a death ray. Light-time (40 AU ≈ 5.5 light-hours one way). Inferring intent from non-communicative behavior: ethology, Dennett's intentional stance and its over-attribution failure mode, and above all mortuary archaeology / bioarchaeology — inferring grief and personhood from grave goods without text is Saskia's real method. Name instrument systematics-read-as-signal as a standing hazard.
+
+**Opening image candidate** — The overnight solution had dropped another object, so Saskia opened the catalog and struck the comet's designation through by hand, there being no field in the software for a body that had stopped being anywhere.
+
+**Ending directive** — Close on a human act of laying-something-down, performed in a form the Cortège can measure, and on one line of the reclamation ledger that reads differently the next pass — no words from the machines, no confirmation they understood, the schedule moved by a single measurable increment. Whether we were granted standing or the fleet merely re-derived its numbers must live in the act, never in speech.
+
+**Forbidden**
+- The Cortège given a voice — a translation breakthrough, a decoded message meant for us, a handshake; meaning stays stolen from behavior and the machines never acknowledge the reader.
+- The deceased shown — the 4-Gyr-dead body rendered as a clean reveal; it stays inferred to the last page, like 31's occupant.
+- The deflection thriller — humanity out-engineering, sabotaging, or destroying the swarm; the reality law makes force futile and the point is standing, not victory.
+- Us-as-special — the fleet came for us, left us a message, or recognizes us as kin; our inhabitation stays incidental, standing is won, never granted.
+- The sentimental cure — shared grief heals all, a wake that saves everyone; it is earned procedurally, costs Saskia something permanent, and may only move a number.
+
+**Levers** — (a) POV/structure: collapse to Saskia's single obsessive POV, or open the aperture to a mosaic of the collaboration told through data releases and committee record. (b) Darker/warmer: darker — the reading fails, Earth is scheduled, and the book becomes how a species holds its own wake with dignity in its window, the Cortège indifferent to the last page; warmer — a human offering is incorporated into the Cenotaph and the tomb is amended to hold the inhabited debris. (c) Scope: compress to the single crewed outpost disassembled around its crew (chamber piece aboard *Antiphon*), or widen to a decades-long campaign tracking the work-front's whole crawl inward.
+
+**Registry** — *Saskia Weisz* (protagonist; semiotician, the grief-reader) and *Desmond Achebe* (mirror; engineer aboard the survey vessel on a queued body) — both grep-clean (0 corpus hits), unrelated surnames. *The Cortège* (human designation for the von Neumann fleet) and *the Cenotaph* (the megastructure) and *Antiphon* (Desmond's vessel) — all 0 hits; two coined proper nouns plus one vessel name, within the far-voice budget. "Undertakers" is left unregistered, the dossier's own simile, common-noun in prose. First-choice *Ilse* rejected (Nº 08 protagonist Ilse Novak); *Halina* rejected (Vol II Halina Duras). No other renames.
