@@ -20,7 +20,7 @@ HOUSTON   Copy that. When you're ready we'd like to start the PPK reconciliation
 YUKI      Give me twenty. I've got a bag to close.
 ```
 
-Meridian smelled the way it always had, of hot electronics and the inside of a canteen and the staleness of air that had been through people and scrubbers for eleven years. She had stopped smelling it around day forty of her first flight and would smell it again the second she was down, when the hatch cracked and Florida came in — cut grass and salt and diesel off the Megan — and she would carry the station out in her suit and her hair for a week and then lose it. Nobody told you that part. The first thing you lose when you come home is how home stopped smelling like anything.
+Meridian smelled of hot electronics and the inside of a canteen and the staleness of air that had been through people and scrubbers for eleven years. She had stopped smelling it around day forty of her first flight and would smell it again the second she was down, when the hatch cracked and Florida came in — cut grass and salt and diesel off the Megan — and she would carry the station out in her suit and her hair for a week and then lose it. Nobody told you that part. The first thing you lose when you come home is how home stopped smelling like anything.
 
 She did the second potable line before lunch and the third after, and between them she safed the coolant loop in the lab, closing the manual valves in the order the card gave them, capping the quick disconnects, calling each cap down so the ground could watch a number settle on their screen and agree with her that it had settled. The work was not hard. The work had never been hard. The work was a list, and you did the list, and the list did not care how you felt about the items on it, and that was the mercy of it and always had been. On a bad flight, the summer the fires took the whole coast into a haze you could see the shape of from up here, she had done the list. The list was how you got from one end of a day to the other with your hands busy and your name on every step of it.
 
@@ -78,7 +78,7 @@ HOUSTON   We're here, Yuki.
 
 ···
 
-Day five ran long because she let it. The plan called for the core avionics and half the stowage in the same shift, and she took the stowage slow, one cargo bag at a time, floating each item to the reader and letting the system name it and deciding, and the deciding was the part that took the hours. Return or disposal. Down or gone. Two hundred and forty items in the aft node alone, and every one of them a small verdict she signed with a keystroke, the record breathing shut behind her the way records do.
+Day five ran long because she let it. The plan called for the core avionics and half the stowage in the same shift, and she took the stowage slow, one cargo bag at a time, floating each item to the reader and letting the system name it and deciding, and the deciding was the part that took the hours. Return or disposal. Down or gone. Two hundred and forty items in the aft node alone, and every one of them a small verdict she signed with a keystroke, the record breathing shut behind her.
 
 The lab drives went in the cold bag. The urine processor spares went to disposal — nobody wanted them down, and the tug was welcome to them. A crew of six had lived here two years and left the ordinary silt of people behind: a sleep mask, a deck of cards short the three of clubs, a paperback swollen fat with humidity and read to the spine. Down or gone. She sent the cards down because a deck short a card was somebody's, and the mask to disposal, and she held the paperback a while and then let it burn, and could not have said why one and not the other except that the hand has reasons the manifest does not.
 
@@ -193,7 +193,7 @@ YUKI      Just you, Dale.
 HOUSTON   Just me.
 ```
 
-She had read the timeline back to Marsh top to bottom, the way you read back anything you mean to do exactly once, and now she carried it the way she carried her own name — the hooks at 09:58, the sep, the burn she would ride flat on her back watching a screen while the ground flew her home to a lain-down sea off Tampa, and the Megan coming alongside, and men she had never met cracking the hatch and letting Florida in.
+She had read the timeline back to Marsh top to bottom, the way you read back anything you mean to do exactly once, and now she carried it — the hooks at 09:58, the sep, the burn she would ride flat on her back watching a screen while the ground flew her home to a lain-down sea off Tampa, and the Megan coming alongside, and men she had never met cracking the hatch and letting Florida in.
 
 She stowed the cardigan in the return bag. It went in folded, a hundred and forty grams the manifest could not defend and no one asked her to, and she zipped the bag and marked it return and clipped it to the seat frame where it would ride down in the capsule with her, and she did not open the manifest to look at where the gray cylinder was filed, because she knew where it was filed, and she had known for two days, and the knowing had stopped needing her hands.
 

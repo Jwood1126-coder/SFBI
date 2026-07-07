@@ -1,4 +1,4 @@
-# THE GRAIN — Project Bible, v1.4
+# THE GRAIN — Project Bible, v1.5
 ### A book of stories from the near present. Editorial direction by Fable; drafts by Opus; continuation by whoever holds this document.
 
 ---
@@ -85,6 +85,8 @@ The test for all four: *would a working professional in this trade, or a scienti
 18. **The novum introduces itself plainly, once.** One or two clean declarative sentences, early, saying what the instrument, drug, or law is and does — unfussy, in the narrator's own voice. Trust the reader with the *implications*, never with the *mechanics*. (The older rule — nobody explains technology to someone who'd already know — governs dialogue. Narration owes the reader the fact.) **The function test (v1.4):** price opacity by what it carries. Trade texture — bridge shorthand, pharmacy codes — may pass unglossed: the reader need only *believe* it, and the skating itself buys the character legitimacy. The novum may not pass: anything the plot turns on must be *understood*, not merely believed, before it bears weight. Ask of every opaque term: *if the reader skips this, do they lose the ending?* Bridges, no. The coil, yes — so the coil's gloss opens its story, and the ritual follows it, legible.
 19. **No unanchored referents.** A pronoun or epithet — "the woman," "the machine," "the letter" — never precedes the thing it names. New characters arrive with a name and a relation. If a paragraph's subject could be misread, rename it.
 20. **Jargon pays a toll.** Trade vocabulary is the book's texture, but any term a general reader cannot parse gets a quiet apposition on first use ("the snooper — the bucket truck that walks an inspector out under the deck"). At most one look-up-worthy term per page, and never one the plot hangs on.
+
+**The ration (v1.5, from the author's ear):** a signature construction is a spice — the right rate makes a voice, overdose makes a formula the reader starts hearing. Budgets, per story: the "the way X does Y" simile at most 8, of which at most ONE built on "the way a man/woman —"; never two in one paragraph. "Neither of them said —" and "its own kind of —" are book-level resources: once per half-book at full strength, syntax varied everywhere else. The litotes move ("she did not reach for it") is the voice's spine — audit its density, never bulk-edit it. Standing scan: before accepting any draft, run the phrase-frequency scan (repeated n-grams across the corpus) alongside the name and prop greps; any construction appearing 5+ times across 5+ stories joins this list. (Corpus finding, 2026-07: "the way" ×227, "the way a man" ×12 in 7 stories, "neither of them said" ×7 in 6, "its own kind of" ×6 — rationed accordingly.)
 
 The test: a smart reader who knows nothing should be able to say, on any page, *what is happening and to whom* — even when they cannot yet say what it means. Mysterious about what things mean is the book. Mysterious about what things are is a defect.
 
