@@ -1,14 +1,14 @@
 ## 7. Deorbit
 
-The morning's job was the potable line in the node, and Yuki bled it down into a contingency bag at forty milliliters a pull, reading the pressure off the gauge between pulls and calling the numbers to the floor in Houston. When the line ran dry she capped the quick disconnect, safed the pump, and marked the step complete on the laptop. That was the fourteenth line she had drained since the crew went home. Six more, then the racks, then the lights.
+The morning's job was the potable line in the node, and Yuki bled it down into a contingency bag at forty milliliters a pull, reading the pressure off the gauge between pulls and calling the numbers to the floor in Houston. When the line ran dry she capped the quick disconnect, safed the pump, and marked the step complete on the laptop. That was the fourteenth line she had drained since the crew went home and left her alone aboard the station. Six more, then the racks, then the lights.
 
-The tug had mated at the aft port the week before she started the closeout. It had come up empty and drunk propellant from the ground ever since, its tanks filling for the burns that would come after she was gone — apogee first, the orbit walked down over three weeks, then the last shove over the South Pacific to put what was left of Meridian in the water at Point Nemo, where they put these things. She had watched it dock through the cupola. She had not gone back to the cupola.
+The tug — the deorbit vehicle sent up to bring the station down — had mated at the aft port the week before she started the closeout. It had come up empty and drunk propellant from the ground ever since, its tanks filling for the burns that would come after she was gone — apogee first, the orbit walked down over three weeks, then the last shove over the South Pacific to put what was left of Meridian in the water at Point Nemo, where they put these things. She had watched it dock through the cupola. She had not gone back to the cupola.
 
 ```
 GMT 128 / 12:41
 HOUSTON   Meridian, Houston, on Space-to-Ground two.
 YUKI      Go ahead, Houston.
-HOUSTON   Morning, Commander. Marsh has you till eighteen hundred. We copied all fourteen loop drains overnight — that's ahead of the line. Good work up there.
+HOUSTON   Morning, Commander. Dale Marsh has you till eighteen hundred. We copied all fourteen loop drains overnight — that's ahead of the line. Good work up there.
 YUKI      I'll give it back on the racks. I always do.
 HOUSTON   Understood. Seas are two feet off Tampa, wind northeast at six. The Megan's on station and it's flat as a parking lot down here. In case you were keeping track.
 YUKI      You're the one who keeps track, Dale.
@@ -31,13 +31,13 @@ YUKI      Somebody always does. It's the one kind thing a timeline knows how to 
 HOUSTON   Copy that.
 ```
 
-She emptied her personal kit against the manifest, item by item, holding each thing to the barcode reader and letting the inventory system say its weight and its name. The reader knew the razor and the second razor. It knew the elastics, the good pen, the three foil packets of miso she had hoarded and would now carry down uneaten. Voss had left his multitool velcroed inside the aft panel — the one with the bottle opener worn bright — because he said it belonged to the station now and the station could keep it. She left it where it was. It was not on any manifest and the tug would have it in three weeks and there was a rightness to that she did not examine.
+She emptied her personal kit against the manifest, item by item, holding each thing to the barcode reader and letting the inventory system say its weight and its name. The reader knew the razor and the second razor. It knew the elastics, the good pen, the three foil packets of miso she had hoarded and would now carry down uneaten. Voss, from an earlier crew, had left his multitool velcroed inside the aft panel — the one with the bottle opener worn bright — because he said it belonged to the station now and the station could keep it. She left it where it was. It was not on any manifest and the tug would have it in three weeks and there was a rightness to that she did not examine.
 
 The last thing in the kit had no barcode. A gray anodized cylinder the size of a film can, thirty-one grams, no part number and no lot. She entered it by hand under her own kit, the way you entered anything the machine could not read, and the system asked her for a description, and she left the field blank and moved it to the return column and closed the record. Then she opened the record again and moved it back to disposal and closed it again, and floated to the galley to start the coffee, because block four could wait twenty minutes and so could she.
 
 ···
 
-By day three the station had gone quieter in a way you heard with your skin. She had powered down the second lab rack that morning, thrown the breaker at the RPCM and watched the panel go dark, and a fan somewhere upstream had wound down with it, and now the air in the lab did not move on its own. It hung. She pushed through it like water. The scrubber in the core still ran and would run until the last day, and near it the air was still Meridian, but the lab had started to smell of nothing, which is what a room smells like when it has decided you are already gone.
+By day three the station had gone quieter in a way you heard with your skin. She had powered down the second lab rack that morning, thrown the breaker at the RPCM — the power unit that fed the rack — and watched the panel go dark, and a fan somewhere upstream had wound down with it, and now the air in the lab did not move on its own. It hung. She pushed through it like water. The scrubber in the core still ran and would run until the last day, and near it the air was still Meridian, but the lab had started to smell of nothing, which is what a room smells like when it has decided you are already gone.
 
 ```
 GMT 130 / 02:14
@@ -60,7 +60,7 @@ The core scrubber threw a caution at 03:40, a nuisance flag it had thrown for a 
 
 She had built the return manifest twice and both times it came out the same weight and the same wrongness. Everything that flew home flew home for a reason the ground could defend — the drives, the samples in the cold bag, the two failed pumps engineering wanted to cut open on a clean table. Everything else stayed and burned. That was the whole physics of it. What you carried down had to earn its mass against a splashdown, and what it could not earn, the tug took to Point Nemo, and the ocean there was four kilometers deep over a plain nobody would ever stand on.
 
-In the galley she found the tea. A tin of hojicha, roasted so dark it smelled of woodsmoke, packed into her kit by a hand that was not hers and stowed behind the drink bags eleven months ago and never opened, because up here you drank what came in the pouches and there was no still water to steep anything in and she had known that and packed it anyway. She turned it once. She velcroed it to the galley rail with the label out and marked it disposal in the system and did not steep it, because there was still no still water, and because the tin weighed a hundred and ten grams, and because if she was honest the tea was not hers to drink. She had a private conference with Denver at 04:00 and she wanted to be doing something with her hands when it came.
+In the galley she found the tea. A tin of hojicha, roasted so dark it smelled of woodsmoke, packed into her kit by a hand that was not hers and stowed behind the drink bags eleven months ago and never opened, because up here you drank what came in the pouches and there was no still water to steep anything in and she had known that and packed it anyway. She turned it once. She velcroed it to the galley rail with the label out and marked it disposal in the system and did not steep it, because there was still no still water, and because the tin weighed a hundred and ten grams, and because if she was honest the tea was not hers to drink. She had a private conference with Denver, her daughter, at 04:00, and she wanted to be doing something with her hands when it came.
 
 ```
 GMT 130 / 04:52
@@ -213,7 +213,7 @@ HOUSTON   Meridian, Houston, on two. Marsh has you, and just about everybody els
 YUKI      Copy, Houston. Starting suit ops.
 ```
 
-She suited in the core, alone, in the order the procedure wanted: liner, suit, gloves, helmet stowed at her hip, the fittings checked and checked again against the card velcroed to her thigh. She keyed each step complete.
+She suited in the core, alone, the morning of undock, in the order the procedure wanted: liner, suit, gloves, helmet stowed at her hip, the fittings checked and checked again against the card velcroed to her thigh. She keyed each step complete.
 
 ```
 GMT 136 / 08:24

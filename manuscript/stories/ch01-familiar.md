@@ -2,7 +2,7 @@
 
 *Floor beam 14, fascia side: fatigue crack at the weld toe, 40 mm. Arrest hole drilled last cycle. Monitor.*
 
-He wrote the length in the field book before he wrote anything else — forty millimeters — and inked a small circle at the tip of the crack the way you cap a sentence. Eighty feet down the Monongahela went by the color of a nickel left on a sill. Lou ran the snooper from the deck, walking the bucket arm out under the fascia girder to where the road salt hadn't reached, and Marcus laid the flat of the hammer against the web and listened.
+Marcus wrote the length in the field book before he wrote anything else — forty millimeters — and inked a small circle at the tip of the crack the way you cap a sentence. Eighty feet down the Monongahela went by the color of a nickel left on a sill. Lou ran the snooper — the bucket truck that walks an inspector out under a bridge's deck — from topside, easing the arm in under the fascia girder to where the road salt hadn't reached, and Marcus laid the flat of the hammer against the web and listened.
 
 Sound steel rings. Bad steel takes the blow and keeps it. Floor beam 14 rang the length of its web, bright, all but the one joint, where for thirty winters a hairline had been opening about a thousandth of an inch a year, patient as a mortgage.
 
@@ -34,7 +34,7 @@ He sat. She fed him. He was polite to her the way you are polite in another man'
 
 *Fracture-critical member. Single load path. Failure of this member would drop the span.*
 
-The trial was eleven days. He wanted that written down somewhere true, because everyone kept saying it like it was nothing, eleven days, as though a thing that fast could not have cut deep.
+The trial was eleven days, and it sat four months behind him now. He wanted that written down somewhere true, because everyone kept saying it like it was nothing, eleven days, as though a thing that fast could not have cut deep.
 
 He had been sad his whole life. Not the kind you tell a doctor. The kind that is just the weather where you live, that you were born into and assumed was the air. Every bridge carries two loads. Dead load is the steel itself, the deck, the rail, the weight the thing was built out of and will hold up before a single car ever crosses. Live load is the day's traffic, the trucks and the wind and the ice, all of it changing minute to minute. His whole life the dead load had been the sadness. It was there in the morning before anything happened. It was the weight he was made of. He carried his live load over top of it the way every span does, and he did his work, and he raised a daughter, and he loved his wife, and no one on the deck ever knew the girder underneath was already loaded to nine-tenths before the first car came.
 
@@ -44,7 +44,7 @@ The consent form ran nine pages. He had read all nine, because he read everythin
 
 He knew her. That was the whole cruelty of it, that nothing was lost that a stranger could see. He could have told you her mother's maiden name and the year of the washer-dryer and which side of the bed she took and why. The file was complete. The recognition was gone. She was his wife the way a photograph of a bridge is a bridge — every rivet in its place, and no steel in it, and nothing you could stand on.
 
-They had only ever been the two of them, really. Ana out in Chicago since her divorce, and before Ana just the two of them, and after Ana gone the two again. No third member to carry the load if one let go. He understood the drawing of his own marriage now the way he understood a fracture-critical span. Non-redundant. Built for one path down through the two of them and no other, and beautiful for it, and one weld from the river.
+They had only ever been the two of them, really. Their daughter Ana out in Chicago since her divorce, and before Ana just the two of them, and after Ana gone the two again. No third member to carry the load if one let go. He understood the drawing of his own marriage now the way he understood a fracture-critical span. Non-redundant. Built for one path down through the two of them and no other, and beautiful for it, and one weld from the river.
 
 ···
 
