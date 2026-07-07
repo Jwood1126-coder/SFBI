@@ -36,3 +36,10 @@
 - Halvorsen: Vol I Nº27 (Enna) / Vol II Nº64 (Marit) — different volumes, unrelated.
 - Reyes: Vol I Nº23 (Ezequiel), Nº41 (Alma) — same volume, both dossier-only, unrelated; watch if either is developed.
 - Noor: ch06 given-name-as-surname (Noor Haddad) vs Vol II Nº100 surname (Hafsa Noor) — different positions, allowed.
+
+## Nameplate (candidate, 2026-07-07)
+- **Tess Ames** (protagonist) — unique corpus-wide. Drafter's first choice "Cass" correctly rejected (Cass Voss, Vol II Nº premise); "Marta" correctly rejected (Marta Ellingson, ch05).
+- **Ruben Ochoa** — clear (only "rubens" hit is *Picea rubens*, ch10, a tree).
+- **Ramona Ybarra** — clear.
+- **Krider, Harney County, OR** (invented town, off OR-78, 38 mi SE of Burns) — clear; real neighbors (Crane, Burns) used only as geography.
+- Props registered: wall-marker ledger, Ameraucana eggs, blue heeler, seedling heat mat, soft-start box, dual-fuel generator, juniper firewood.
