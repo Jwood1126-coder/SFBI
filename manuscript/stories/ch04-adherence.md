@@ -1,5 +1,7 @@
 ## 4. Adherence
 
+*2037*
+
 Owen counts the amoxicillin by fives, ticking them off the tray with the flat of the spatula, and caps the vial at thirty. Ten days of it for a strep that will quit in three whether the kid finishes the bottle or not. He squares the label to the counter and drops the vial in will-call under the mother's last name, and the bin under B is already three deep. A third of what he dispenses is still standing on these shelves at ninety days. At ninety he reverses the claim, shelves the tablets back into stock, and the plan that paid learns nothing about the patient it was so sure it was treating, who never came through the door.
 
 Stauffer's has held down this strip since before Owen bought in, east off Wilmington Pike, south of Dayton, between a nail place and a State Farm gone dark in the spring. China Cottage anchors the far end and still runs a line to the sidewalk on Fridays. There has been no Stauffer behind the counter in nineteen years. Owen kept the name on the sign, because a body hands itself over easier to a name that isn't the one on the license, and because a new sign costs what a new sign costs.

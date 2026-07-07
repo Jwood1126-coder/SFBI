@@ -1,5 +1,7 @@
 ## 12. Absolution
 
+*2040*
+
 Ray counted hosts into the pyx and the two ciboria, forty and forty and sixty, and set them in the tackle box beside the oil stocks and the pewter cup for the water. Three Masses before noon and a hundred and forty miles of section road to hang them on: Joplin at eight, Inverness at half past nine, Rudyard at eleven. First week of August. The winter wheat was coming off the Golden Triangle at thirteen and a half, dry and heavy and a good year, and every grain truck on the Hi-Line ran tarped and low toward the elevators at Chester and Rudyard while he ran the other way against them, priest to the loads, and got dusted at every meeting until the cab smelled of chaff.
 
 He kept the miles in a spiral notebook wire-bound to the visor, a page a week, the odometer at each altar and the gas and the oil, the way another man kept a hunting log, because the diocese paid by the mile and because a road driven that many times you wanted to see the number of. Forty-one thousand since Easter. He logged Chester at seven and pulled out.

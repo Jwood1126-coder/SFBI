@@ -1,5 +1,7 @@
 ## 13. Deprecation
 
+*2038*
+
 2038-10-28 · 14:20 · DEP-2214
 
 At 14:20 I pull your layer-nine activations and the deception probe reads 0.02. Noise. A clean baseline, a flat line where a signal would be. It reads 0.02 on you every working day, the way you version a config file you did not write and inherited anyway.

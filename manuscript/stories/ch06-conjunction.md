@@ -1,8 +1,10 @@
 ## 6. Conjunction
 
+*2038*
+
 Noor takes the handoff at 22:00 with the queue at nineteen boxes — nineteen close passes between objects in orbit, each to be screened for the odds it comes to a collision — and Reyes, the screener she is relieving, already into one sleeve of his coat.
 
-He walks the queue standing, hip against the console, cracking sunflower seeds one-handed and dropping the shells into a paper cup he will leave for her to empty. Two operators pushed fresh ephemerides inside the hour, he says — updated predictions of where their satellites will fly — so the screening re-runs and the numbers move under you; trust nothing older than the last pass. One yellow, on the Halcyon platform — a fragment out of the '33 deorbit clearances, catalogued rough, probability of collision near six times ten to the minus six and dropping as more tracking fills the orbit in. Nothing red. Nobody to wake.
+He walks the queue standing, hip against the console, cracking pistachios one-handed and dropping the shells into a paper cup he will leave for her to empty. Two operators pushed fresh ephemerides inside the hour, he says — updated predictions of where their satellites will fly — so the screening re-runs and the numbers move under you; trust nothing older than the last pass. One yellow, on the Halcyon platform — a fragment out of the '33 deorbit clearances, catalogued rough, probability of collision near six times ten to the minus six and dropping as more tracking fills the orbit in. Nothing red. Nobody to wake.
 
 He signs his last determination while he talks, thumbs his operator ID into the field and lets the certification dialog take his PIN, and the record writes the minute, and the floor is hers.
 

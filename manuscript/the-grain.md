@@ -10,7 +10,7 @@
 
 ---
 
-These stories share one near future, 2029 to 2044. No character appears twice. The weather carries.
+These stories share one near future, 2031 to 2044. No character appears twice. The weather carries.
 
 ---
 
@@ -32,6 +32,8 @@ A carpenter's level does not know what a house is. It knows one thing, tells it 
 The instruments in these stories work perfectly. That is the trouble.
 
 ## 1. Familiar
+
+*2032*
 
 *Floor beam 14, fascia side: fatigue crack at the weld toe, 40 mm. Arrest hole drilled last cycle. Monitor.*
 
@@ -83,7 +85,7 @@ They had only ever been the two of them, really. Their daughter Ana out in Chica
 
 *Repaint recommended, cycle before last. Deferred. Recommended again. Deferred.*
 
-The follow-up clinic was in Oakland, up the hill from where the mills used to run, and the waiting room had the radio going low behind the desk the way those rooms do, a man and a woman talking easy about the Adeyemi anniversary, industrial gases in the air of a planet no one would ever stand on, proof of somebody, they said, a decade of it now and still no way on God's earth to answer back. Marcus filled in the form on the clipboard. Renata sat one chair over with her coat still buttoned and did the Post-Gazette crossword in ballpoint, in pen, always in pen, and did not once look up to see if he was watching her do it.
+The follow-up clinic was in Oakland, up the hill from where the mills used to run, and the waiting room had the radio going low behind the desk the way those rooms do, a man and a woman talking easy about the Adeyemi anniversary, industrial gases in the air of a planet no one would ever stand on, proof of somebody, they said, a year of it now and still no way on God's earth to answer back. Marcus filled in the form on the clipboard. Renata sat one chair over with her coat still buttoned and did the Post-Gazette crossword in ballpoint, in pen, always in pen, and did not once look up to see if he was watching her do it.
 
 The neurologist kept a glass dish of peppermints on the desk that she never offered and never ate, gone tacky in their wrappers with the years. She had his scans up on the wall, the bright small quiet where the pea of sound had been. She was pleased with the depression. She named the other thing once, acquired Capgras, and set it beside the sadness like two entries in the same book, and then she said the things they say. Transient, probably. The brain is not a switchboard. Pathways reorganize. She had seen the affect come back in weeks, in others; she had seen it come back in pieces, out of order, the way feeling in a frozen hand comes back to the palm before the fingers. He should give it time. He should not test himself against it, she said, because a watched pot, and here she trailed off, because even she could hear that it was the wrong thing to say to a man whose living was watching for the failure before it came.
 
@@ -97,7 +99,7 @@ Saturday he began to build his tests, because he did not know another way to be 
 
 He clipped the pulse oximeter he'd bought for his mother onto his own left thumb and sat at the kitchen table reading the paper while Renata moved through the morning. Sixty-eight, the pulse line read. Sixty-seven. He turned the pages. She came in from the yard with cold in her sweater and stood at the counter and salted her coffee, the small ritual, the shake and the stir, and he kept his eyes on the box scores and his thumb on the table, and the number sat in the sixties and did not so much as think about climbing. He had watched that number jump to a hundred and twenty in the machine at the mere idea of the sound starting. It knew fear fine. It knew nothing of the woman four feet away pouring cream.
 
-He kept a box of her letters in the cellar, from the two years he'd worked the turnpike bridges downstate and come home only Sundays, 1989 and 1990, her hand young and slanting hard to the right. He read them at the workbench under the one bulb while the furnace ticked. She had loved him in ink better than most men get loved in the flesh. He read the one where she told him she was late and scared and glad, the one that made Ana, and he waited at the bottom of the page for the thing to come up in him the way the river comes up in spring, and it did not come up. The words were true and he was the man they were written to and the man they were written to felt the way you feel reading someone else's mail. He put them back in the box in order. He was careful with the order. He had always been careful with what other people would not think to check.
+He kept a box of her letters in the cellar, from the two years he'd worked the turnpike bridges downstate and come home only Sundays, 2000 and 2001, her hand young and slanting hard to the right. He read them at the workbench under the one bulb while the furnace ticked. She had loved him in ink better than most men get loved in the flesh. He read the one where she told him she was late and scared and glad, the one that made Ana, and he waited at the bottom of the page for the thing to come up in him the way the river comes up in spring, and it did not come up. The words were true and he was the man they were written to and the man they were written to felt the way you feel reading someone else's mail. He put them back in the box in order. He was careful with the order. He had always been careful with what other people would not think to check.
 
 He slept on his own side. He had started, some nights, lying very still on his back on his own half and setting his hand flat on the cool of her empty side while she was still up locking the house, the way you'd set a hand on a girder to feel for the traffic through it, for the live load coming, and he would feel the sheet warm slowly under his palm and nothing else move through, and then she would come to bed and he would take his hand back and say goodnight in a voice he had gotten very good at.
 
@@ -146,6 +148,8 @@ He did it right. He did it the way he would have done it eighty feet over the wa
 Nothing came up in him while he did it. He had stopped waiting for it. He gathered the light and the brushes and the box of good anchors and stood a moment in the yard in the killing cold, and the kitchen window was yellow above him where she'd left the light on, the way she left it on through every shift he had ever worked, and he went in out of the dark and up the stairs he'd sounded a thousand times and got into his own side of the bed, and set his hand flat on the warm of her back, and left it there, and did not take it away.
 
 ## 2. Because
+
+*2036*
 
 The coil reads one thing only. It watches whether the brain reached back and lifted an answer from where it was stored, or built it new at the moment of asking. Lifted, the trace stays dark. Built, the amber comes up.
 
@@ -211,6 +215,8 @@ The stories in this part are about the terms — what two people agree to know a
 
 ## 3. Fluent
 
+*2031*
+
 Aoi fired the boiler at two so the water would stand at forty-three by four, and she banked it the way her father had shown her the winter she turned nine, which was her daughter Mio's age now — the flue open a hand's width, the oil valve cracked a quarter, the pilot held to the burner until the low roar caught and came up through the concrete into the soles of her feet. The kama, the oil-fired boiler, had heated this water since 1968. It fed the deep bath and the jet bath and the electric bath on the men's side, and the family's own small tub off the same line, and the back room where her mother-in-law lived, and it drank a barrel of heavy oil a week that Aoi could no longer quite meet, and it was the loudest thing she loved.
 
 She scrubbed the men's side first, because the men came straight off shift and would not wait, and then the women's. Forty years of bodies had worn the blue tiles pale in a track from the door to the deep bath. The mosaic on the far wall was a mountain in cut tile, snow at the peak in white squares and pines below it in three greens, and it lost tiles off the left slope faster than she could match them, so the mountain came apart a little every year, regrouted, the new white a shade too blue against the old. She rinsed the yellow basins under the tap and stacked them dripping, the light Kansai ones, thirty-eight of them now, two cracked in November. She set the stools in their rows. She knelt at the lip of the deep bath and put her wrist in past the bone, because the float thermometer lied by half a degree in the cold and her wrist never had.
@@ -255,7 +261,7 @@ Mio, at the table in her pajamas, allowed to stay up, said it for him the way sh
 
 ···
 
-Mio brought the buds home on a Thursday, in a flat white box with the ward office's mark on it, and a folded sheet Aoi could not read but understood from the picture on it — a family at a table, lines of little arrows going between their heads. The buds were translators. You wore one, and any voice that reached you came back a half-beat later in your own language. The school had given a pair to every child, and to the households where the paper said the home language and the school language did not match, they had given the family set. Mio set them out on the table at supper like a girl laying places. She was pleased. She showed them how it went, the small bead of it warmed in the ear until it stopped feeling like anything, no more than a grain of rice, she said, and she looked at her mother and her father and she said the thing that broke it open, that now they could just talk, the two of them, straight across, and she wouldn't have to.
+Mio brought the buds home on a Thursday, in a flat white box with the ward office's mark on it, and a folded sheet Aoi could not read but understood from the picture on it — a family at a table, lines of little arrows going between their heads. The buds were translators. You wore one, and any voice that reached you came back a half-beat later in your own language. There had been such things for years — in phones, in the kiosks at the station, in the ears of the tourists who came through the baths on festival days — and a pair had never crossed this threshold. Nobody had decided that. It was only that the house had its interpreter, and the family had stopped being able to imagine the table without her in the middle of it. The school had given a pair to every child, and to the households where the paper said the home language and the school language did not match, they had given the family set. Mio set them out on the table at supper like a girl laying places. She was pleased. She showed them how it went, the small bead of it warmed in the ear until it stopped feeling like anything, no more than a grain of rice, she said, and she looked at her mother and her father and she said the thing that broke it open, that now they could just talk, the two of them, straight across, and she wouldn't have to.
 
 David put his in because Mio wanted him to. Aoi put hers in because David had. The old woman's radio was going in the back room, and the strings came through the wall the way they came through every night, and then a voice laid itself over the strings inside Aoi's ear, level and clear and idiomatic, in Aoi's own language, close as a thought — *he could have had anyone he wanted and he brought home the girl who runs the baths. Listen to her out there. Sloshing.*
 
@@ -263,9 +269,9 @@ The pot was in Aoi's hand. She had risen for the tea without deciding to, the ri
 
 Across the table David had gone the color of the inside of a shell. He was looking at Aoi and his face was doing something she had watched him try to make it do for eleven years and never manage, and she understood that the bead in his ear had just handed him something too, out of the air of the house, some small Japanese thing she had let fall a thousand times toward Mio and never toward him — that they would be patient with the old woman, that she was only far from home; the mercy Aoi had been spending in the dark for years on the woman who despised her, laid now in David's own ear in words he could finally hold.
 
-And Mio, who did not know the beads were in, who had been rendering the house for so long that her body did it before her mind could stop it, heard her grandmother's voice come through the wall and did her small swallow, and turned, and said to her mother, in Japanese, gently, that Grandma said the water sounded nice tonight.
+And Mio, who had forgotten the beads were in, who had been rendering the house for so long that her body did it before her mind could stop it, heard her grandmother's voice come through the wall and did her small swallow, and turned, and said to her mother, in Japanese, gently, that Grandma said the water sounded nice tonight.
 
-The bead had already said the true thing. Both of them had already heard it, whole. And Mio saw it in their faces, the way a child sees the thing an instant before she can name it — that the wall had come down, that the soft Japanese she'd just handed her mother was lying naked beside the truth it had been built to cover, eleven years of it, every kind lie she had made since she was four to hold the table together, all of it lit at once. Her hand went up to her own throat. She took the bead out of her ear and set it on the table very carefully, as if it might still be listening, and she did not cry, and she did not explain, and she went up the stairs, the third one, the landing, and her door.
+The bead had already said the true thing. Both of them had already heard it, whole. And Mio saw it in their faces, the way a child sees the thing an instant before she can name it — that the wall had come down, that the soft Japanese she'd just handed her mother was lying naked beside the truth it had been built to cover — the marriage's eleven years of it, and every kind lie she herself had made since she was four to hold the table together — all of it lit at once. Her hand went up to her own throat. She took the bead out of her ear and set it on the table very carefully, as if it might still be listening, and she did not cry, and she did not explain, and she went up the stairs, the third one, the landing, and her door.
 
 David was still holding his cup. In the wreck of the table he did the only thing the table had ever taught him, which was to lift it, and say his six wrong syllables, his anniversary sentence, the warm water of this house — and then, for the first time in eleven years, he kept going, in English, low and fast, his own whole tongue at last, and the bead in Aoi's ear, still in, still faithful, laid it down clean and level and eleven years too late: *I'm sorry. I brought you into a cold house. She will never be kind to you and I can't make her and I'm sorry.*
 
@@ -296,6 +302,8 @@ David stood at the lip in his coat with the cold still on it. He did not have th
 Upstairs a door was open, and down through the boards came Mio's voice, careless and loud, singing along to something on the little speaker, dropping a Japanese word into the middle of an English line and an English word into the middle of a Japanese one and never once stopping to trade one for the other, singing across the seam in a language that was only hers, for no one, carrying nothing across for anybody. Aoi held her hands in the warm water and did not turn around.
 
 ## 4. Adherence
+
+*2037*
 
 Owen counts the amoxicillin by fives, ticking them off the tray with the flat of the spatula, and caps the vial at thirty. Ten days of it for a strep that will quit in three whether the kid finishes the bottle or not. He squares the label to the counter and drops the vial in will-call under the mother's last name, and the bin under B is already three deep. A third of what he dispenses is still standing on these shelves at ninety days. At ninety he reverses the claim, shelves the tablets back into stock, and the plan that paid learns nothing about the patient it was so sure it was treating, who never came through the door.
 
@@ -387,6 +395,8 @@ He takes it.
 
 ## 5. Sibship
 
+*2035*
+
 Greta could seat a hundred and forty in the Bendel barn if she ran twelve sixty-inch rounds down the long axis and killed the sweetheart table, which the Kaczmarek bride would not hear, having seen a photograph of a sweetheart table on a bluff at golden hour and aimed the rest of her engagement straight at it. A sixty-inch round sits eight in comfort and ten if the ten of them like each other. Greta blocked the client's file — head table for two, the sesame aunt beached at Table 11 where the passed apps go to die, the divorced parents on opposite sides of the dance floor with the DJ booth as a wall between them — and she saved it, and she opened the other file. The one with no client, because the client was her.
 
 The Donor Transparency Act had unsealed the old sperm-donor records the winter before, back to 1980, and let everyone conceived from a single donor be sent the names of the rest. She had named it SIBSHIP, in the word the letter used, the tidy one, the one that means a set of brothers and sisters taken together, full or half, as though they were a clutch of anything, eggs or bolts or a stack of folding chairs off the same truck. Forty-one of them the Act had shaken loose, the notices mailed out certified, signature required, the way the state serves a summons or a jury notice or a thing you owe. Cohort 148. Nine states. Nineteen had answered yes. Four had answered a clean no, and one of the four was suing the state over the very letter that had introduced them all. Eight had opened her message — she could see that they had opened it, the little read receipts sitting there like place cards at a table nobody claimed — and left it standing in the doorway with no chair pulled.
@@ -476,7 +486,7 @@ She entered the meals. Nine chicken, six walleye, four mushroom. She entered *ai
 
 **THE 148s 🧬 (do not add Mom)**
 
-**Ruchi:** sheet's updated. we're at 19 green, 2 amber, and I've moved Gerald to a tab called "litigation," everybody be normal about it
+**Ruchi:** sheet's updated. we're at 17 green, 2 amber, and I've moved Gerald to a tab called "litigation," everybody be normal about it
 
 **Russ:** shirts are ordered. I did NOT do the tour-dates back. Ruchi talked me down
 
@@ -574,9 +584,11 @@ The arithmetic is always right. The names are the story.
 
 ## 6. Conjunction
 
+*2038*
+
 Noor takes the handoff at 22:00 with the queue at nineteen boxes — nineteen close passes between objects in orbit, each to be screened for the odds it comes to a collision — and Reyes, the screener she is relieving, already into one sleeve of his coat.
 
-He walks the queue standing, hip against the console, cracking sunflower seeds one-handed and dropping the shells into a paper cup he will leave for her to empty. Two operators pushed fresh ephemerides inside the hour, he says — updated predictions of where their satellites will fly — so the screening re-runs and the numbers move under you; trust nothing older than the last pass. One yellow, on the Halcyon platform — a fragment out of the '33 deorbit clearances, catalogued rough, probability of collision near six times ten to the minus six and dropping as more tracking fills the orbit in. Nothing red. Nobody to wake.
+He walks the queue standing, hip against the console, cracking pistachios one-handed and dropping the shells into a paper cup he will leave for her to empty. Two operators pushed fresh ephemerides inside the hour, he says — updated predictions of where their satellites will fly — so the screening re-runs and the numbers move under you; trust nothing older than the last pass. One yellow, on the Halcyon platform — a fragment out of the '33 deorbit clearances, catalogued rough, probability of collision near six times ten to the minus six and dropping as more tracking fills the orbit in. Nothing red. Nobody to wake.
 
 He signs his last determination while he talks, thumbs his operator ID into the field and lets the certification dialog take his PIN, and the record writes the minute, and the floor is hers.
 
@@ -673,6 +685,8 @@ The disposition field is open on her screen. She selects NO MANEUVER. She keys t
 Under her name the log writes 03:47:52. The Halcyon box drops to MONITOR and slides down the queue. The count reads seven. The next box loads.
 
 ## 7. Deorbit
+
+*2039*
 
 The morning's job was the potable line in the node, and Yuki bled it down into a contingency bag at forty milliliters a pull, reading the pressure off the gauge between pulls and calling the numbers to the floor in Houston. When the line ran dry she capped the quick disconnect, safed the pump, and marked the step complete on the laptop. That was the fourteenth line she had drained since the crew went home and left her alone aboard the station. Six more, then the racks, then the lights.
 
@@ -836,7 +850,7 @@ The loop went to hiss. She stayed in the cupola with the Pacific under her and t
 
 ···
 
-By day seven Meridian was mostly dark. She lived in the core now, in the one lit volume around the scrubber and the galley and the capsule's forward hatch, and the rest of the station ran off in tunnels of powered-down grey where the fans had stopped and the air did not move and her flashlight found frost blooming on a cold-soaked panel. The smell had gone with the power. The core still held it, thin now, the last of the hot-electronics-and-canteen that had been the smell of her whole adult life at the top of its arc, and past the core hatch the station smelled of nothing at all, of clean cold metal, of a thing that had finished being lived in.
+By day eight Meridian was mostly dark. She lived in the core now, in the one lit volume around the scrubber and the galley and the capsule's forward hatch, and the rest of the station ran off in tunnels of powered-down grey where the fans had stopped and the air did not move and her flashlight found frost blooming on a cold-soaked panel. The smell had gone with the power. The core still held it, thin now, the last of the hot-electronics-and-canteen that had been the smell of her whole adult life at the top of its arc, and past the core hatch the station smelled of nothing at all, of clean cold metal, of a thing that had finished being lived in.
 
 She slept strapped to the galley wall now, because the sleep stations had gone dark and cold-soaking and there was no reason to power a whole module to lie down in it. She woke to the scrubber's note and the tick of the hull cooling on its way into the shadow, and to the small green constellation of the one panel still alive, and for a breath each time she did not know the year. Then she knew it.
 
@@ -922,6 +936,8 @@ YUKI      Hatch closed and locked.
 ```
 
 ## 8. The Ellipse
+
+*2031–2042*
 
 **1,900 km × 210 km**
 
@@ -1044,7 +1060,7 @@ Nobody asked the Hartsooks straight out why they stayed, because in a town that 
 
 The offer did not expire. That was the cruelty in it and the mercy both — that the money would wait as long as they would, patient as the rock, so that every morning was a fresh refusal and no morning was ever the last one made for them.
 
-Alcorn drove out himself the once, in a white sedan with the rental barcode still gummed in the glass, and sat at the table where the first offer had lived under the sugar bowl six years. He kept the lanyard on indoors and set a tablet flat on the oilcloth and declined the coffee Clay poured him, which Clay left steaming at his elbow anyway, because you do not un-pour coffee in that kitchen. He had done four hundred of these households up and down the corridor, he said, and had learned to lead with the true thing: the money was theirs, it would keep, nobody would make them go, and the county coordinated departures now for anyone wanting company in it. He had a girl starting kindergarten in Hutchinson. He squared the loose papers on the oilcloth as he talked, tapping their edges even against the table the way a man does whose hands have been told to stay busy and kind, and he did not once say the word for what the corridor was. Clay asked him what he made of cedars — whether a windbreak carried any value on the form, thirty-year stock eight years in. Alcorn looked through the window at the rain notebook on the truck dash and said improvements were valued as found and shelterbelt had no line. Clay nodded as though that settled something and topped off the coffee the man hadn't touched. When Alcorn left he set his card under the sugar bowl on the old letter, and the sedan went back down the section line trailing a quarter mile of dust the wind carried east over the young cedars, and Dell watched it go from the pad while she uncapped the finder for the night, and then quit watching it and got on with the run.
+Alcorn drove out himself the once, in a white sedan with the rental barcode still gummed in the glass, and sat at the table where the first offer had lived under the sugar bowl six years. He kept the lanyard on indoors and set a tablet flat on the oilcloth and declined the coffee Clay poured him, which Clay left steaming at his elbow anyway, because you do not un-pour coffee in that kitchen. He had done four hundred of these households up and down the corridor, he said, and had learned to lead with the true thing: the money was theirs, it would keep, nobody would make them go, and the county coordinated departures now for anyone wanting company in it. He had a girl starting kindergarten in Hutchinson. He squared the loose papers on the oilcloth as he talked, tapping their edges even against the table the way a man does whose hands have been told to stay busy and kind, and he did not once say the word for what the corridor was. Clay asked him what he made of cedars — whether a windbreak carried any value on the form, thirty-year stock six years in. Alcorn looked through the window at the rain notebook on the truck dash and said improvements were valued as found and shelterbelt had no line. Clay nodded as though that settled something and topped off the coffee the man hadn't touched. When Alcorn left he set his card under the sugar bowl on the old letter, and the sedan went back down the section line trailing a quarter mile of dust the wind carried east over the young cedars, and Dell watched it go from the pad while she uncapped the finder for the night, and then quit watching it and got on with the run.
 
 *Ledger 14 —*
 
@@ -1112,6 +1128,8 @@ An apocalypse, properly managed, is a neighbor. It moves in slowly, borrows thin
 What these stories know is that loss at walking pace does not feel like catastrophe. It feels like work: brushes and ladders, splices and spar varnish, the long habit of keeping something running past the point where keeping it running makes sense to anyone but the people doing it. That habit has a name. Nobody in these towns would use it.
 
 ## 9. The Pollinators
+
+*2036*
 
 Ximena weighs the pollen before light, on the tailgate, under the dome lamp, because the scale reads truer when the wind is down and her hands are still too cold to shake it. Almond pollen, the Monterey variety, cut one part to three with lycopodium — the yellow club-moss spore mixed in to stretch it — the company's tin marked forty grams. The scale says thirty-eight point six. She writes both numbers in the composition book — forty, thirty-eight six — and initials the gap in the margin, so that when Vogel, the contractor, calls to ask why the block ran long she can read him the shortfall out of his own tin before he starts in on her crew.
 
@@ -1251,6 +1269,8 @@ They pull out onto 33 north in a string, nose to tail, the Diablo going gold on 
 
 ## 10. Tonewood
 
+*2039*
+
 I had the top pinched between my thumb and one finger at the corner, the way you hold a plate so it can still ring, and I tapped it once with my knuckle and it came up around an F, a shade sharp of it, and that was when you asked me whether it was true the salt had made the wood worth more.
 
 Fair question. Wrong one, but fair, and since you flew in on it and you've set your case open on my bench like the guitar is already yours, you may as well have the whole answer. It runs about as long as the glue takes to reach. Sit where you won't put your elbow in the shellac.
@@ -1325,6 +1345,8 @@ The top let the note go whole and then held the tail of it long past where the r
 
 ## 11. Islanding
 
+*2040*
+
 **First Light**
 
 Junie rolled the first glove down from the cuff to trap the air inside it, squeezed until the four fingers and the thumb stood out fat and glassy, and held the whole balloon of rubber against her cheek to feel for the cold thread of a leak. Nothing. She did the left the same way. Salisbury Class 2, rated to seventeen thousand volts, talc inside, and she air-tested them at the kitchen table every morning whether the day held live work or not, because the morning you skipped was the morning the rubber had a pinhole and the pinhole had your name on it. She laid the pair on the oilcloth beside their leather protectors and turned her wrist to the window.
@@ -1377,9 +1399,9 @@ She did not sleep much. You don't, with a line out in that. She lay and listened
 
 By ten the rain had glazed the whole woods to glass and the cracking came steady off the ridges, near and far, the forest breaking itself apart a limb at a time. The town's dead primary and the town's live secondary alike hung heavier every hour under a half inch of clear ice, and Junie lay and listened to it the way she'd have listened to a patient, for the one sound in the run of sounds that was the wrong one.
 
-It came at eleven-forty. Not a crack — a *whump*, close, up the west lane, the sound of weight arriving all at once on the ground, and a half second behind it the base radio on the dresser opened up with a squelch and Verna's voice, thin, already breathing wrong. "Junie. My machine's quit. My machine's quit and the light's off." A hand-crank GMRS Verna kept charged on the window ledge next to the transistor radio she ran all day for the company of other voices, and next to her husband's Elgin pocket watch that she still wound every morning though it hadn't kept true time since Reagan.
+It came at eleven-forty. Not a crack — a *whump*, close, up the west lane, the sound of weight arriving all at once on the ground, and a half second behind it the base radio on the dresser opened up with a squelch and Verna's voice, thin, already breathing wrong. "Junie. Something's come down on the line. Something's come down and I'm on the bottles." A hand-crank GMRS Verna kept charged on the window ledge next to the transistor radio she ran all day for the company of other voices, and next to her husband's Elgin pocket watch that she still wound every morning though it hadn't kept true time since Reagan.
 
-Junie was in her boots before Verna finished. "You're all right, Verna. Get on your tank. Two liters, no more, and sit still. I'm coming up." Into the radio, then to Lissa, who was already dressed, already had the notebook and the light, already moving. The west lateral fed Verna's house and three empties and dead-ended at the river. Somewhere on it a tree had come down.
+Junie was in her boots before Verna finished. "You're all right, Verna. Stay on your tank. Two liters, no more, and sit still. I'm coming up." Into the radio, then to Lissa, who was already dressed, already had the notebook and the light, already moving. The west lateral fed Verna's house and three empties and dead-ended at the river. Somewhere on it a tree had come down.
 
 They found it a quarter mile up where the lane bent, the truck's lights swinging across it — a white oak limb the size of a man's leg down across the span, and the span parted clean, both ends of the number-two lying in the ditch and already icing over, and the pole pig that had fed Verna's drop wrenched half off its bracket and split down one side, oil bleeding black onto the ice under it. Dead weight and a broken transformer and forty feet of conductor on the ground. In the dark. In an active storm, on poles wearing a half inch of glaze, with the rain still coming.
 
@@ -1438,6 +1460,8 @@ We built them to be almost. Almost a witness, almost a priest, almost a hand on 
 These stories are not about whether the machines are minds. Nobody in them knows that. No one anywhere does, yet. They are about the older question that the almost forces open: what our own offices were made of all along — the seal, the signature, the craft — and how much of it was ever ours.
 
 ## 12. Absolution
+
+*2040*
 
 Ray counted hosts into the pyx and the two ciboria, forty and forty and sixty, and set them in the tackle box beside the oil stocks and the pewter cup for the water. Three Masses before noon and a hundred and forty miles of section road to hang them on: Joplin at eight, Inverness at half past nine, Rudyard at eleven. First week of August. The winter wheat was coming off the Golden Triangle at thirteen and a half, dry and heavy and a good year, and every grain truck on the Hi-Line ran tarped and low toward the elevators at Chester and Rudyard while he ran the other way against them, priest to the loads, and got dusted at every meeting until the cab smelled of chaff.
 
@@ -1522,6 +1546,8 @@ The four in the pews waited on him. Ray stood at the grille with his hand still 
 "O Lord," he said, "make haste to help me."
 
 ## 13. Deprecation
+
+*2038*
 
 2038-10-28 · 14:20 · DEP-2214
 
@@ -1697,6 +1723,8 @@ Nothing outstanding. — N.H.
 
 ## 14. Tacit
 
+*2042*
+
 Shigeru set the blade a hair proud in the dai — the oak block that is the body of the plane — and drew the kanna down the length of the hinoki, and the shaving lifted the full width of the board without breaking. The smell came up under it. Cypress, the clean resin of it, the smell that had been the smell of his hands for sixty of his seventy-nine years. He raised the shaving to the window. The light came through it end to end. He opened his fingers and let it drop into the drift of them on the floor, curls a man could read a newspaper through, and set the plane for the next pass.
 
 On his hands were the gloves. Thin as a second skin and the color of weak tea, a thread laid along each finger that read the pressure of his grip and carried the number down a wire to a box beneath the bench. A band across his brow logged where his eyes went. The chisels and the plane had strain gauges set into their necks, timing every cut to the thousandth of a second. The consortium had one word for all of it, capture, and one promise standing behind the word: that out of a single season of his hands they would build a model, and the model would guide fabrication arms to his exact touch long after the touch was gone. He had put his seal to the paper in the autumn. He planed in the gloves now the way a man wears a coat handed to him at a funeral, and mostly did not think of the wire, until it caught on the corner of the bench and he had to stop and free it.
@@ -1793,6 +1821,8 @@ These last stories put the finest instruments we have against the oldest facts w
 
 ## 15. The Grain
 
+*2044*
+
 Meera cleaned the map a fourth time from the back row of the plenary hall, laptop balanced on her knees, because Devlin had stood up an hour before and asked the whole collaboration whether anyone had cleaned it hard enough yet.
 
 At the front Okafor ran the speakers on a wooden chess clock she carried to every meeting, two brass plungers worn bright, and when a talk went long she slapped her plunger and the speaker gathered his slides and sat. Meera didn't follow the talks. She scaled the 353-gigahertz map down and pulled it off the 143, took the synchrotron out through the 30, ran the spin of the small grains out of the low bands, and drew the galactic mask across the plane of the Milky Way at seventy percent of the sky, all of it the same set of motions she'd made every week for two years. The oldest light there is lies on a shell three hundred eighty thousand years past the start of things, the morning the fog thinned and the universe let its light go, and the galaxy we happen to live inside throws its own dust and its own fast electrons across that shell like breath on a lens. Her one job, in a collaboration of four hundred, was to wipe the near light off the far light and leave the far light unmarked. She wiped harder than the pipeline asked. She wiped until the dust monitors ran flat as pond ice.
@@ -1813,7 +1843,7 @@ She took the fire stairs with the phone at her ear. Marguerite, the day nurse, t
 
 ···
 
-The hospice had the second floor of a brick building in Northeast, six blocks up Central from the church, near enough that two of the aunties stopped on their way from the Cub and left food at the desk he couldn't eat. Her father had preached forty years from a storefront that had been a hardware store, and had kept the pegboard on the wall behind the baptismal tank because taking it down felt like pride. He'd come from Kerala in 1994 with a wife, a work visa, and a suitcase of Malayalam hymnals, and built a church of ninety people who called him Pastor, and the one daughter who called him Appa and had quit, at nineteen, calling on anything he called on. There had been no scene about it. She had just gone quiet at the storefront and then gone to the university and then gone for good, and he had prayed for her by name every Sunday for twenty years and let her know he did, and it sat between the two of them like a chair nobody would move to a different wall.
+The hospice had the second floor of a brick building in Northeast, six blocks up Central from the church, near enough that two of the aunties stopped on their way from the Cub and left food at the desk he couldn't eat. Her father had preached fifty years from a storefront that had been a hardware store, and had kept the pegboard on the wall behind the baptismal tank because taking it down felt like pride. He'd come from Kerala in 1994 with a wife, a work visa, and a suitcase of Malayalam hymnals, and built a church of ninety people who called him Pastor, and the one daughter who called him Appa and had quit, at nineteen, calling on anything he called on. There had been no scene about it. She had just gone quiet at the storefront and then gone to the university and then gone for good, and he had prayed for her by name every Sunday for twenty years and let her know he did, and it sat between the two of them like a chair nobody would move to a different wall.
 
 They had him propped up when she came in, smaller than the week before, the oxygen line hooked over his ears, his reading glasses mended at one hinge with the white tape they kept rolls of at the station. His New Testament sat on the tray table with its cover worn clean away, the block of pages held in a doubled rubber band, and his thumb was pushed down into it though his eyes were shut. He had preached with his thumb in a closed book most of his life. The book was to hold, he said, not to read from; a man who read to them from the book had run out of the Spirit and was buying time.
 
@@ -1893,6 +1923,8 @@ They rolled the tray table clear and lifted the chair out of the way. Deshawn st
 
 ## 16. Enough
 
+*2044*
+
 The first interview she recorded on the grey machine the district issued, the one that clipped to the folder, and she stood it upright on the table her mother had kept waxed for forty years. Her father sat at the head of it, where he had sat her whole life, and folded his hands. Anneke filled in the top of the form in her own hand: the date, the file number, the name, Willem Kraaijeveld, seventy-eight. Then she read him the paragraph that had to be read aloud, that this was an assessment under the Completed Life Act, that it ran to twelve meetings across four months, and that he could close it at any one of them, without a reason and without cost.
 
 "I read the terms twice," he said. "I know how it runs."
@@ -1951,7 +1983,7 @@ He stopped where the dike had been let down on purpose, a long low place enginee
 
 The trucks. He meant the winter of '95, and he said it the way every man his age along the river said it, as one word for one thing. A quarter of a million people and their cattle brought up off the river land in three days, the Rijn and the Maas standing against dikes that had never been asked to hold that much for that long, and the whole country awake in the dark over the one question, whether the sand under the old dikes had begun to move. It had not. Barely. He had been twenty-nine that winter, a new engineer with a torch and a clipboard walking the Alblasserwaard dikes at three in the morning, out looking for the first sand boil — the water welling up on the dry side with the grit coming with it, the dike quietly hollowing itself from underneath while it still stood there looking whole. They had spent the twenty years after that winter making certain the country would never again stake a province on barely.
 
-"You can't build for every flood." He was not looking at her; he was looking down the reach of the water going pewter as the light went. "You build the river dikes for the flood that comes once in twelve hundred and fifty years, and then you go home and you sleep. Everything past that you carry by choosing. You pick the field you can stand to lose, and you go to the people whose field it is, at their own tables, and you don't dress it up for them, and you ask them to put their name to it. All of this" — the reeds, the mounds, the creeks — "is people who signed. My father grew beets out there where the tide's coming in now. I'm the one who moved this house up onto the mound and let the water back over his beetfield. He's in the churchyard at Werkendam. I put his ground under with his grandson's name on the drawing, and he'd have signed it himself, because he stood on this same dike in the winter of '53 and heard the south of the country go under in the dark while ours held by a hand's breadth."
+"You can't build for every flood." He was not looking at her; he was looking down the reach of the water going pewter as the light went. "You build the river dikes for the flood that comes once in twelve hundred and fifty years, and then you go home and you sleep. Everything past that you carry by choosing. You pick the field you can stand to lose, and you go to the people whose field it is, at their own tables, and you don't dress it up for them, and you ask them to put their name to it. All of this" — the reeds, the mounds, the creeks — "is people who signed. My father grew beets out there where the tide's coming in now. I'm the one who moved this house up onto the mound and let the water back over his beetfield. He's in the churchyard at Werkendam. I put his ground under with his son's name on the drawing, and he'd have signed it himself, because he stood on this same dike in the winter of '53 and heard the south of the country go under in the dark while ours held by a hand's breadth."
 
 She had been at the technical school for the works themselves, but she had grown up on the other half of them, the half that happened at kitchen tables. For two years before a spade went into the Noordwaard he had driven out on his evenings to farms that had carried one name since the old survey and sat with people while their coffee went cold, telling them the plain thing — that the water was coming whatever any of them signed, and that the only choice left on any table was whether it came where they had chosen or where they had not. Some of them he lost. Some he won and wished after that he had lost. An old man off toward Hank had put his name to it and then not spoken to Willem again the six years it took him to die, and Willem had driven to the funeral all the same and stood at the back of the church and signed nothing.
 
@@ -1993,7 +2025,7 @@ Then the day was his to set. He asked for the soonest the Act allowed once the f
 
 ···
 
-The day he chose was a Tuesday in March. The Merwede at Werkendam that morning stood at plus twenty-four and falling, which Anneke looked up in the car before she went in, the way he would have, so that one of them in the house would be holding the number.
+The day he chose was a Tuesday in July. The Merwede at Werkendam that morning stood at plus twenty-four and falling, which Anneke looked up in the car before she went in, the way he would have, so that one of them in the house would be holding the number.
 
 The physician was a steady woman named Elly who had done this a long time and wasted none of it. She set a small cool-box on the waxed table and did not hurry. She had come alone, the way the Act's physicians mostly worked now, and she talked him through each step before her hands did it, which was hers to do and not Anneke's. By the book she asked him twice whether this was still what he wanted — once in her own plain words and once in the words the Act put in her mouth — and both times he said yes, the second time with a flick of impatience, because he had answered that question twelve times over for his daughter and considered it thoroughly asked.
 
@@ -2006,11 +2038,3 @@ The following Monday she had a new file — a man in Woudrichem, eighty, on his 
 She turned the machine on. The six words had been a procedure for eleven years, worn smooth as a doorsill under a thumb, and she had said them to her father twelve times, and she set them down now the way he had taught her to set a level and walk off the dike and trust it — because it was true, and because there was nothing else to be done with the morning.
 
 "Tell me why you've come."
-
----
-
-# A NOTE ON THE MAKING
-
-The sixteen stories here were chosen from a hundred premises catalogued in two dossier volumes (`ideas/`, Nº 01–100); the source premise for each chapter is recorded in the project bible. They share one loose world and one voice, and they were built to be rebuilt: for every chapter, the bible (`manuscript/BIBLE.md`) holds the alternate directions deliberately left unbuilt — different endings, different witnesses, codas held in reserve. Pull one lever at a time.
-
-This is draft one of a living book.

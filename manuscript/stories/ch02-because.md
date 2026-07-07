@@ -1,5 +1,7 @@
 ## 2. Because
 
+*2036*
+
 The coil reads one thing only. It watches whether the brain reached back and lifted an answer from where it was stored, or built it new at the moment of asking. Lifted, the trace stays dark. Built, the amber comes up.
 
 I calibrated it against the phantom every morning at seven, before the ward filled, when the only sound on the floor was the salt truck working the parking deck two levels down. The phantom is a head of ballistic gel with a copper lattice inside it, machined to give back a known answer. The field goes up, the trace comes back, the amber threshold sits where it sat the morning before or it does not. Some mornings it drifted a hair and I brought it back with a quarter-turn. A gauge that will not hold its own zero is worse than no gauge, and a gauge that asks to be trusted without checking is how people end up buried under numbers, so I checked it every day against a head that could not lie because it could not remember. That was the whole of the ritual, and I loved it the way a person comes to love the one instrument in a life that answers in a single channel and asks for nothing back. Outside, Lake Erie was making its own weather again, gray coming off the water in sheets, and the radiator under the window knocked twice and settled, and the room held its sixty-eight degrees against all of it.

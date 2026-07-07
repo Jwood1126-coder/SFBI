@@ -1,5 +1,7 @@
 ## 10. Tonewood
 
+*2039*
+
 I had the top pinched between my thumb and one finger at the corner, the way you hold a plate so it can still ring, and I tapped it once with my knuckle and it came up around an F, a shade sharp of it, and that was when you asked me whether it was true the salt had made the wood worth more.
 
 Fair question. Wrong one, but fair, and since you flew in on it and you've set your case open on my bench like the guitar is already yours, you may as well have the whole answer. It runs about as long as the glue takes to reach. Sit where you won't put your elbow in the shellac.

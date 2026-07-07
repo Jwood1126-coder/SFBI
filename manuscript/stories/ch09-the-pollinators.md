@@ -1,5 +1,7 @@
 ## 9. The Pollinators
 
+*2036*
+
 Ximena weighs the pollen before light, on the tailgate, under the dome lamp, because the scale reads truer when the wind is down and her hands are still too cold to shake it. Almond pollen, the Monterey variety, cut one part to three with lycopodium — the yellow club-moss spore mixed in to stretch it — the company's tin marked forty grams. The scale says thirty-eight point six. She writes both numbers in the composition book — forty, thirty-eight six — and initials the gap in the margin, so that when Vogel, the contractor, calls to ask why the block ran long she can read him the shortfall out of his own tin before he starts in on her crew.
 
 The fog is down to the second wire of the end posts. She can see her truck and Nardo's and the near edge of the Nonpareil — the crop variety these rows are planted to — and past that the block goes white. A Nonpareil will not set a nut from its own flower; it needs pollen from another variety carried to it, and the bees used to be what carried it. The bees are gone now — hive and hum, years gone — and the pollen comes by hand instead, in a tin, on a brush. Twelfth-leaf trees, twelve springs in the ground, planted the year before the district went over to the self-fertile stock, which is the only reason the crew has work: the new orchards set their own crop and need nobody, and these old Nonpareil rows still need a stranger to carry the pollen from the Monterey two rows over, and the stranger, this February, at eleven dollars a tree, is them.

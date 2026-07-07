@@ -1,5 +1,7 @@
 ## 11. Islanding
 
+*2040*
+
 **First Light**
 
 Junie rolled the first glove down from the cuff to trap the air inside it, squeezed until the four fingers and the thumb stood out fat and glassy, and held the whole balloon of rubber against her cheek to feel for the cold thread of a leak. Nothing. She did the left the same way. Salisbury Class 2, rated to seventeen thousand volts, talc inside, and she air-tested them at the kitchen table every morning whether the day held live work or not, because the morning you skipped was the morning the rubber had a pinhole and the pinhole had your name on it. She laid the pair on the oilcloth beside their leather protectors and turned her wrist to the window.
@@ -52,9 +54,9 @@ She did not sleep much. You don't, with a line out in that. She lay and listened
 
 By ten the rain had glazed the whole woods to glass and the cracking came steady off the ridges, near and far, the forest breaking itself apart a limb at a time. The town's dead primary and the town's live secondary alike hung heavier every hour under a half inch of clear ice, and Junie lay and listened to it the way she'd have listened to a patient, for the one sound in the run of sounds that was the wrong one.
 
-It came at eleven-forty. Not a crack — a *whump*, close, up the west lane, the sound of weight arriving all at once on the ground, and a half second behind it the base radio on the dresser opened up with a squelch and Verna's voice, thin, already breathing wrong. "Junie. My machine's quit. My machine's quit and the light's off." A hand-crank GMRS Verna kept charged on the window ledge next to the transistor radio she ran all day for the company of other voices, and next to her husband's Elgin pocket watch that she still wound every morning though it hadn't kept true time since Reagan.
+It came at eleven-forty. Not a crack — a *whump*, close, up the west lane, the sound of weight arriving all at once on the ground, and a half second behind it the base radio on the dresser opened up with a squelch and Verna's voice, thin, already breathing wrong. "Junie. Something's come down on the line. Something's come down and I'm on the bottles." A hand-crank GMRS Verna kept charged on the window ledge next to the transistor radio she ran all day for the company of other voices, and next to her husband's Elgin pocket watch that she still wound every morning though it hadn't kept true time since Reagan.
 
-Junie was in her boots before Verna finished. "You're all right, Verna. Get on your tank. Two liters, no more, and sit still. I'm coming up." Into the radio, then to Lissa, who was already dressed, already had the notebook and the light, already moving. The west lateral fed Verna's house and three empties and dead-ended at the river. Somewhere on it a tree had come down.
+Junie was in her boots before Verna finished. "You're all right, Verna. Stay on your tank. Two liters, no more, and sit still. I'm coming up." Into the radio, then to Lissa, who was already dressed, already had the notebook and the light, already moving. The west lateral fed Verna's house and three empties and dead-ended at the river. Somewhere on it a tree had come down.
 
 They found it a quarter mile up where the lane bent, the truck's lights swinging across it — a white oak limb the size of a man's leg down across the span, and the span parted clean, both ends of the number-two lying in the ditch and already icing over, and the pole pig that had fed Verna's drop wrenched half off its bracket and split down one side, oil bleeding black onto the ice under it. Dead weight and a broken transformer and forty feet of conductor on the ground. In the dark. In an active storm, on poles wearing a half inch of glaze, with the rain still coming.
 

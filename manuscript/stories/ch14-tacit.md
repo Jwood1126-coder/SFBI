@@ -1,5 +1,7 @@
 ## 14. Tacit
 
+*2042*
+
 Shigeru set the blade a hair proud in the dai — the oak block that is the body of the plane — and drew the kanna down the length of the hinoki, and the shaving lifted the full width of the board without breaking. The smell came up under it. Cypress, the clean resin of it, the smell that had been the smell of his hands for sixty of his seventy-nine years. He raised the shaving to the window. The light came through it end to end. He opened his fingers and let it drop into the drift of them on the floor, curls a man could read a newspaper through, and set the plane for the next pass.
 
 On his hands were the gloves. Thin as a second skin and the color of weak tea, a thread laid along each finger that read the pressure of his grip and carried the number down a wire to a box beneath the bench. A band across his brow logged where his eyes went. The chisels and the plane had strain gauges set into their necks, timing every cut to the thousandth of a second. The consortium had one word for all of it, capture, and one promise standing behind the word: that out of a single season of his hands they would build a model, and the model would guide fabrication arms to his exact touch long after the touch was gone. He had put his seal to the paper in the autumn. He planed in the gloves now the way a man wears a coat handed to him at a funeral, and mostly did not think of the wire, until it caught on the corner of the bench and he had to stop and free it.

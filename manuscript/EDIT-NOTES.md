@@ -63,3 +63,12 @@
 **Ch. 1 — Familiar.** *"When is now, relative to the cure?"* — the four-month gap was carried by one phrase ("the fourth month") easy to miss; readers assembling the timeline wrong read the marriage scenes as decades-later instead of weeks-later. Anchors reinforced: "the fourth month since the treatment," "It had not come since the treatment," "The clinical trial was eleven days." ("The machine" kept in section 2 — context is medical there, and the industrial register is the point.) **Defect class named:** a load-bearing word whose nearest meaning in context is the wrong one (machine→work equipment; trial→courtroom; phantom→ghost).
 
 **Ch. 2 — Because.** *"What does this opening even mean?"* — 180 words of calibration ritual (coil, phantom, field, trace, amber threshold) before the reader learns what the instrument measures. The author's function test (now bible rule 18, v1.4): the coil is the novum the whole plot turns on — it must be understood, not merely believed, unlike ch. 1's bridge texture, which authenticates and may pass. Fix: the existing paragraph-2 gloss promoted to the story's opening lines; ritual paragraph follows, legible. Zero new sentences.
+
+
+---
+
+# Part four — post-audit revision (2026-07-07, author approved recommendations wholesale)
+
+Triage of the 48 cold-read findings: **11 fixed** (nine consistency errors + ch03 miracle-pricing + ch06 prop), **37 left standing** — every remaining finding carries its auditor's own defense (deliberate obliqueness, motivated analog texture, vernacular arithmetic) and passes the function test: none of them costs a reader the ending. Year stamps added to all sixteen stories (arc now legible, 2031→2044); front matter adjusted to match; back-matter note cut from the compiled book.
+
+Deferred with intent (memo items needing the author's eye after the next commission): Part I resequencing (Familiar/Because back-to-back), the knife (Deorbit, Adherence), the Islanding/Absolution concentrator tableau (kept as our deliberate rhyme over the cold reader's objection — revisit at draft two), and the book-scale tics list (procedural-gesture endings ×14, talisman objects ×16, notebooks ×9) which is draft-two lever material.

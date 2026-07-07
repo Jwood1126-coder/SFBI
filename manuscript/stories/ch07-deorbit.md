@@ -1,5 +1,7 @@
 ## 7. Deorbit
 
+*2039*
+
 The morning's job was the potable line in the node, and Yuki bled it down into a contingency bag at forty milliliters a pull, reading the pressure off the gauge between pulls and calling the numbers to the floor in Houston. When the line ran dry she capped the quick disconnect, safed the pump, and marked the step complete on the laptop. That was the fourteenth line she had drained since the crew went home and left her alone aboard the station. Six more, then the racks, then the lights.
 
 The tug — the deorbit vehicle sent up to bring the station down — had mated at the aft port the week before she started the closeout. It had come up empty and drunk propellant from the ground ever since, its tanks filling for the burns that would come after she was gone — apogee first, the orbit walked down over three weeks, then the last shove over the South Pacific to put what was left of Meridian in the water at Point Nemo, where they put these things. She had watched it dock through the cupola. She had not gone back to the cupola.
@@ -162,7 +164,7 @@ The loop went to hiss. She stayed in the cupola with the Pacific under her and t
 
 ···
 
-By day seven Meridian was mostly dark. She lived in the core now, in the one lit volume around the scrubber and the galley and the capsule's forward hatch, and the rest of the station ran off in tunnels of powered-down grey where the fans had stopped and the air did not move and her flashlight found frost blooming on a cold-soaked panel. The smell had gone with the power. The core still held it, thin now, the last of the hot-electronics-and-canteen that had been the smell of her whole adult life at the top of its arc, and past the core hatch the station smelled of nothing at all, of clean cold metal, of a thing that had finished being lived in.
+By day eight Meridian was mostly dark. She lived in the core now, in the one lit volume around the scrubber and the galley and the capsule's forward hatch, and the rest of the station ran off in tunnels of powered-down grey where the fans had stopped and the air did not move and her flashlight found frost blooming on a cold-soaked panel. The smell had gone with the power. The core still held it, thin now, the last of the hot-electronics-and-canteen that had been the smell of her whole adult life at the top of its arc, and past the core hatch the station smelled of nothing at all, of clean cold metal, of a thing that had finished being lived in.
 
 She slept strapped to the galley wall now, because the sleep stations had gone dark and cold-soaking and there was no reason to power a whole module to lie down in it. She woke to the scrubber's note and the tick of the hull cooling on its way into the shadow, and to the small green constellation of the one panel still alive, and for a breath each time she did not know the year. Then she knew it.
 
