@@ -47,6 +47,8 @@ This bible is the project's memory and its engine. It contains everything needed
 
 **Range requirements:** at least one story warm and funny (Ch. 5), one formally daring (Ch. 13, second person), one in first person (Ch. 10), one built from documents (Ch. 8), one almost all dialogue (Ch. 7). The book must not settle into a single register of tasteful melancholy. Vary the temperature.
 
+**The dyad test (amendment, v1.2 — binding).** Every story must be able to name, in one line each, its *equation* and its *mirror*: the hard constraint that drives the plot (a dose curve, a covariance, a chill-hour requirement, an uncertainty ellipse) and the human bond that makes the outcome matter (a marriage, a sibship, a crew, a daughter). The equation earns the reader's belief; the mirror earns their care. A draft with only the equation is a thought experiment; with only the mirror, a soap. The book lives where the two work on each other — the equation stressing the bond, the bond changing how the equation is read. When a chapter is drafted or revised, state its dyad in one line in the changelog; if either half cannot be named, the draft is not done.
+
 ---
 
 ## §2. The voice (law)

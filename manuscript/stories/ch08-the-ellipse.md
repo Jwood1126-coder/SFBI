@@ -30,7 +30,7 @@ The Program held its meeting in the school gym under the district banners, foldi
 
 > Present: Chairman Riffel, Commissioners Kliewer and Doss, County Clerk V. Meder. Minutes of 14 Dec approved on motion Doss, second Kliewer; carried 3–0.
 >
-> Mr. Alcorn of the Corridor Relocation Program addressed the Board regarding parcel appraisals and the household election period. Chairman Riffel read the letter from the Office of Planetary Defense stating no deflection will be attempted, the trajectory not to be altered where alteration returns the hazard to populations already clear of it. Received and filed.
+> Mr. Alcorn of the Corridor Relocation Program addressed the Board regarding parcel appraisals and the household election period. Chairman Riffel read the letter from the Planetary Defense Coordination Office stating no deflection will be attempted, the trajectory not to be altered where alteration returns the hazard to populations already clear of it. Received and filed.
 >
 > Motion Kliewer to keep the Protection swimming pool closed for the coming season, no lifeguard available; second Doss; carried 3–0.
 >
