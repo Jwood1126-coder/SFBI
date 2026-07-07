@@ -1,4 +1,4 @@
-# THE GRAIN — Project Bible, v1
+# THE GRAIN — Project Bible, v1.4
 ### A book of stories from the near present. Editorial direction by Fable; drafts by Opus; continuation by whoever holds this document.
 
 ---
@@ -82,7 +82,7 @@ The test for all four: *would a working professional in this trade, or a scienti
 **The clarity law (amendment, v1.3 — binding, written after first-reader feedback):** several early drafts asked too much inference of the reader — unclear what things referred to, or what was happening. The fix is orientation, not simplification. **Mystery belongs to the heart of a story, never to its facts.**
 
 17. **Orient inside the first page.** Who we are with (by name), where and when we are, and what work is being done. Every section break that jumps time or place plants its anchor in the first two sentences ("Eleven years earlier," "By the second winter," "The night it happened").
-18. **The novum introduces itself plainly, once.** One or two clean declarative sentences, early, saying what the instrument, drug, or law is and does — unfussy, in the narrator's own voice. Trust the reader with the *implications*, never with the *mechanics*. (The older rule — nobody explains technology to someone who'd already know — governs dialogue. Narration owes the reader the fact.)
+18. **The novum introduces itself plainly, once.** One or two clean declarative sentences, early, saying what the instrument, drug, or law is and does — unfussy, in the narrator's own voice. Trust the reader with the *implications*, never with the *mechanics*. (The older rule — nobody explains technology to someone who'd already know — governs dialogue. Narration owes the reader the fact.) **The function test (v1.4):** price opacity by what it carries. Trade texture — bridge shorthand, pharmacy codes — may pass unglossed: the reader need only *believe* it, and the skating itself buys the character legitimacy. The novum may not pass: anything the plot turns on must be *understood*, not merely believed, before it bears weight. Ask of every opaque term: *if the reader skips this, do they lose the ending?* Bridges, no. The coil, yes — so the coil's gloss opens its story, and the ritual follows it, legible.
 19. **No unanchored referents.** A pronoun or epithet — "the woman," "the machine," "the letter" — never precedes the thing it names. New characters arrive with a name and a relation. If a paragraph's subject could be misread, rename it.
 20. **Jargon pays a toll.** Trade vocabulary is the book's texture, but any term a general reader cannot parse gets a quiet apposition on first use ("the snooper — the bucket truck that walks an inspector out under the deck"). At most one look-up-worthy term per page, and never one the plot hangs on.
 

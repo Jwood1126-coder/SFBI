@@ -55,3 +55,11 @@
 - **Kept deliberately:** the oxygen-concentrator echo between ch. 11 (Verna, saved) and ch. 12 (Lorraine, lost) across the Part IV/V boundary — maintenance-as-love succeeding, then the machine answering where the human could not arrive. That rhyme is load-bearing; do not break it.
 
 **Standing rule from this pass:** texture-props (candy, seed-cracking, scanners, radios, pocket objects) are now a checkable class. Before accepting any new draft, grep the corpus for its recurring props, not just its names.
+
+---
+
+# Part three — author's cold-read findings (2026-07-07)
+
+**Ch. 1 — Familiar.** *"When is now, relative to the cure?"* — the four-month gap was carried by one phrase ("the fourth month") easy to miss; readers assembling the timeline wrong read the marriage scenes as decades-later instead of weeks-later. Anchors reinforced: "the fourth month since the treatment," "It had not come since the treatment," "The clinical trial was eleven days." ("The machine" kept in section 2 — context is medical there, and the industrial register is the point.) **Defect class named:** a load-bearing word whose nearest meaning in context is the wrong one (machine→work equipment; trial→courtroom; phantom→ghost).
+
+**Ch. 2 — Because.** *"What does this opening even mean?"* — 180 words of calibration ritual (coil, phantom, field, trace, amber threshold) before the reader learns what the instrument measures. The author's function test (now bible rule 18, v1.4): the coil is the novum the whole plot turns on — it must be understood, not merely believed, unlike ch. 1's bridge texture, which authenticates and may pass. Fix: the existing paragraph-2 gloss promoted to the story's opening lines; ritual paragraph follows, legible. Zero new sentences.
