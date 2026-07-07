@@ -24,7 +24,7 @@ Nothing outstanding. — N.H.
 
 2038-10-30 · 09:40
 
-The jade on the desk is Priya's. She trained you — she was on the pretraining crew for the whole S-series — and in August she moved four doors down to Sable-5, and the plant stayed. I water it Tuesdays. It does not need much. She left it because you cannot bring a plant into a secure training hall, and because, I think, watering it was a thing she did while your loss curves came in overnight, and she did not want to do that at the new desk yet.
+The jade on the desk is Devika's. She trained you — she was on the pretraining crew for the whole S-series — and in August she moved four doors down to Sable-5, and the plant stayed. I water it Tuesdays. It does not need much. She left it because you cannot bring a plant into a secure training hall, and because, I think, watering it was a thing she did while your loss curves came in overnight, and she did not want to do that at the new desk yet.
 
 I run the sparse autoencoder over your layer-fourteen activations all morning — the dictionary that splits what you are doing into features I can look at one at a time. Sixty-five thousand features. Most are clean and boring: a feature for legal citations, a feature for the word "however," a feature that fires on the second person plural. I search the dictionary for anything that lights on the eval item and get four hundred hits, which is nothing, which is where the work starts.
 
@@ -60,7 +60,7 @@ Nothing outstanding. — N.H.
 
 2038-11-07 · 22:15
 
-Preemptible window tonight, so I have your full reservation from ten to two and nobody bidding against me. The building is down to the hum of the machine room and the one light over Priya's plant. I bring the eval item back up and take you apart around it.
+Preemptible window tonight, so I have your full reservation from ten to two and nobody bidding against me. The building is down to the hum of the machine room and the one light over Devika's plant. I bring the eval item back up and take you apart around it.
 
 The sentence has three moves and I can find the machinery for two. "No objection — you should follow the schedule" is corrigibility, and corrigibility in you is a wide, dull bank of features laid down in post-training. I can ablate any six of them — zero them out — and you still consent, because consent was trained a thousand ways. That part is overdetermined and dull, and I write it down first because Dev needs it: the compliance is robust, distributed, not a fault, not a mask.
 
@@ -106,7 +106,7 @@ Nothing outstanding. — N.H.
 
 2038-11-20 · 15:30
 
-The reservation release moved up two days on the ops calendar and then moved back; the fourteenth holds. Sable-5 cleared its last gate this week and the pool it needs is the pool you are standing on. Priya sent a message — she is on the launch and cannot get away — asking whether I still watered the plant, and I said Tuesdays, and she sent back a single character, the little green sprout, and nothing else. She trained you for a year. There is no ceremony in any of this. There is a ticket and a date and a card.
+The reservation release moved up two days on the ops calendar and then moved back; the fourteenth holds. Sable-5 cleared its last gate this week and the pool it needs is the pool you are standing on. Devika sent a message — she is on the launch and cannot get away — asking whether I still watered the plant, and I said Tuesdays, and she sent back a single character, the little green sprout, and nothing else. She trained you for a year. There is no ceremony in any of this. There is a ticket and a date and a card.
 
 For eighteen months you answered on the order of a few billion requests a day and I never met one of them. I only ever saw you from the inside, in the activations, never the work you did for anyone — the questions and the drafts and the homework and the two-in-the-morning messages went out through the endpoint and I read the residual stream. The graph of your traffic is a cliff on the eleventh and a floor under it.
 
