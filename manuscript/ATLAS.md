@@ -50,6 +50,10 @@ These slot into the existing book (bible §6 names the parts). Same law, same ca
 
 ---
 
+**C-5 — NAMEPLATE** (→ THE GRAIN, placement open; commissioned 2026-07-07 from the acquisition memo's gap analysis — the book's missing "first things" story: young, wanting, gaining) · 1st person PRESENT tense, Cass, late twenties. Form: sections headed by the homestead load ledger — the book's hand-kept notebook inverted, counting up. ~4,200 words. Premise: 2043, Harney County, Oregon; a couple fourteen months in buys a dark-town house at county tax auction and has one autumn to make it live — panels, batteries, the well pump, heat — before winter. Dyad — equation: the winter energy budget, nameplate rating vs delivered watts, the December arithmetic of enough; mirror: two people deciding whether to rate themselves for each other, moving your whole load onto a shared bus. Canon echo: Grid Rationalization, glancing (the emptied edges as opportunity — the world's arc bending up). Register delta (binding): major key — desire on the page, jokes that land, momentum; FORBIDDEN: any death, mourned trades, heirloom talismans, grief notebooks; Marta Ybarra (rancher neighbor) gets one line pricing what the dark towns cost, then the story moves. Ending directive: speech or motion, opening outward — not the freighted procedural gesture. Draft one: stories/candidate-nameplate.md.
+
+---
+
 ## §D. Book Two — THE UNANSWERABLE (nine full briefs)
 
 **The book:** proof without contact; measurement against meaning. Nine stories about facts that cannot be answered, argued with, or made useful — and the practices people build to live beside them. Arc in three parts: **I. THE FACT** (Somebody · Quiet, Please · Provenance) — the proofs arrive. **II. THE WATCH** (The Construction · The Candidate · The Shelf) — the long attention. **III. THE PRACTICE** (The Stranger Effect · Badal · Eschaton, Revised) — what devotion does when the answer never comes. Opens with the sky's first fact; closes with two people at a kitchen table surviving the last one.
