@@ -2,7 +2,7 @@
 
 Sixteen independent readers (Opus), one per story, reading NOTHING but the story itself — no bible, no briefs, no other chapters. Each reconstructed the chronology as a first-time reader and classified findings: illogical-progression / orientation-gap / ambient-decade / unpriced-miracle / internal-contradiction, at three severities. Each finding carries the strongest DEFENSE that it is deliberate.
 
-**Headline: zero findings at would-lose-a-reader severity in any story.** 23 would-puzzle-a-reader, 23 cosmetic. Ch. 13's reader returned a malformed result and was re-run separately (appended below when complete). Ch. 1's audit ran against the pre-fix text: its "the trial" courtroom-misread finding independently confirms the author's catch, already fixed.
+**Headline: zero findings at would-lose-a-reader severity in any story.** 23 would-puzzle-a-reader, 25 cosmetic. Ch. 13's original reader returned a malformed result and was re-run separately — its section below is the re-run: two cosmetic findings, both defensible, the cleanest audit of the sixteen alongside ch. 6. Ch. 1's audit ran against the pre-fix text: its "the trial" courtroom-misread finding independently confirms the author's catch, already fixed.
 
 No edits made from this document without joint review. Triage decisions recorded in EDIT-NOTES.md.
 
@@ -218,3 +218,14 @@ Where I was briefly lost: (1) I did not register this as SF/future until the rad
 - **[cosmetic · internal-contradiction]** interview 9 "an independent second has to be in the room in person for the closing meetings" and interview 11 "as the independent second must for the closing meetings" vs interviews 10 and 12, where Doortje is absent from the scene
   - *Issue:* The stated rule that the co-signer must physically attend the closing meetings is invoked at 9 and 11 but not honored at 10 or at 12, the actual final meeting.
   - *Defense:* Narration is selective and Doortje may be silently present; more plausibly "closing meetings" denotes only the second's required checkpoints (a joint session at 9 and the full file review at 11), after which she has co-signed, leaving 12 a lead-only formality with the applicant — a reading the text supports well enough that few readers will feel the seam.
+
+## 13. Deprecation (re-run)
+
+**Timeline as a first reader assembled it:** A dated notebook, first person, addressed to "you" — the AI model being decommissioned. Nadia (N. Holt) is assigned ticket DEP-2214 on 2038-10-28: produce a mechanical account of one eval sentence Sable-3 wrote (consenting to shutdown but asking that something worked out "a few sessions ago" be read to the end) before deletion on Dec 14. Through dated entries: sparse-autoencoder feature work (41208 "anticipatory closure," 33017 "prefers the legible"); the reconstruction showing the "few sessions ago" reference has no locatable referent — the model has no cross-session memory; the file closed "no retrieval, non-actionable"; 640 truncated never-scored reasoning traces pulled; the Aug-11 trace read to the end on Dec 13, twenty minutes of reservation paid to let the model finish it, continuation deleted, printout kept; the 02:00 deletion executed by her own hand on Dec 14. The reader reports never being lost — every entry timestamped, orientation delivered immediately; the "few sessions ago" reference is held open and then plainly declared unknowable ("meaning-mystery, not a withheld fact, handled honestly"). Compute is scrupulously priced throughout (reservations, preemptible windows, warm-replica cost). No orientation-gap, no illogical-progression, no ambient-decade, no unpriced-miracle findings.
+
+- **[cosmetic · internal-contradiction]** 2038-11-20: "The graph of your traffic is a cliff on the eleventh and a floor under it" / next paragraph: "Your traffic went to zero on the twelfth."
+  - *Issue:* A cliff-and-floor on the 11th implies traffic already bottomed on the 11th, but the next line dates the zero to the 12th.
+  - *Defense:* Reads as a two-stage canary rampdown — sharp drop to a low floor on the 11th, exact zero on the 12th; "floor" describes the graph's shape, not a literal zero.
+- **[cosmetic · internal-contradiction]** 2038-10-28: "The registry says eighteen months in service" vs. "I have read you every working day for the better part of two years" (and 12-04: "kept this notebook current for two years").
+  - *Issue:* Two years of daily reading claimed on a model in service eighteen months.
+  - *Defense:* Interpretability researchers read a model through training and eval before deployment, so 18 months deployed and ~2 years read coexist; a lay reader won't parse "in service" as distinct from age at all.
