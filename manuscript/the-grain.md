@@ -49,13 +49,13 @@ He wrote the forty. He set the scale card against the drilled hole and shot the 
 
 Lou brought him up out of the cold and they sat in the truck with the heater roaring while the windshield cleared. Lou kept a Sanka can wedged in the console for the shells; he ran through a palmful of sunflower seeds the way other men smoked. On the mirror hung his father's plumb bob, brass, plumb since Eisenhower, useless now that a laser did it truer, and Lou would no more take it down than saw off his own arm. He called every bridge by its state structure number. He was calling this one 0231 and reading Marcus the next three on the ticket while Marcus watched the river take a barge downstream toward Braddock, nine hoppers of coal riding low, the pilot holding the tow off the pier like a man threading a needle in a moving car.
 
-"You good?" Lou said, not looking over, because it was the fourth month since the machine and he had learned to ask it the way you'd ask a bridge. Not *are you well.* Are you carrying.
+"You good?" Lou said, not looking over, because it was the fourth month since the treatment and he had learned to ask it the way you'd ask a bridge. Not *are you well.* Are you carrying.
 
 "I'm good," Marcus said, and he was. That was the strange part he told no one. He was better than he had been in forty years.
 
 He came home at dusk to the house in Hazelwood his father had bought off a millwright in 1971. The porch light was on. Renata always left it on, had left it on through every shift he'd ever worked, and the yellow of it caught the wet slate and the loose iron rail by the back stoop that he had told her twice he would get to. She opened the door before he reached it. She had the dish towel over her shoulder and her reading glasses pushed up into her hair and the small chip in her front tooth caught the hall light when she said his name, the chip she'd taken off the neck of an Iron City at a Pirates game in 1994 and never fixed because the dentist wanted four hundred dollars and she wanted a washer-dryer.
 
-It was Renata. Every gauge said Renata. Her voice, the chip, the ring worn thin as wire that had been her mother's, the way she'd salted her coffee since before he knew her because her grandmother swore it cut the bitter. All of it read true, and none of it arrived. A stranger with his wife's whole history stood in his doorway wearing his wife's dish towel, and the warmth that for thirty-one years had come into the room a half-second ahead of her did not come. It had not come since the machine.
+It was Renata. Every gauge said Renata. Her voice, the chip, the ring worn thin as wire that had been her mother's, the way she'd salted her coffee since before he knew her because her grandmother swore it cut the bitter. All of it read true, and none of it arrived. A stranger with his wife's whole history stood in his doorway wearing his wife's dish towel, and the warmth that for thirty-one years had come into the room a half-second ahead of her did not come. It had not come since the treatment.
 
 The dog came instead. Duke, the beagle, gray at the muzzle now, dragging the same bald tennis ball he'd carried since he could carry, and he leaned his whole weight on Marcus's shins the way he did, and something in Marcus's chest still had nothing at all to say about it.
 
@@ -67,7 +67,7 @@ He sat. She fed him. He was polite to her the way you are polite in another man'
 
 *Fracture-critical member. Single load path. Failure of this member would drop the span.*
 
-The trial was eleven days, and it sat four months behind him now. He wanted that written down somewhere true, because everyone kept saying it like it was nothing, eleven days, as though a thing that fast could not have cut deep.
+The clinical trial was eleven days, and it sat four months behind him now. He wanted that written down somewhere true, because everyone kept saying it like it was nothing, eleven days, as though a thing that fast could not have cut deep.
 
 He had been sad his whole life. Not the kind you tell a doctor. The kind that is just the weather where you live, that you were born into and assumed was the air. Every bridge carries two loads. Dead load is the steel itself, the deck, the rail, the weight the thing was built out of and will hold up before a single car ever crosses. Live load is the day's traffic, the trucks and the wind and the ice, all of it changing minute to minute. His whole life the dead load had been the sadness. It was there in the morning before anything happened. It was the weight he was made of. He carried his live load over top of it the way every span does, and he did his work, and he raised a daughter, and he loved his wife, and no one on the deck ever knew the girder underneath was already loaded to nine-tenths before the first car came.
 
