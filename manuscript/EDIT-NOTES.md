@@ -32,3 +32,26 @@
 2. Chs. 1–2 drafted before the reality law (bible v1.1) landed; they survived it on inspection, but Lever Zero remains the recommended first revision for both if anything ever feels off.
 3. Watch for: third sunflower-seed container; any station or vessel named Meridian or Vireo outside chs. 6–7; character-name collisions with the eight above (Lou, Ana, Priya ×2 — a Priya exists in ch. 5's chat *and* ch. 7's Houston loop; distinct enough in role, acceptable, but no third Priya).
 4. Ch. 16 must end on the standard first question, verbatim — check the last line before compiling.
+
+---
+
+# Part two — chapters 9–16 (2026-07-07)
+
+**Verdict: the strongest run of the book.** All eight born under (or revised to) the clarity law; zero banned phrases; every ending directive landed, including ch. 16's final line ("Tell me why you've come.") and ch. 14's circular shaving-to-the-light. Chs. 13 (*Deprecation*) and 16 (*Enough*) are the collection's best work.
+
+**Accepted deviations (improvements over their briefs — do not "fix" back):**
+- Ch. 9: the empty jar's keeper is Chente, the old beekeeper who lost four hundred colonies — not the youngest picker. Stronger.
+- Ch. 10: relocated from New Jersey white cedar to Bay of Fundy red spruce and Acadian dyke country; the deliberate salting became an aboiteau held open, suspicion split between father and brother, unproven per the brief's lever. The reader-addressed second person satisfies the "shop talk to a customer" form.
+- Ch. 12: Ray drafted as a circuit priest (four altars) rather than a deacon; internally consistent, theologically sound (the valid minister three miles short in the storm), kept.
+- Ch. 13: protagonist is Nadia **Holt** (not Alcott as the atlas brief had it); registry-clean, kept.
+- Ch. 16: relocated to the Merwede river country; the father a retired dike engineer of the Noordwaard depoldering. The book's best dyad: consented flooding / consented dying.
+
+**Convergence tics found and fixed (independent Opus writers reaching for the same texture — watch for this class in all future drafting):**
+- Sunflower seeds ×4 → kept for Lou (ch. 1) and Reyes (ch. 6); ch. 11 Cody now flicks a toothpick; ch. 12's elevator man now keeps snuff.
+- Butterscotch ×4 → kept only for Frank (ch. 2, load-bearing); ch. 1 neurologist keeps peppermints, ch. 12 Heitmann lemon drops, ch. 15 Marguerite root-beer barrels. Horehound ×2 → ch. 12 Delphine now anise (ch. 3's tin keeps it).
+- Vern/Verna ×3 in consecutive chapters → ch. 10's neighbor is now Marj; ch. 12's elevator man is now Gus; ch. 11's Verna (load-bearing) keeps the name.
+- Case number 2214 in both ch. 8 and ch. 13 → ch. 8 is now CRP-2117.
+- Police scanners ×2 → ch. 11 Verna now runs a transistor radio; ch. 12 Alvin keeps the scanner (his concentrator cut — third oxygen machine in two chapters).
+- **Kept deliberately:** the oxygen-concentrator echo between ch. 11 (Verna, saved) and ch. 12 (Lorraine, lost) across the Part IV/V boundary — maintenance-as-love succeeding, then the machine answering where the human could not arrive. That rhyme is load-bearing; do not break it.
+
+**Standing rule from this pass:** texture-props (candy, seed-cracking, scanners, radios, pocket objects) are now a checkable class. Before accepting any new draft, grep the corpus for its recurring props, not just its names.

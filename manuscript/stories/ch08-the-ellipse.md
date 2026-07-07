@@ -46,7 +46,7 @@ He planted them on his knees with the dibble bar, one boot on the treadle, a see
 
 *Corridor Relocation Program, offer of purchase — 6 May 2033 —*
 
-> Parcel 041-Res. Case CRP-2214.
+> Parcel 041-Res. Case CRP-2117.
 > Dear Mr. and Mrs. Hartsook:
 > The improved residential parcel at your address has been appraised at pre-notification fair market value of $61,500. The Program is authorized to purchase at that value and to provide a relocation grant per household as described in the enclosed schedule. Election to sell may be made at any time within the election period. Funds are appropriated and are available to your household whether or not the community elects to continue operations.
 > Please retain both copies of this letter.
@@ -114,7 +114,7 @@ Nobody asked the Hartsooks straight out why they stayed, because in a town that 
 
 *Corridor Relocation Program, final election-period notice — 21 September 2039 —*
 
-> Case CRP-2214. Parcel 041-Res and associated cropland.
+> Case CRP-2117. Parcel 041-Res and associated cropland.
 > Dear Mr. and Mrs. Hartsook:
 > Records indicate no election to sell has been received. The residential appraisal of $61,500 remains in force; cropland is appraised separately per the enclosed. This notice is provided as a courtesy and imposes no deadline upon your household; election may be made through the close of the corridor. The Program notes that departure is organized more readily in company than singly and encourages households remaining to coordinate through the county.
 > Sincerely, D. Alcorn, Relocation Officer

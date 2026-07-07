@@ -28,7 +28,7 @@ They had him propped up when she came in, smaller than the week before, the oxyg
 
 "Appa."
 
-"Sit. Marguerite tells me my numbers like she's calling bingo." From the hall Marguerite said she'd heard that, and her pockets clicked away down the corridor — she carried a fist of butterscotch in her scrub top and you heard her coming a room off. On the whiteboard she had written the date in green marker and under it, round and level, TODAY: COMFORTABLE.
+"Sit. Marguerite tells me my numbers like she's calling bingo." From the hall Marguerite said she'd heard that, and her pockets clicked away down the corridor — she carried a fist of root-beer barrels in her scrub top and you heard her coming a room off. On the whiteboard she had written the date in green marker and under it, round and level, TODAY: COMFORTABLE.
 
 He worked his thumb along the edge of the pages. "Sunny brought me a paper about your sky. Printed it big so I could see it." He opened his eyes, and they were clear, Marguerite had that right, clear the way the coldest days are clear. "A direction, the man wrote. The one thing the whole works points at. Second unanswerable fact of the decade, he called it — the first being that little factory they found in the air around the other star, the one nobody will ever get to." Half his mouth went up. "Forty years in that hardware store I told ninety people the house has a frame. Couldn't show them a beam. Couldn't put a nail in their hand. And my girl goes and measures the frame with a machine."
 
