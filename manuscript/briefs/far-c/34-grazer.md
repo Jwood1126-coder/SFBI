@@ -36,8 +36,8 @@
 - (c) Scope — compress to a single-platform, three-week consumables chamber piece, or expand to a global mosaic of the falling sky with Adaeze as one thread.
 
 **12. Registry** — All confirmed against NAMES.md and a corpus grep (`ideas/`, `manuscript/stories/`, `manuscript/frame/`).
-- **Adaeze Obi** — protagonist, retained from the dossier; corpus-clean (every "Obi" hit is a substring: Gobi, probing, obituary, exobiologist).
+- **Adaeze Obi** — protagonist, retained from the dossier; the only standalone "Adaeze" hits are this premise's own Nº34 entry (self-reference), and every stray "Obi" token is a substring (Gobi, probing, obituary, exobiologist).
 - **Gleaner** — the debris-reclamation platform (0 hits); ironic — it gleans the metal the grazer out-gleans.
 - **Verdigris Reclamation** — operator and insurer that writes off Gleaner (0 hits).
-- **Ify** — the mirror; ground-side downlink operator and Adaeze's partner (0 hits).
+- **Ify** — the mirror; ground-side downlink operator and Adaeze's partner. Standalone name is clean; the policy-5 grep's 10 hits are all substrings inside common verbs (certify, testify, modify, falsify, horrifying). Igbo, pairing with Adaeze Obi; kept over the substring noise as the 19 *Inclusion* brief kept "Obi."
 - Common term "grazer" retained (lowercase, generic). Three working terms held to the far-voice limit: *grazer* (the organism), *the reef* (the debris layer), *subtracted* (objects that vanish rather than decay). No renames required.
