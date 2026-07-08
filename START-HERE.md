@@ -55,3 +55,17 @@ Banned-phrase grep (list in bible §2 rule 8) · filtering-verb grep · name gre
 ## Working practice
 
 Commit and push at every milestone — the author checks. Store deliverables in the repo, not in chat. Strong models draft; the strongest available model directs, close-reads, and makes the calls this page can't. When in doubt, reread bible §0 and the koan: **mysterious about what things mean is the book; mysterious about what things are is a defect.**
+
+---
+
+## HANDOFF — finishing the atlas deep-forge (written 2026-07-08, for any strong model)
+
+A background workflow ("atlas-deep-forge") is forging full novel briefs for all 40 Tier B/C Volume I premises plus three book-architecture docs, a FAR program doc, and an audit of existing briefs. If it was interrupted, resume it in Claude Code with:
+`Workflow({scriptPath: "/home/codespace/.claude/projects/-workspaces-SFBI/5f2f474e-8fc7-4384-bf05-0be47350e829/workflows/scripts/atlas-deep-forge-wf_bf9012d3-16b.js", resumeFromRunId: "wf_bf9012d3-16b"})` — completed agents replay from cache. (If that session directory is gone, the source premises live in the dossier HTML; re-derive per ATLAS §H.)
+
+**When it completes, integrate (any model, ~30 minutes):**
+1. Verify the estate: `manuscript/briefs/far-b/` has 30 files, `far-c/` has 10, `manuscript/atlas/` has 4 docs (unanswerable, body, acreage architectures + far-program).
+2. Read the workflow's returned report (or `journal.jsonl` in the transcript dir): any brief with `pass:false` and unresolved problems gets fixed per its problem list; any file in the existing-brief audit's thin-list gets its missing element added per ATLAS §H.
+3. Editorial spot-check, the one judgment step: read each brief's **Secretly about** and **Sibling rule** lines (grep them across far-b/ and far-c/). A good "secretly about" is a defensible editorial DECISION, not the logline restated. A good sibling rule names the genuinely closest premise. Rewrite weak ones; the Tier A cards in ATLAS §G are the calibration.
+4. Update `manuscript/ATLAS.md`: §B and §G — Tier B changes from "hold" to "briefed — briefs/far-b/", Tier C from "reserve" to "briefed with repairs — briefs/far-c/"; add a §B line pointing at `manuscript/atlas/` for the book architectures.
+5. Append a CHANGELOG line; commit everything; push. The author checks that things are pushed.
