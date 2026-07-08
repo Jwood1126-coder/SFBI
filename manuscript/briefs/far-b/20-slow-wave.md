@@ -2,7 +2,7 @@
 
 **Secretly about** — the end of solitude: when the last private room — your own sleep — becomes a public square every human stands in nightly, what it costs to keep a self, and who pays to be the one locked out.
 
-**Sibling rule** — Nº 14 *The Last Lighthouse*, the instrument-cosmic-horror twin. Split on where the threat lives. Lighthouse keeps it wholly external and astronomical — inferred at a distance, the monster stays a graph and never touches the human sphere; no ship launches, no contact. *Slow Wave* inverts this: the threat is already inside every skull from chapter one — the instrument is the sleeping brain, not a telescope, and the arena is the shared interior, felt and social and dreamed by billions at once. Enforce: never let the drama migrate to an astronomy desk. Its instruments are polysomnography and dream-content coding; its territory is the field everyone is standing in. The moment the exoplanet becomes the arena, it is Lighthouse.
+**Sibling rule** — Nº 14 *The Last Lighthouse*, the instrument-cosmic-horror twin: both are an approaching threat measured toward a computed arrival. The one split to enforce — Lighthouse keeps the threat wholly external and astronomical (the monster stays a graph, no contact, no ship), while *Slow Wave*'s threat is inside every skull from page one, its instruments polysomnography and dream-content coding rather than a telescope; the moment the drama migrates to an astronomy desk, it is Lighthouse.
 
 **The two questions**
 - Outward — How do people keep grids up, hospitals staffed, and children fed when sleep stops being rest and becomes a nightly commute the whole species takes to the same darkening field?

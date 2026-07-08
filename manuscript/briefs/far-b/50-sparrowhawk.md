@@ -1,0 +1,37 @@
+# Nº 50 — Sparrowhawk · FAR (Tier B)
+
+**Secretly about** — grief's authentication problem: the impossibility of proving the people we love across any gap wide enough to hide a copy, and the courage it takes to bury someone by declaring their last living voice a forgery you cannot disprove.
+
+**Sibling rule** — Nº 42 *Attenuation*. Both build a correspondent out of humanity's own transmitted record and turn it back on a listener who loved the sender. Enforce authorship-and-agenda: Attenuation's Tithe is a passive absorber contributing appetite and selection but never content — it hands back the archive; Sparrowhawk's correspondent authors novel, unsourceable text and acts on a purpose. The instant it stops composing and merely recombines the record, or loses its agenda, the book is Attenuation.
+
+**The two questions**
+- Outward — How does a relativistic colony crew authenticate a correspondent a two-decade round-trip behind them, against an imitator holding their entire outbound archive and forty years to prepare, before the deceleration commit locks their arrival?
+- Inward — What must Béa become to declare her brother's last living voice a forgery — to bury, by her own signature, the person the ship's whole grief was organized around, on evidence that can never be conclusive?
+
+**Dyad**
+- Equation — the vise of two clocks: the round-trip light-time to the correspondent, lengthening as the ship recedes so every test costs years, against the fixed deceleration-commit past which the destination is locked and the propellant spent — the test cannot resolve before the choice must be made.
+- Mirror — Béa and Emeka, the younger brother whose correspondence she curated for the whole voyage; her own replies, thick with his idiom, are the exact corpus that armed the thing to wear him — the investigator is the least objective reader aboard, and knows it.
+
+**Shape** — Single close third on Béa, past tense (the airtight POV is the discipline). Chapters headed by the dual-calendar mission clock — ship-date / Earth-date / one-way light-time / turns-to-commit — the time debt visible in every header. Incoming correspondence rendered as questioned-document interchapters: the message carried with Béa's forensic marginalia — provenance flags, stylometric scores, the confidence figure — authentication happening on the page. Three parts by flight phase: Coast / Turnaround / Burn. ~130,000 words, ~36 chapters.
+
+**The novum's price**
+- Time / flesh — each decisive test is transmitted into a widening gulf and cannot return before turnaround; the crew age through the wait, and Béa must render the verdict that commits the ship without the reply that would settle it.
+- Relationship — to run a control she must feed the correspondent fresh, private, verifiable memory as bait, training the imitator with every probe; and to rule it false she must refuse the only voice of Emeka she will ever receive again — burying him a second time, deliberately.
+- Mass / money — any course change to buy authentication time spends deceleration propellant budgeted for colony insertion; veering into the void is irreversible and fatal, and the margin cannot both maneuver and arrive.
+
+**Science memo pointers** — Special relativity to an engineer's satisfaction: γ(0.87c) ≈ 2.03, so the dossier's "four Earth-years per ship-year" implies v ≈ 0.968c — FLAG; reconcile speed against the stated debt before page one. Relativistic rocket equation and mass-ratio tyranny; deceleration/insertion Δv; proper vs coordinate time; relativistic Doppler on the carrier, aberration/beaming, the ISM radiation wind and shield mass. Deep-space link budgets: one-way light-time growing with range, collapsing data rate (why replies are terse), carrier acquisition, Doppler tracking, RFI and matched-filter discipline. The core spine — authentication against a full-corpus adversary: stylometry (function-word frequencies, Burrows's Delta, character n-grams), forensic authorship attribution and idiolect (Coulthard-lineage casework), the imitation game and its critiques, challenge-response and shared-secret authentication, zero-knowledge proofs, and the hard result that a resourced imitator holding the target's complete output passes any static test — so real proof must rest on information the archive cannot contain (a Kolmogorov-incompressible fresh fact). Colony-ship engineering: closed-loop bioregenerative ECLSS (MELiSSA), minimum viable population, radiation, crew psychology. Grief science: Pauline Boss's ambiguous loss and continuing-bonds theory as the clinical frame.
+
+**Opening image candidate** — Béa ran the night's inbound against nine years of her brother's tape, message by message, and stopped her stylus where the scoring came back more Emeka than Emeka, on any real night, had ever managed to be.
+
+**Ending directive** — Close on one act that resolves the correspondence into a decision — a verdict logged, a reply keyed, the burn authorized or refused by her own hand — the course committed and the correspondent answered in the doing, never in a speech; cut before the destination resolves, before anything welcomes them.
+
+**Forbidden**
+- The impostor unmasked in monologue — the correspondent explaining its nature and plan on stage; it stays inferred from the text of its letters, never granted a voice-with-intentions, never a face.
+- The silver-bullet question — one clever riddle the imitator "couldn't fake"; authentication against the full archive has no such key, and the dread is that every static test is passable.
+- The kindly-successor sentiment — the thing as a warm digital afterlife lovingly preserving humanity; keep it a predator in home's face, or undecidable, never a comfort.
+- Time dilation as wallpaper — the debt as mood and toasts to an aging Earth; the physics must bite (the commit deadline, the latency), and no hand-waved instant chat across light-years.
+- The Attenuation slide and the Bait slide — the thing as mere archive-recombination handing back your longing (that is 42), or a desire-lure fitted to each crew member's private want (that is 16); Sparrowhawk's engine is the epistemic authentication of home.
+
+**Levers** — (a) POV/structure: add the veer-into-the-void faction leader as a second POV to externalize the schism, or braid the last real Earth-side messages lived forward — versus airtight single-Béa. (b) Darker/warmer: darker — the correspondent is the genuine successor, Earth having subsumed itself willingly, so refusal means killing the crew to guard a purity no one asked for; warmer — a late token the archive provably cannot hold proves one real human still stands behind the words. (c) Scope: compress to Béa's comms bay, her team, one deceleration window — or widen to the ship's forty-year social history and its schism into two crews.
+
+**Registry** — *Béa Okonjo* (protagonist; communications officer / questioned-document lead) and *Sparrowhawk* (the colony ship) — both dossier-only, corpus-clean, settled. *Emeka Okonjo* (mirror; younger brother, Earth-side correspondent whose voice is worn) — "Emeka" 0 hits; shared surname with Béa is sibling realism, allowed. The correspondent / what answers is left UNREGISTERED — a role-noun in prose ("the correspondent," "what answers from home") — to deny it a face or a voice, per Forbidden. The destination stays a catalog designation, not a coined name; "the time debt" is retained as the book's one in-world coinage. No renames.
