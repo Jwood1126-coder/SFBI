@@ -19,6 +19,8 @@ BIBLE.md is the constitution of THE GRAIN. This atlas does three things the bibl
 
 ## §B. The shelf — all 100 premises, dispositioned
 
+**Book architectures (bible-§1 for each planned book):** `manuscript/atlas/unanswerable-architecture.md`, `body-architecture.md`, `acreage-architecture.md`, and `far-program.md`. Open the relevant one before commissioning any story in that book. **Every non-GRAIN premise now has a full commission-ready brief** in `manuscript/briefs/` (`body/` ×11, `acreage/` ×10, `far/` Tier A ×10, `far-b/` Tier B ×30, `far-c/` Tier C ×10).
+
 **In THE GRAIN (16):** 53, 56, 62, 63, 67, 72, 75, 76, 78, 82, 84, 87, 88, 92, 97, 99.
 
 **GRAIN expansion candidates (4, §C):** 58 The Bar · 68 Kept · 95 Sister No One · 98 The Feast.
@@ -31,8 +33,9 @@ BIBLE.md is the constitution of THE GRAIN. This atlas does three things the bibl
 
 **Project FAR — novels from Volume I (50, §G):**
 - *Tier A, develop first (10):* 01 Ballast · 02 The Custodian · 04 Overburden · 08 Analog · 11 Bathypelagic · 14 The Last Lighthouse · 16 Bait · 21 The Verge · 26 The Unlearning · 31 Not a Place of Honor.
-- *Tier B, strong reserve (30):* 03, 05, 06, 07, 09, 10, 12, 13, 15, 17, 18, 20, 22, 24, 28, 29, 30, 32, 33, 35, 36, 38, 39, 42, 43, 44, 46, 47, 48, 50.
-- *Tier C, deep reserve (10):* 19, 23, 25, 27, 34, 37, 40, 41, 45, 49. (Nothing here is dead; these either overlap a stronger sibling or need a conceptual repair noted in the dossier before development.)
+- *Tier A, develop first (10):* **briefed — `manuscript/briefs/far/`** (full novel briefs; each now states its outward and inward questions per the Novel Protocol).
+- *Tier B, strong reserve (30):* 03, 05, 06, 07, 09, 10, 12, 13, 15, 17, 18, 20, 22, 24, 28, 29, 30, 32, 33, 35, 36, 38, 39, 42, 43, 44, 46, 47, 48, 50. **Briefed — `manuscript/briefs/far-b/`** (30 full novel briefs, each adversarially verified).
+- *Tier C, deep reserve (10):* 19, 23, 25, 27, 34, 37, 40, 41, 45, 49. **Briefed — `manuscript/briefs/far-c/`** (10 full novel briefs, each opening with the conceptual repair that promotes it).
 
 ---
 
@@ -145,8 +148,8 @@ Card format — **angle** (the non-obvious way in) / **form** / **end on** / **l
 - **26 The Unlearning** — angle: a librarian's thriller — the weapon is a catalog, the battlefield is curriculum; Sela's love of the archive is the thing the Order weaponized. Structure: three reading levels (novice texts, sealed chronicles, founders' layer) as the novel's strata. Trap: the attention above rendered as monster; keep it a statistical dread in sky-survey data to the last page.
 - **31 Not a Place of Honor** — angle: semiotics as survival — Osh's trade is reading, and every act of reading is a gamble staked in lives; the deep past speaks only in warnings designed for the ignorant. Structure: descent by marker ring, each ring's message a part title. Trap: the vault's occupant shown; the novel ends at the threshold or it cheapens.
 
-**Tier B:** hold. Each needs one editorial decision recorded before development (usually: what it's secretly about, and which sibling it must not resemble). Generate briefs via §H when called for, with the far voice.
-**Tier C:** reserve. Revisit after two books ship.
+**Tier B:** briefed — `manuscript/briefs/far-b/` (30 full briefs; each records its "secretly about," its sibling rule, the outward/inward questions, the dyad, novum price points, science pointers, and a name registry). Adversarially verified.
+**Tier C:** briefed — `manuscript/briefs/far-c/` (10 full briefs; each opens with the conceptual repair that promotes it out of deep reserve).
 
 ---
 

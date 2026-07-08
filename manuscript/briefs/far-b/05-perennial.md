@@ -2,7 +2,7 @@
 
 **Secretly about** — a maker who can no longer author, only negotiate: the passage from designing a living thing to consenting to be used by it, and whether that surrender is defeat or the only love left.
 
-**Sibling rule** — Nº 10 *Providence*. Both end on a human accepting symbiosis with a biology that may be feeding on them. Enforce the split: *Providence* is one exogenous lineage installing in single bodies — a microgravity medical procedural; *Perennial* is endogenous and ecosystem-scale — her own terrestrial organisms gone feral, worked at food-web level, never as one organ in one abdomen. A chapter that could run in a sickbay is the wrong book.
+**Sibling rule** — Nº 03 *The Greenhouse Variable*. The near-twin: both are lone woman-biologists in the same Vol I isolated-life-support setup, watching engineered life drift toward an impossible-rate fixation metabolism (Nº 10 *Providence* is the distant medical cousin — one exogenous organ in one abdomen — not the confusable one). Enforce the one split that matters, reciprocal to what Brief 03 fences: *Perennial*'s fixation is authorless emergence — founder drift and GCR mutation, no malice at all, no author anywhere; *Greenhouse*'s is deliberate design with a maker inbound. The instant the "impossible fixation" reads as engineered — a payload, a watermark, someone who meant it — this becomes Greenhouse. Keep it accident all the way down.
 
 **The two questions** — Outward: how do 801 people cross ninety years inside a sealed loop that has reclassified its sleepers as its richest untapped nutrient stock? Inward: can a designer stop correcting her creation and become a compartment inside it — load-bearing, metabolized-into, no longer standing outside the system she drew?
 

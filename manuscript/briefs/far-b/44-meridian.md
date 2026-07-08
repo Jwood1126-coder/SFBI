@@ -1,5 +1,5 @@
-# Nº 44 — Ephemeris · FAR (Tier B)
-*(dossier title "Meridian" retired; ship renamed — see Registry)*
+# Nº 44 — Parallax · FAR (Tier B)
+*(dossier title "Parallax" kept; ship renamed Meridian→Lodestar — see Registry)*
 
 1. **Secretly about** — a people whose entire identity is *being in motion toward something* discovering they stopped generations ago, and having to decide whether to move again as a free choice rather than an inherited debt.
 
@@ -31,4 +31,4 @@
 
 11. **Levers** — (a) Dual POV: add the master navigator or a Waykeeper of the Track as a second head carrying the political-collapse axis, with liturgy/log interchapters. (b) Darker/warmer: darker — the jar holds ships of species that chose to stop, and Suli boards a warning-hulk; warmer — a neighbor ark that already passed, quiet contact across the glass. (c) Scope: contract to a bottle piece in one instrument bay across a single long integration; or widen into the first years of the re-elected voyage.
 
-12. **Registry** — *Protagonist:* **Suli Anand** (kept; given name *Suli* clean corpus-wide; surname *Anand* only shares letters with dossier-only given name "Anand Chaudhary" of another Vol I premise — different position, both dossier-only, allowed under the Noor precedent; logged). *Vessel:* **Lodestar** — renamed from *Meridian* (collides with THE GRAIN ch07's station, NAMES.md §3); zero corpus hits; carries the irony of a ship steering by a counterfeit guide-star. *Title:* **Ephemeris** — retitled from *Meridian* for the same collision; not another book's title or a vessel/station, only the common astronomy noun in prose; clean. *Keeper/enclosure:* deliberately unnamed — naming it cheapens the interview (§G trap discipline).
+12. **Registry** — *Protagonist:* **Suli Anand** (kept; given name *Suli* clean corpus-wide; surname *Anand* only shares letters with dossier-only given name "Anand Chaudhary" of another Vol I premise — different position, both dossier-only, allowed under the Noor precedent; logged in NAMES.md roster + CHANGELOG 2026-07-08). *Vessel:* **Lodestar** — renamed from *Meridian* (collides with THE GRAIN ch07's station; NAMES.md rule 3, vessels unique); zero corpus hits; logged in NAMES.md roster + CHANGELOG 2026-07-08; carries the irony of a ship steering by a counterfeit guide-star. *Title:* **Parallax** — the dossier title, kept unchanged; corpus-clean (3 hits, all this premise); not another book's title or a vessel/station, only the common astronomy noun elsewhere in prose; clean. *Keeper/enclosure:* deliberately unnamed — naming it cheapens the interview (§G trap discipline).

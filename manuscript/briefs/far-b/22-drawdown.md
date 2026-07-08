@@ -9,7 +9,7 @@
 - Inward — What must Noemi, and the species behind her, become — trespasser, defender, or exterminator — to decide whether to wage planetary war for an atmosphere that was itself the loot of the first oxygen conquest?
 
 **Dyad**
-- Equation — the O₂ decline curve: a ~0.1%/yr relative drawdown of the atmosphere's ~1.2×10¹⁵-tonne oxygen inventory (~1,000 per meg/yr, ~50× the fossil-fuel baseline) that the global O₂ budget cannot close — a gigaton-per-year sink producing no CO₂ — compounding toward the pO₂ at which both flames and highland lungs fail.
+- Equation — the O₂ decline curve: a ~0.1%/yr relative drawdown of the atmosphere's ~1.2×10¹⁵-tonne oxygen inventory (~1,000 per meg/yr, ~50× the fossil-fuel baseline) that the global O₂ budget cannot close — a teraton-per-year sink (~1.2×10³ Gt/yr) producing no CO₂ — compounding toward the pO₂ at which both flames and highland lungs fail.
 - Mirror — Esteban Duarte, her husband, a pulmonologist in El Alto, whose clinic (and then whose own blood-oxygen) turns the abstract curve into a reading on a pulse-oximeter — and who becomes the loudest voice for the war Noemi has come to doubt, because at altitude his patients suffocate first.
 
 **Shape** — Single POV, close third on Noemi; the forensic mind is the throughline. Past tense. Chapter heads carry the instrument record — the quarterly O₂ figure in per meg (falling), the unclosed mass-balance residual in Gt/yr, the projected threshold-crossing date, and the market price of medical O₂ (rising): two numbers converging. ~120,000 words, ~33 chapters, three parts — *The Missing Sink / Prior Title / The Bellows*.

@@ -1,6 +1,6 @@
 # Nº 23 — Longer Days · FAR (Tier C)
 
-0. **The repair** — The dossier's "filament of dark mass threaded through the core" is unphysical (dark matter is collisionless; it cannot torque a spin) and a lesser clone of Nº 46 *The Filament*. Cut dark matter. The theft is a legible tidal coupling: an engineered mass, *the Escapement*, in resonant orbit beyond the Moon, phasing Earth's tidal bulge for maximum braking torque and exporting the spin off-system a million times faster than the Moon does. Physics stays textbook; one named conserved quantity is stolen. This clears Nº 46 and lands the novum on Earth's rotation, where the book is strong.
+0. **The repair** — The dossier's "filament of dark mass threaded through the core" is unphysical (dark matter is collisionless; it cannot torque a spin) and a lesser clone of Nº 46 *The Filament*. Cut dark matter. The theft is a legible coupling: an engineered mass, *the Escapement*, in resonant orbit beyond the Moon, gripping Earth's tidal bulge as a handle and driving an *engineered, non-tidal* torque against it — an angular-momentum exporter, not a second moon. The mass stays modest and hidden; the torque does not, running tens of millions of times the Moon's secular braking — fast enough to reach a forty-hour day within a lifetime, not the geological eon a lunar-scale tide would need. The physics *around* the novum stays textbook — angular momentum conserved, every consequence derived — but the coupling itself is the one implausibility the book spends; one named conserved quantity is stolen. This clears Nº 46 and lands the novum on Earth's rotation, where the book is strong.
 
 1. **Secretly about** — inheriting a debt you never signed: living out ruined days to service a bargain the dead struck in our name, and deciding whether a species can consent to a sacrifice made wholly for the ones who come after.
 
@@ -24,7 +24,7 @@
 9. **Ending directive** — An act at an instrument, not a speech: a value keyed into a field, a coupling left engaged or broken, the day's length logged once more — the toll's purpose named only in projection, and which way Reyes moved the world left as the last recorded number, not a feeling.
 
 10. **Forbidden**
-    - Dark matter or the "filament" image restored — the coupling is tidal, physics untouched; that book is Nº 46.
+    - Dark matter or the "filament" image restored — the theft is an engineered, non-tidal angular-momentum export that only uses the bulge as a handle, not a substance in the core; that book is Nº 46.
     - The Escapement or its makers shown or voiced; the theft stays inferred from ledger and orbit — infrastructure, never speech.
     - The "we were cared for all along" warm reveal (also Nº 48's ripening); protection without consent is not love.
     - Day-length as generic climate montage; the horror is the arithmetic — diurnal range, bulge, photoperiod.

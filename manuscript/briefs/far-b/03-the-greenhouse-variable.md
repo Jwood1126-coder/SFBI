@@ -2,7 +2,7 @@
 
 **Secretly about** — custodianship that outlives its purpose: a keeper deciding who the world's inheritance belongs to when the heirs are dead and only strangers are coming to claim it.
 
-**Sibling rule** — Nº 05 *Perennial*. Both are lone woman-biologists watching engineered life repurpose toward an unplanned fixation metabolism. Enforce the one split: Perennial's antagonist is authorless emergence, "no malice at all"; Greenhouse's is deliberate design with an author inbound. If the emptying ever reads as accident, or the sky stays empty, it becomes Perennial.
+**Sibling rule** — Nº 05 *Ecopoiesis*. Both are lone woman-biologists watching engineered life repurpose toward an unplanned fixation metabolism. Enforce the one split: *Ecopoiesis*'s antagonist is authorless emergence, "no malice at all"; Greenhouse's is deliberate design with an author inbound. If the emptying ever reads as accident, or the sky stays empty, it becomes *Ecopoiesis*.
 
 **The two questions**
 - Outward — Can one botanist keep ten thousand species and herself alive on a station falling out of the sky, long enough to read what emptied the world and land the seed before the vault burns?
@@ -10,7 +10,8 @@
 
 **Dyad**
 - Equation — Svalbard-2 decays without reboost; her finite reaction mass is one budget split between staying up for the arrival and coming down to deliver seed — spend it one way, forfeit the other — as the inbound's deceleration ETA falls from past Jupiter.
-- Mirror — Silas Okoro, a farmer on amateur radio: the last living voice below, whose ground she watches turn impossibly green from orbit even as the greening starves him, because the payload feeds no crop of ours.
+  - *Departure flagged (editor sign-off required)* — The dossier frames Amara as "safely quarantined by 400 kilometres of vacuum" with "little else to do." This brief deliberately overrides that idle-quarantine posture: the decaying station, the reentry deadline, and the finite reaction-mass budget are an added survival clock, not in the source. The novum is unchanged; only the situation is altered, taken under Lever (c)'s "compress to the single reentry window … for clock." If the editor prefers fidelity to the dossier's idle quarantine, revert to Lever (c)'s "multi-year approach ending at contact for meaning," which drops the clock and keeps the safe-quarantine framing.
+- Mirror — Silas Nwosu, a farmer on amateur radio: the last living voice below, whose ground she watches turn impossibly green from orbit even as the greening starves him, because the payload feeds no crop of ours.
 
 **Shape** — Single POV, close third on Amara; solitude is the point. Past tense. Chapter heads carry live telemetry — altitude (km), days-to-reentry, solar flux F10.7, the inbound's range and ETA — two numbers falling toward each other. ~100,000 words, ~30 chapters.
 
@@ -44,7 +45,7 @@
 - (c) Scope: compress to the single reentry window (days, near real-time) for clock, or the multi-year approach ending at contact for meaning.
 
 **Registry**
-- Amara Ijeoma — protagonist; settled to Nº03 in NAMES.md, grep clean (sole corpus hit is this dossier).
+- Amara Ijeoma — protagonist; settled to Nº03 in NAMES.md. First name *Amara* validly belongs to Nº03 (NAMES.md reassigns Vol II Nº71 to *Awa Diallo*); the remaining first-name hit, ATLAS §71 "Amara Diallo," is a stale label not yet synced to NAMES.md, not a live conflict. Surname *Ijeoma* is otherwise grep-clean.
 - Svalbard-2 — the orbital vault/greenhouse; kept from the dossier, grep clean.
-- Silas Okoro — ground contact/mirror; both names grep-clean, 0 hits. No renames.
+- Silas Nwosu — ground contact/mirror. Renamed from *Silas Okoro*: surname *Okoro* collides with Nº37 Cloud Garden's mirror *Idris Okoro*, and Nº37 enforces surname-distinctness among Project FAR mirrors. *Nwosu* grep-clean, 0 hits (same Igbo register as *Ijeoma*); *Silas* grep-clean.
 - Unnamed by design: the inbound craft, its makers, and the pathogen/payload — held generic to protect the Forbidden.
